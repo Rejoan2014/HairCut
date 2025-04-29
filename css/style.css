@@ -754,12 +754,6 @@ span {
   .container {
     max-width: 1344px;
   }
-  .global-header.header-layout .container {
-    max-width: 1644px;
-  }
-  .header-top-section.style1 .container {
-    max-width: 1644px;
-  }
 }
 /*----------------------------------------------
     # Gutter  style here
@@ -4981,10 +4975,6 @@ img {
   background-color: transparent !important;
 }
 
-.header-color {
-  background-color: var(--smoke) !important;
-}
-
 .header-border {
   border-bottom: 1px solid rgba(38, 38, 38, 0.05) !important;
 }
@@ -5348,7 +5338,7 @@ img {
   top: 0;
   right: 0;
   left: 0;
-  background-color: var(--smoke);
+  background-color: var(--white);
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.07));
   animation: stickyAni 0.4s ease-in-out;
   z-index: 999;
