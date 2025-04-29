@@ -350,7 +350,6 @@
     });
 
 
-
     /*-----------------------------------
            Back to top    
         -----------------------------------*/
@@ -555,115 +554,7 @@
       });
     });
 
-
-    /*-----------------------------------
-          Hero Global slider js
-    -----------------------------------*/
-    if (typeof Swiper === "undefined") {
-      console.error("Swiper is not loaded. Check if you included Swiper JS.");
-      return;
-    }
-
-    var $heroBackground = $(".hero1-background-image");
-
-    var heroSwiper = new Swiper(".hero-global-slider", {
-      loop: true,
-      slidesPerView: 1,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false
-      },
-      speed: 1000,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + "</span>";
-        }
-      },
-      on: {
-        transitionStart: function () {
-          let $activeSlide = $(".hero-global-slider .swiper-slide.swiper-slide-active");
-          let newBg = $activeSlide.attr("data-bg");
-          if (newBg) {
-            $heroBackground.css("background-image", `url(${newBg})`);
-          }
-        }
-      }
-    });
-
-    // Set initial background image
-    let $initialSlide = $(".hero-global-slider .swiper-slide.swiper-slide-active");
-    let initialBg = $initialSlide.attr("data-bg");
-    if (initialBg) {
-      $heroBackground.css("background-image", `url(${initialBg})`);
-    }
-
-
-    /*-----------------------------------
-        Testimonial slider js
-    -----------------------------------*/
-    if (typeof Swiper === "undefined") {
-      console.error("Swiper is not loaded. Check if you included Swiper JS.");
-      return;
-    }
-
-    var testimonialSwiper = new Swiper(".testimonial-slider", {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 20,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false
-      },
-      speed: 1000,
-      on: {
-        slideChange: function () {
-          updateActiveProfile(this.realIndex);
-        }
-      }
-    });
-
-    // Function to update active profile and shape
-    function updateActiveProfile(index) {
-      let $shapes = $(".testimonial1-profile-items__shape");
-      let $profiles = $(".testimonial1-profile-items__one");
-
-      $shapes.removeClass("active");
-      $profiles.removeClass("active");
-
-      if ($shapes.eq(index).length) {
-        $shapes.eq(index).addClass("active");
-      }
-      if ($profiles.eq(index).length) {
-        $profiles.eq(index).addClass("active");
-      }
-    }
-
-    // Click event for the arrow buttons
-    $("[data-slider-prev]").on("click", function () {
-      testimonialSwiper.slidePrev();
-    });
-
-    $("[data-slider-next]").on("click", function () {
-      testimonialSwiper.slideNext();
-    });
-
-    // Click event for profile images to navigate the slider
-    $(".testimonial1-profile-items__one").each(function (index) {
-      $(this).on("click", function () {
-        testimonialSwiper.slideToLoop(index);
-      });
-    });
-
-
-    // Set initial active profile and shape
-    updateActiveProfile(testimonialSwiper.realIndex);
-
-
   }); // End Document Ready Function
-
-
 
 
 })(jQuery); // End jQuery
