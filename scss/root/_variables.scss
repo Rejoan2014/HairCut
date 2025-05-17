@@ -4,7 +4,8 @@
 :root {
     
     --white: #FFF; 
-    --black: #000;
+    --black: #010003;
+    --black2: #131215;
     --title: #16171A; 
     --title2: #7E7E7E; 
     --title3: #373A3F; 
@@ -22,7 +23,8 @@
     --smoke2: #ECF1F5;
     --smoke3: #F4F4F4;
 
-    --theme: #3CA200;
+    --theme: #B8E451;
+
     --theme2: #FCF9F7;
     --theme3: #077CEA;
 
@@ -33,6 +35,8 @@
 // Theme Color - Defualt Colors
 $white: var(--white);
 $black: var(--black);
+$black2: var(--black2);
+
 $title-color: var(--title); 
 $title-color2: var(--title2); 
 $title-color3: var(--title3); 

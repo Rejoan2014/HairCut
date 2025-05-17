@@ -30,13 +30,14 @@ Description: CleanPro - Creative & Digital Agency Html Template
 /* --------------------------------------------
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Manrope:wght@100..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&family=Marcellus&display=swap");
 /*----------------------------------------------
     # All Variables here
 ----------------------------------------------*/
 :root {
   --white: #FFF;
-  --black: #000;
+  --black: #010003;
+  --black2: #131215;
   --title: #16171A;
   --title2: #7E7E7E;
   --title3: #373A3F;
@@ -50,7 +51,7 @@ Description: CleanPro - Creative & Digital Agency Html Template
   --smoke: #FAF8F7;
   --smoke2: #ECF1F5;
   --smoke3: #F4F4F4;
-  --theme: #3CA200;
+  --theme: #B8E451;
   --theme2: #FCF9F7;
   --theme3: #077CEA;
   --box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
@@ -584,13 +585,13 @@ Description: CleanPro - Creative & Digital Agency Html Template
 }
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
-  color: var(--black);
-  background-color: var(--white);
+  line-height: 22px;
+  color: var(--white);
+  background-color: var(--black);
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -630,7 +631,7 @@ h6 {
 
 h1 {
   color: var(--900, #0F1B24);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 74px;
   font-style: normal;
   font-weight: 700;
@@ -649,7 +650,7 @@ h1 {
 
 h2 {
   color: var(--900, #0D0D0D);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -669,7 +670,7 @@ h2 {
 
 h3 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -689,7 +690,7 @@ h3 {
 
 h4 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -704,7 +705,7 @@ h4 {
 
 h5 {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -713,7 +714,7 @@ h5 {
 
 h6 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -724,7 +725,7 @@ p {
   margin: 0px;
   transition: all 0.4s ease-in-out;
   color: var(--title);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1916,7 +1917,7 @@ span {
   border-radius: 999px;
   background: var(--yellow2);
   color: #FFF;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -1974,7 +1975,7 @@ span {
   border-radius: 10px;
   border: 1px solid var(--border);
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -2032,7 +2033,7 @@ span {
   border-radius: 999px;
   background: var(--yellow);
   color: #FFF;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -2112,7 +2113,7 @@ span {
 .help-contact__text-label {
   color: #000;
   font-feature-settings: "liga" off, "clig" off;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -2121,7 +2122,7 @@ span {
 .help-contact__text-number {
   color: #000;
   font-feature-settings: "liga" off, "clig" off;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -2144,7 +2145,7 @@ span {
   text-align: center;
   background: var(--title);
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 1;
@@ -2203,7 +2204,7 @@ span {
   height: 56px;
   padding: 17px;
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -2224,7 +2225,7 @@ span {
   height: 56px;
   padding: 17px;
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -2518,7 +2519,7 @@ span {
 }
 .nav-pills .nav-link {
   color: var(--theme);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2556,7 +2557,7 @@ span {
   color: white;
   width: 200px;
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2582,7 +2583,7 @@ span {
   border-radius: 25px 25px 25px 25px;
   transition: 0.3s ease;
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -2695,7 +2696,7 @@ img {
 }
 .navigation-controls .nav-item h4 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -2741,7 +2742,7 @@ img {
 }
 .preview-area .preview-item .content p {
   color: var(--Black-03, #6F6E77);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -2754,7 +2755,7 @@ img {
 }
 .preview-area .preview-item .content h5 {
   color: var(--Black-01, #141422);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -2788,7 +2789,7 @@ img {
 }
 .checklist.style1 li span {
   color: var(--gray);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2812,7 +2813,7 @@ img {
 }
 .checklist-item__text {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3047,7 +3048,7 @@ img {
   opacity: 0.8;
   outline: none;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -3080,7 +3081,7 @@ img {
   width: 100%;
   outline: none;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -3098,7 +3099,7 @@ img {
   width: 100%;
   outline: none;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -3250,7 +3251,7 @@ img {
   }
 }
 .preloader .animation-preloader .txt-loading {
-  font: bold 5em "Raleway", sans-serif, "DM Sans", sans-serif;
+  font: bold 5em "Marcellus", serif, "Urbanist", sans-serif;
   text-align: center;
   user-select: none;
 }
@@ -3290,7 +3291,7 @@ img {
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   position: absolute;
   top: -3px;
   transform: rotateY(-90deg);
@@ -3372,7 +3373,7 @@ img {
   display: flex;
   align-items: center;
   color: var(--White, #FFF);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -3390,7 +3391,7 @@ img {
 }
 .counter-item-box__label p {
   color: var(--White, #FFF);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -3477,7 +3478,7 @@ img {
 }
 .progress-wrap .progress-meta .title {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -3487,7 +3488,7 @@ img {
 }
 .progress-wrap .progress-meta .title2 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -3495,7 +3496,7 @@ img {
 }
 .progress-wrap .progress-meta .percentage {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -3505,7 +3506,7 @@ img {
 }
 .progress-wrap .progress-meta .percentage2 {
   color: var(--title);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -3652,7 +3653,7 @@ img {
   background-size: 0% 2px;
   color: transparent;
   -webkit-text-stroke: 1px #bcb8b1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 80px;
   font-style: normal;
   font-weight: 700;
@@ -3666,7 +3667,7 @@ img {
 }
 .marquee-item.style-2 .text-slider {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 600;
@@ -4395,7 +4396,7 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--title4);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -4463,7 +4464,7 @@ img {
 }
 .breadcrumb-heading h1 {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -4493,7 +4494,7 @@ img {
 }
 .breadcrumb-heading__items li {
   color: #FFF;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -4558,7 +4559,7 @@ img {
 }
 .widget-card__title h6 {
   color: var(--title4);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -4574,7 +4575,7 @@ img {
   border-radius: 20px;
   border: 1px solid rgba(38, 38, 38, 0.1);
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -4646,7 +4647,7 @@ img {
   align-items: center;
   justify-content: space-between;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -4741,7 +4742,7 @@ img {
 .widget-card-post-items-content h5 {
   padding-bottom: 12px;
   color: var(--title4);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -4754,7 +4755,7 @@ img {
   display: flex;
   gap: 10px;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -4777,7 +4778,7 @@ img {
   border-radius: 10px;
   background: var(--white);
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -4857,7 +4858,7 @@ img {
 }
 .widget2-card-header__title h5 {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -4899,7 +4900,7 @@ img {
 }
 .widget2-card-body-items-content__value {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -4973,7 +4974,7 @@ img {
   transition: all 0.4s ease-in-out;
   position: relative;
   color: var(--dark);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-weight: 600;
 }
@@ -5032,7 +5033,7 @@ img {
   border-bottom: 1px solid #E3E3E3;
   margin-left: 0;
   font-size: 16px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
 }
 .header-wrap .main-menu ul ul li > a:hover {
   background-color: var(--theme);
@@ -5205,7 +5206,7 @@ img {
 }
 .header-top-section.style1 .header-top-wrapper .contact-list li a p {
   color: var(--title);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -5518,7 +5519,7 @@ img {
 .hero1-content__title {
   padding-bottom: 10px;
   color: var(--900, #0F1B24);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 74px;
   font-style: normal;
   font-weight: 700;
@@ -5550,7 +5551,7 @@ img {
 .hero1-content__desc {
   padding-right: 0px;
   color: var(--title2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -5704,7 +5705,7 @@ img {
 .hero2-content__title {
   padding-bottom: 10px;
   color: var(--900, #0D0D0D);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -5736,7 +5737,7 @@ img {
 .hero2-content__desc {
   padding-right: 0px;
   color: var(--title2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -5760,7 +5761,7 @@ img {
 }
 .hero2-content-cta-btn-text__title {
   color: var(--900, #0D0D0D);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -5768,7 +5769,7 @@ img {
 }
 .hero2-content-cta-btn-text__numb {
   color: var(--900, #0D0D0D);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -5779,285 +5780,237 @@ img {
 .about1 {
   position: relative;
 }
-.about1-shape1 {
-  position: absolute;
-  right: 13.7%;
-  bottom: 0;
-  z-index: 5;
-}
-@media (max-width: 1899px) {
-  .about1-shape1 {
-    right: 12.7%;
-  }
-}
-@media (max-width: 1799px) {
-  .about1-shape1 {
-    right: 10.7%;
-  }
-}
-@media (max-width: 1699px) {
-  .about1-shape1 {
-    right: 8%;
-  }
-}
-@media (max-width: 1599px) {
-  .about1-shape1 {
-    right: 41px;
-  }
-}
-@media (max-width: 1399px) {
-  .about1-shape1 {
-    right: 31px;
-  }
-}
-@media (max-width: 1199px) {
-  .about1-shape1 {
-    display: none;
-  }
-}
-.about1-content {
-  padding: 48px 60px;
-  position: relative;
-  z-index: 7;
-}
-@media (max-width: 1399px) {
-  .about1-content {
-    padding: 48px 30px;
-  }
-}
-@media (max-width: 1199px) {
-  .about1-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-}
-@media (max-width: 991px) {
-  .about1-content {
-    padding: 45px 10px;
-  }
-}
-.about1-content-btn {
-  display: inline-table;
-  color: var(--title);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 28px; /* 155.556% */
-}
 @media (max-width: 767px) {
-  .about1-content-btn {
-    font-size: 14px;
-  }
-}
-@media (max-width: 575px) {
-  .about1-content-btn {
-    flex-direction: column;
-    display: flex;
-  }
-}
-.about1-content-btn__one {
-  display: inline-flex;
-  padding: 20px 25px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 2px;
-  background: var(--white);
-}
-@media (max-width: 991px) {
-  .about1-content-btn__one {
-    padding: 20px 15px;
-  }
-}
-@media (max-width: 767px) {
-  .about1-content-btn__one {
-    padding: 10px 5px;
-  }
-}
-.about1-content-btn__one.active-btn-style {
-  display: inline-flex;
-  padding: 25px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 2px;
-  background: var(--theme);
-  color: var(--white);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 28px; /* 155.556% */
-}
-@media (max-width: 991px) {
-  .about1-content-btn__one.active-btn-style {
-    padding: 25px 15px;
-  }
-}
-@media (max-width: 767px) {
-  .about1-content-btn__one.active-btn-style {
-    font-size: 14px;
-    padding: 15px 5px;
-  }
-}
-.about1-content-info {
-  padding-top: 35px;
-  padding-bottom: 25px;
-  display: flex;
-  gap: 30px;
-}
-@media (max-width: 1199px) {
-  .about1-content-info {
-    padding-top: 40px;
-    display: flex;
-    gap: 65px;
-    justify-content: center;
-  }
-}
-@media (max-width: 767px) {
-  .about1-content-info {
-    gap: 35px;
-  }
-}
-@media (max-width: 449px) {
-  .about1-content-info {
-    gap: 15px;
-  }
-}
-.about1-content-info-left {
-  padding-top: 10px;
-}
-.about1-content-info-left__icon {
-  padding-bottom: 20px;
-}
-.about1-content-info-left__title {
-  padding-bottom: 27px;
-  max-width: 128px;
-}
-.about1-content-info-left__title h6 {
-  color: #000;
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 34px; /* 141.667% */
-}
-@media (max-width: 575px) {
-  .about1-content-info-left__title h6 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-.about1-content-info-left__link {
-  color: var(--title);
-  font-family: "DM Sans", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px; /* 171.429% */
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-  padding-bottom: 36px;
-}
-.about1-content-info-left__rating h6 {
-  color: #000;
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 34px;
-}
-@media (max-width: 575px) {
-  .about1-content-info-left__rating h6 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-.about1-content-info-left__rating p {
-  color: #000;
-  font-family: "DM Sans", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 171.429% */
-}
-.about1-content-info__verticalLine {
-  padding-top: 5px;
-  padding-right: 20px;
-}
-@media (max-width: 767px) {
-  .about1-content-info__verticalLine {
-    display: none;
-  }
-}
-.about1-content-info-right-list {
-  padding-bottom: 23px;
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
-.about1-content-info-right-list-item__title {
-  color: #000;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 30px;
-}
-.about1-content-info-right-list-item__text {
-  color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  max-width: 270px;
-}
-.about1-content-info-right-profile {
-  display: flex;
-  gap: 14px;
-  padding-top: 24px;
-}
-.about1-content-info-right-profile__img {
-  padding-top: 15px;
-}
-@media (max-width: 449px) {
-  .about1-content-info-right-profile {
-    padding-top: 0px;
+  .about1 {
+    padding-top: 30px;
   }
 }
 .about1-thumb {
   position: relative;
-  z-index: 9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: -170px;
-}
-@media (max-width: 1399px) {
-  .about1-thumb {
-    margin-left: -212px;
-  }
+  margin-top: 74px;
 }
 @media (max-width: 1199px) {
+  .about1-thumb {
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
   .about1-thumb {
     display: none;
   }
 }
-.about1-thumb__top {
-  margin-bottom: -77px;
+.about1-thumb__left {
+  position: relative;
 }
-.about1-thumb-middle {
+@media (max-width: 1599px) {
+  .about1-thumb__left {
+    left: -2%;
+  }
+}
+@media (max-width: 1399px) {
+  .about1-thumb__left img {
+    max-width: 72%;
+    height: auto;
+  }
+}
+@media (max-width: 1199px) {
+  .about1-thumb__left img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.about1-thumb__right {
+  position: absolute;
+  right: 3%;
+  bottom: -19%;
+  z-index: 9;
+}
+@media (max-width: 1399px) {
+  .about1-thumb__right {
+    right: -9%;
+    bottom: -17%;
+  }
+  .about1-thumb__right img {
+    max-width: 87%;
+    height: auto;
+  }
+}
+@media (max-width: 1199px) {
+  .about1-thumb__right {
+    right: 11%;
+    bottom: -19%;
+  }
+  .about1-thumb__right img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.about1-thumb__top {
+  position: absolute;
+  right: 19px;
+  top: -46px;
+}
+@media (max-width: 1399px) {
+  .about1-thumb__top {
+    right: -25px;
+    top: -34px;
+  }
+  .about1-thumb__top img {
+    max-width: 87%;
+    height: auto;
+  }
+}
+@media (max-width: 1199px) {
+  .about1-thumb__top {
+    right: 80px;
+    top: -46px;
+  }
+  .about1-thumb__top img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.about1-thumb__badge {
+  position: absolute;
+  top: -5px;
+  right: 56px;
+}
+@media (max-width: 1399px) {
+  .about1-thumb__badge {
+    top: -5px;
+    right: 25px;
+  }
+}
+@media (max-width: 1199px) {
+  .about1-thumb__badge {
+    top: -5px;
+    right: 114px;
+  }
+}
+.about1-thumb__badge h2 {
+  color: var(--white);
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 74px; /* 115.625% */
+}
+.about1-thumb__badge p {
+  color: var(--white);
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.about1-btn {
+  display: inline-flex;
+  gap: 59px;
+  padding: 20px 50px;
+  border-radius: 50px;
+  background: var(--smoke2);
+}
+@media (max-width: 575px) {
+  .about1-btn {
+    gap: 28px;
+    padding: 16px 15px;
+  }
+}
+.about1-btn__item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.about1-btn__item p {
+  color: var(--title);
+  font-family: "Marcellus", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+}
+.about1-btn__item--line {
+  opacity: 0.2;
+  background: #16171A;
+  width: 1px;
+  height: 25px;
+}
+.about1-content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 32px;
 }
-.about1-thumb__bottom {
-  margin-top: -77px;
+@media (max-width: 575px) {
+  .about1-content {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+.about1-content-left {
+  max-width: 263px;
+}
+.about1-content-left-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 30px;
+}
+.about1-content-left-item-text__title h4 {
+  color: #000;
+  font-family: "Marcellus", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+}
+.about1-content-left-item-text__desc p {
+  color: #000;
+  font-family: "Urbanist", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.about1-content-left-item-btn {
+  padding-top: 30px;
+}
+.about1-content-right {
+  position: relative;
+}
+.about1-content-right-thumb:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--title);
+  opacity: 0.6;
+  border-radius: 10px;
+  z-index: 1;
+}
+.about1-content-right__icon {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  left: 68px;
+  z-index: 9;
+  top: 57px;
+}
+.about1-content-right__text {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 48px;
+  left: 6%;
+  z-index: 9;
+  color: #FFF;
+  text-align: center;
+  font-family: "Marcellus", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 141.667% */
 }
 
 .about2 {
@@ -6174,7 +6127,7 @@ img {
 .about2-thumb__badge h2 {
   color: var(--white);
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -6183,7 +6136,7 @@ img {
 .about2-thumb__badge p {
   color: var(--white);
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -6209,7 +6162,7 @@ img {
 }
 .about2-btn__item p {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -6243,7 +6196,7 @@ img {
 }
 .about2-content-left-item-text__title h4 {
   color: #000;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -6251,7 +6204,7 @@ img {
 }
 .about2-content-left-item-text__desc p {
   color: #000;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -6289,7 +6242,7 @@ img {
   z-index: 9;
   color: #FFF;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -6694,12 +6647,13 @@ img {
     # Title style here
 ----------------------------------------------*/
 .section-top__subtitle {
-  color: var(--theme);
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  color: var(--black);
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 30px; /* 150% */
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 12px;
 }
@@ -6711,35 +6665,23 @@ img {
   justify-content: center;
   gap: 8px;
   color: var(--white);
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 30px; /* 150% */
-  text-transform: uppercase;
-  margin-bottom: 12px;
-}
-.section-top__subtitle3 {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  color: var(--yellow);
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 30px; /* 150% */
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 12px;
 }
 .section-top__title {
-  color: var(--title);
-  font-family: "Raleway", sans-serif;
-  font-size: 48px;
+  color: var(--black);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Marcellus", serif;
+  font-size: 60px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 54px;
-  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 75px;
 }
 @media (max-width: 1199px) {
   .section-top__title {
@@ -6762,12 +6704,12 @@ img {
 .section-top__title2 {
   color: var(--white);
   text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-size: 48px;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Marcellus", serif;
+  font-size: 60px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 54px; /* 112.5% */
-  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 75px; /* 125% */
 }
 @media (max-width: 1199px) {
   .section-top__title2 {
@@ -6783,61 +6725,26 @@ img {
 }
 @media (max-width: 575px) {
   .section-top__title2 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
-.section-top__title3 {
-  color: var(--title3);
-  font-family: "Manrope", sans-serif;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 54px; /* 112.5% */
-  text-transform: capitalize;
-}
-@media (max-width: 1199px) {
-  .section-top__title3 {
-    font-size: 45px;
-    line-height: 50px;
-  }
-}
-@media (max-width: 767px) {
-  .section-top__title3 {
-    font-size: 42px;
-    line-height: 45px;
-  }
-}
-@media (max-width: 575px) {
-  .section-top__title3 {
     font-size: 30px;
     line-height: 40px;
   }
 }
 .section-top__desc {
-  color: var(--gray);
-  font-family: "DM Sans", sans-serif;
+  color: var(--black);
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 }
 .section-top__desc2 {
-  color: var(--smoke);
+  color: var(--white);
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
-}
-.section-top__desc3 {
-  color: #000;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 26px; /* 185.714% */
+  line-height: 26px;
 }
 
 /* 7. Service */
@@ -6859,7 +6766,7 @@ img {
 }
 .service1-card-content__title {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -6871,7 +6778,7 @@ img {
 }
 .service1-card-content__desc p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -6879,7 +6786,7 @@ img {
 }
 .service1-card-content__link {
   color: var(--title);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -6968,7 +6875,7 @@ img {
 }
 .service2-card-content__title {
   color: #373A3F;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -6981,7 +6888,7 @@ img {
 .service2-card-content__desc {
   color: var(--gray);
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -6990,7 +6897,7 @@ img {
 }
 .service2-card-content__link {
   color: var(--title);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -7052,7 +6959,7 @@ img {
 }
 .service2-details-content__title h3 {
   color: var(--title4);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -7070,7 +6977,7 @@ img {
 }
 .service2-details-content__desc p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -7081,7 +6988,7 @@ img {
 }
 .service2-details-content__desc2 p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -7109,7 +7016,7 @@ img {
 }
 .service2-details-content__desc3 p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -7155,7 +7062,7 @@ img {
 }
 .service2-details-content__title4 h5 {
   color: var(--title4);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -7241,7 +7148,7 @@ img {
   background: var(--theme3);
   color: #FFF;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -7270,7 +7177,7 @@ img {
   background: var(--theme3);
   color: #FFF;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -7313,7 +7220,7 @@ img {
 }
 .project2-card-textLeft h5, .project2-card-textRight h5 {
   color: var(--theme);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -7370,7 +7277,7 @@ img {
 .project2-card-content__title {
   color: var(--white);
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -7383,7 +7290,7 @@ img {
 .project2-card-content__desc {
   color: var(--smoke3);
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -7423,7 +7330,7 @@ img {
 }
 .project3-details-content-wrapper-info__title h3 {
   color: var(--Black-01, #141422);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -7441,7 +7348,7 @@ img {
 }
 .project3-details-content-wrapper-info__desc p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -7452,7 +7359,7 @@ img {
 }
 .project3-details-content-wrapper-info__desc2 p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -7477,7 +7384,7 @@ img {
 }
 .project3-details-content-wrapper-card__label {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -7485,7 +7392,7 @@ img {
 }
 .project3-details-content-wrapper-card__name {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -7504,7 +7411,7 @@ img {
 }
 .project3-details-content__title2 h5 {
   color: var(--Black-01, #141422);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -7520,7 +7427,7 @@ img {
 }
 .project3-details-content__desc2 p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -7564,7 +7471,7 @@ img {
 }
 .project4-card-textLeft h5, .project4-card-textRight h5 {
   color: var(--theme);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -7624,7 +7531,7 @@ img {
 .project4-card-content__title {
   color: var(--white);
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -7634,7 +7541,7 @@ img {
 .project4-card-content__desc {
   color: var(--smoke3);
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -7695,7 +7602,7 @@ img {
 .testimonial1-card-one-header__text p {
   color: var(--gray2);
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -7708,7 +7615,7 @@ img {
 }
 .testimonial1-card-one .fancy-box1__item h6 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -7716,7 +7623,7 @@ img {
 }
 .testimonial1-card-one .fancy-box1__item p {
   color: var(--title3);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -7745,7 +7652,7 @@ img {
 .testimonial1-card-two-header__text p {
   color: var(--gray2);
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -7758,7 +7665,7 @@ img {
 }
 .testimonial1-card-two .fancy-box2__item h6 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -7767,7 +7674,7 @@ img {
 }
 .testimonial1-card-two .fancy-box2__item p {
   color: var(--title3);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -7810,7 +7717,7 @@ img {
 }
 .testimonial1-card-three .fancy-box1__item h6 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -7819,7 +7726,7 @@ img {
 }
 .testimonial1-card-three .fancy-box1__item p {
   color: var(--title3);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -7996,7 +7903,7 @@ img {
 }
 .testimonial2-card-content-profile__name h6 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -8004,7 +7911,7 @@ img {
 }
 .testimonial2-card-content-profile__label p {
   color: var(--title3);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -8012,7 +7919,7 @@ img {
 }
 .testimonial2-card-content-desc p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8074,7 +7981,7 @@ img {
 .contact1-info__numb {
   padding-bottom: 25px;
   color: var(--black);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -8091,7 +7998,7 @@ img {
 .contact1-info__text h3 {
   color: var(--black);
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -8192,7 +8099,7 @@ img {
 .contact2-content__title {
   padding-bottom: 10px;
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -8214,7 +8121,7 @@ img {
 .contact2-content__desc {
   margin-bottom: 25px;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8276,7 +8183,7 @@ img {
 }
 .contact2-content-contact-item-info__title {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -8285,7 +8192,7 @@ img {
 }
 .contact2-content-contact-item-info__desc {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8293,7 +8200,7 @@ img {
 }
 .contact2-content-contact-item-info__desc2 {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8307,7 +8214,7 @@ img {
 }
 .contact2-content__title2 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -8316,7 +8223,7 @@ img {
 }
 .contact2-content__desc2 {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8417,7 +8324,7 @@ img {
   gap: 17px;
   padding-bottom: 20px;
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -8442,7 +8349,7 @@ img {
   z-index: 7;
   padding-bottom: 15px;
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -8460,7 +8367,7 @@ img {
 }
 .blog1-card-one-content__desc {
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8471,7 +8378,7 @@ img {
   position: relative;
   z-index: 7;
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -8551,7 +8458,7 @@ img {
   gap: 14px;
   padding-bottom: 16px;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -8576,7 +8483,7 @@ img {
   position: relative;
   z-index: 7;
   color: var(--title3);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -8592,7 +8499,7 @@ img {
   position: relative;
   z-index: 7;
   color: var(--theme);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -8644,7 +8551,7 @@ img {
   display: flex;
   gap: 17px;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -8687,7 +8594,7 @@ img {
 .blog2-card-one-content__title {
   padding-bottom: 15px;
   color: var(--Black, #3A3A3A);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -8706,7 +8613,7 @@ img {
 .blog2-card-one-content__desc {
   padding-bottom: 15px;
   color: var(--Gray-G1, #727272);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8714,7 +8621,7 @@ img {
 }
 .blog2-card-one-content__link {
   color: var(--theme);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -8805,7 +8712,7 @@ img {
   gap: 14px;
   padding-bottom: 16px;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -8828,7 +8735,7 @@ img {
 }
 .blog2-card-two-content__title {
   color: var(--title3);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -8846,7 +8753,7 @@ img {
 }
 .blog2-card-two-content__desc {
   color: var(--gray);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8855,7 +8762,7 @@ img {
 }
 .blog2-card-two-content__link {
   color: var(--theme);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -8906,7 +8813,7 @@ img {
   padding-top: 30px;
   padding-bottom: 11px;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -8963,7 +8870,7 @@ img {
 }
 .blog3-card-content__desc p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8997,7 +8904,7 @@ img {
   padding-top: 35px;
   padding-bottom: 6px;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -9035,7 +8942,7 @@ img {
 }
 .blog4-card-content__title h2 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -9043,7 +8950,7 @@ img {
 }
 .blog4-card-content__desc p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9077,7 +8984,7 @@ img {
 }
 .blog4-card-content__quote p {
   color: var(--title);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9094,7 +9001,7 @@ img {
   padding: 2px 11px 2px 29px;
   background: var(--theme);
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9155,7 +9062,7 @@ img {
   display: flex;
   align-items: center;
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9171,7 +9078,7 @@ img {
   border-radius: 10px;
   background: var(--smoke2);
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -9203,7 +9110,7 @@ img {
 }
 .blog4-card-comment__title h3 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -9256,7 +9163,7 @@ img {
 }
 .blog4-card-comment-profile-content__author h5 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9267,7 +9174,7 @@ img {
 }
 .blog4-card-comment-profile-content__date p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -9275,7 +9182,7 @@ img {
 }
 .blog4-card-comment-profile-content__desc p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9289,7 +9196,7 @@ img {
 .blog4-card-comment-profile-content__reply .btn {
   display: flex;
   color: var(--title);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -9353,7 +9260,7 @@ img {
 }
 .blog4-form__desc p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9361,7 +9268,7 @@ img {
 }
 .blog4-form .form-check-label {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9416,7 +9323,7 @@ img {
 }
 .pricing1-card-content__title h5 {
   color: var(--title3);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -9432,7 +9339,7 @@ img {
 }
 .pricing1-card-content__desc p {
   color: var(--gray);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9447,7 +9354,7 @@ img {
   border: 1px solid var(--border);
   text-align: center;
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -9478,7 +9385,7 @@ img {
 }
 .pricing1-card-value__dolar {
   color: var(--theme);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -9487,7 +9394,7 @@ img {
 .pricing1-card-value__month {
   color: var(--title);
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -9578,7 +9485,7 @@ img {
   width: 283px;
   height: 84px;
   color: #FFF;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9636,7 +9543,7 @@ img {
 }
 .team1-card-content__title {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -9649,7 +9556,7 @@ img {
 }
 .team1-card-content__desc p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -9692,7 +9599,7 @@ img {
 }
 .team2-profile__title h5 {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -9700,7 +9607,7 @@ img {
 }
 .team2-profile__desc p {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9717,7 +9624,7 @@ img {
 .team2-content__name {
   padding-bottom: 10px;
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -9738,7 +9645,7 @@ img {
 .team2-content__designation {
   margin-bottom: 25px;
   color: var(--theme);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -9750,7 +9657,7 @@ img {
 }
 .team2-content__desc {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9767,7 +9674,7 @@ img {
 }
 .team2-content-contact ul li strong {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -9786,7 +9693,7 @@ img {
 }
 .team2-content-contact ul li span {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9794,7 +9701,7 @@ img {
 }
 .team2-content-progress__title {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -9802,7 +9709,7 @@ img {
 }
 .team2-content-progress__desc {
   color: var(--gray2);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9926,7 +9833,7 @@ img {
   width: 283px;
   height: 84px;
   color: #FFF;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9979,7 +9886,7 @@ img {
 .workProcess1-card__title {
   padding-bottom: 12px;
   color: var(--theme);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -9988,7 +9895,7 @@ img {
 .workProcess1-card__desc {
   color: var(--gray);
   text-align: center;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9997,7 +9904,7 @@ img {
 }
 .workProcess1-card__link {
   color: var(--theme);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -10144,7 +10051,7 @@ img {
 }
 .footer1-wrapper-service__title {
   color: #FFF;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -10156,7 +10063,7 @@ img {
 }
 .footer1-wrapper-service-list__item a {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -10185,7 +10092,7 @@ img {
 }
 .footer1-wrapper-link__title {
   color: #FFF;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -10197,7 +10104,7 @@ img {
 }
 .footer1-wrapper-link-list__item a {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -10227,7 +10134,7 @@ img {
 }
 .footer1-wrapper-contact__title {
   color: #FFF;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -10241,7 +10148,7 @@ img {
   display: flex !important;
   align-items: center !important;
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -10263,7 +10170,7 @@ img {
 }
 .footer1-wrapper-schedule__title {
   color: #FFF;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -10272,7 +10179,7 @@ img {
 }
 .footer1-wrapper-schedule-list__item {
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -10354,7 +10261,7 @@ img {
 }
 .footer1-bottom p {
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -10375,7 +10282,7 @@ img {
 }
 .footer1-bottom__links a {
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -10488,7 +10395,7 @@ img {
 }
 .footer2-cta-item-info__name {
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -10496,7 +10403,7 @@ img {
 }
 .footer2-cta-item-info__numb {
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -10557,7 +10464,7 @@ img {
 }
 .footer2-cta-item2-info__name {
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -10565,7 +10472,7 @@ img {
 }
 .footer2-cta-item2-info__numb {
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -10620,7 +10527,7 @@ img {
 }
 .footer2-cta-item3-info__name {
   color: var(--title);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -10628,7 +10535,7 @@ img {
 }
 .footer2-cta-item3-info__numb {
   color: var(--title);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -10667,7 +10574,7 @@ img {
 }
 .footer2-wrapper-logoInfo__desc {
   color: var(--White, #FFF);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -10696,7 +10603,7 @@ img {
 }
 .footer2-wrapper-service__title {
   color: #FFF;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -10708,7 +10615,7 @@ img {
 }
 .footer2-wrapper-service-list__item a {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -10731,7 +10638,7 @@ img {
 }
 .footer2-wrapper-link__title {
   color: #FFF;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -10743,7 +10650,7 @@ img {
 }
 .footer2-wrapper-link-list__item a {
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -10767,7 +10674,7 @@ img {
 }
 .footer2-wrapper-contact__title {
   color: #FFF;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -10781,7 +10688,7 @@ img {
   display: flex !important;
   align-items: center !important;
   color: var(--white);
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -10804,7 +10711,7 @@ img {
 }
 .footer2-wrapper-posts__title {
   color: #FFF;
-  font-family: "Raleway", sans-serif;
+  font-family: "Marcellus", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -10826,7 +10733,7 @@ img {
   display: flex;
   flex-direction: column;
   color: var(--White-Color-01, #FFF);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -10857,7 +10764,7 @@ img {
 }
 .footer2-bottom-info p {
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -10878,7 +10785,7 @@ img {
 }
 .footer2-bottom-info__links a {
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
