@@ -80,12 +80,12 @@
     }
 
     &__desc {
-        color: $black;
-        font-family: $body-font;
+        color: var(--900, #010003);
+        font-family: Urbanist;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 26px; 
+        line-height: 22px; 
     }
     &__desc2 {
         color: $white;

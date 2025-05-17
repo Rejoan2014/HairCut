@@ -2,58 +2,50 @@
 @use '../../utilities' as *;
 
 .service1 {
-    &-card {
+    position: relative;;
+    background: var(--White, #FFF);
+    &-thumb {
         position: relative;
-
-        &__thumb {
+        &__one {
             position: relative;
-            text-align: center;
+  
         }
-        &-content {
-            margin-top: -50px;
-            background: $white;
-            box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
-            padding: 80px 30px 30px 30px;
+        &__icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 9; 
+            padding: 54px;
+            border-radius: 5px;
+            border: 1px solid var(--P, #B8E451);
+            background: var(--P, #B8E451);
+        }       
 
-            &__icon {
-                padding-bottom: 20px;
-            }
-            &__title {
-                color: $title-color;
-                font-family: $title-font;
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 34px; /* 141.667% */
-                padding-bottom: 10px;
-            }
-            &__desc {
-                padding-bottom: 20px;
-                p {
-                    color: $gray2;
-                    font-family: $body-font;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 26px; /* 162.5% */
-                }
-            }
-            &__link {
-                color: $title-color;
-                font-family: $body-font;
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 24px; /* 171.429% */
-                letter-spacing: 0.42px;
-                text-transform: uppercase;
-
-                img {
-                    padding-left: 5px;
-                }
-            }
+    }
+    &-content {
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid $theme-color;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        &__title {
+            color: var(--900, #010003);
+            font-family: Marcellus;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 50px; /* 125% */
         }
-        &:hover {
+        &__link {
+            color: var(--900, #010003);
+            font-family: Urbanist;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 14px; /* 87.5% */
+            letter-spacing: 2px;
+            text-transform: uppercase;
         }
     }
 }

@@ -6595,12 +6595,12 @@ img {
   }
 }
 .section-top__desc {
-  color: var(--black);
-  font-family: "Urbanist", sans-serif;
+  color: var(--900, #010003);
+  font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 22px;
 }
 .section-top__desc2 {
   color: var(--white);
@@ -6612,55 +6612,53 @@ img {
 }
 
 /* 7. Service */
-.service1-card {
+.service1 {
+  position: relative;
+  background: var(--White, #FFF);
+}
+.service1-thumb {
   position: relative;
 }
-.service1-card__thumb {
+.service1-thumb__one {
   position: relative;
-  text-align: center;
 }
-.service1-card-content {
-  margin-top: -50px;
-  background: var(--white);
-  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
-  padding: 80px 30px 30px 30px;
+.service1-thumb__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  padding: 54px;
+  border-radius: 5px;
+  border: 1px solid var(--P, #B8E451);
+  background: var(--P, #B8E451);
 }
-.service1-card-content__icon {
-  padding-bottom: 20px;
+.service1-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--theme);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
-.service1-card-content__title {
-  color: var(--title);
-  font-family: "Marcellus", serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 34px; /* 141.667% */
-  padding-bottom: 10px;
-}
-.service1-card-content__desc {
-  padding-bottom: 20px;
-}
-.service1-card-content__desc p {
-  color: var(--gray2);
-  font-family: "Urbanist", sans-serif;
-  font-size: 16px;
+.service1-content__title {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 50px; /* 125% */
 }
-.service1-card-content__link {
-  color: var(--title);
-  font-family: "Urbanist", sans-serif;
-  font-size: 14px;
+.service1-content__link {
+  color: var(--900, #010003);
+  font-family: Urbanist;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 24px; /* 171.429% */
-  letter-spacing: 0.42px;
+  font-weight: 500;
+  line-height: 14px; /* 87.5% */
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
-.service1-card-content__link img {
-  padding-left: 5px;
-}
+
 .service2 {
   position: relative;
 }
