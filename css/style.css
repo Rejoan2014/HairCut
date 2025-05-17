@@ -630,52 +630,50 @@ h6 {
 }
 
 h1 {
-  color: var(--900, #0F1B24);
-  font-family: "Marcellus", serif;
-  font-size: 74px;
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 60px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 84px; /* 113.514% */
+  font-weight: 400;
+  line-height: 75px;
 }
 @media (max-width: 1399px) {
-  h1 {
-    font-size: 60px;
-  }
-}
-@media (max-width: 767px) {
   h1 {
     font-size: 50px;
   }
 }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 45px;
+  }
+}
 
 h2 {
-  color: var(--900, #0D0D0D);
-  font-family: "Marcellus", serif;
-  font-size: 64px;
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 40px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 74px; /* 115.625% */
+  font-weight: 400;
+  line-height: 50px;
 }
 @media (max-width: 1399px) {
   h2 {
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 @media (max-width: 767px) {
   h2 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 30px;
   }
 }
 
 h3 {
-  color: var(--title);
-  font-family: "Marcellus", serif;
-  font-size: 48px;
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 28px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 54px; /* 112.5% */
-  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 36px;
 }
 @media (max-width: 1199px) {
   h3 {
@@ -5779,6 +5777,7 @@ img {
 /* 4. About */
 .about1 {
   position: relative;
+  background: var(--White, #FFF);
 }
 @media (max-width: 767px) {
   .about1 {
@@ -5906,111 +5905,52 @@ img {
   font-weight: 400;
   line-height: 24px; /* 171.429% */
 }
-.about1-btn {
+.about1-feature {
+  padding-bottom: 38px;
+  display: flex;
+  gap: 20px;
+}
+.about1-feature-item {
   display: inline-flex;
-  gap: 59px;
-  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--200, #CCC);
+  padding: 20px;
+}
+.about1-feature-item__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  background: var(--theme);
   border-radius: 50px;
-  background: var(--smoke2);
 }
-@media (max-width: 575px) {
-  .about1-btn {
-    gap: 28px;
-    padding: 16px 15px;
-  }
+.about1-feature-item__icon img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
 }
-.about1-btn__item {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
-.about1-btn__item p {
-  color: var(--title);
-  font-family: "Marcellus", serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 26px; /* 162.5% */
-}
-.about1-btn__item--line {
-  opacity: 0.2;
-  background: #16171A;
-  width: 1px;
-  height: 25px;
-}
-.about1-content {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-@media (max-width: 575px) {
-  .about1-content {
-    flex-direction: column;
-    align-items: start;
-  }
-}
-.about1-content-left {
-  max-width: 263px;
-}
-.about1-content-left-item {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  padding-top: 30px;
-}
-.about1-content-left-item-text__title h4 {
-  color: #000;
-  font-family: "Marcellus", serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 30px; /* 150% */
-}
-.about1-content-left-item-text__desc p {
-  color: #000;
-  font-family: "Urbanist", sans-serif;
-  font-size: 14px;
+.about1-feature-item__title {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 36px;
 }
-.about1-content-left-item-btn {
-  padding-top: 30px;
-}
-.about1-content-right {
-  position: relative;
-}
-.about1-content-right-thumb:before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--title);
-  opacity: 0.6;
-  border-radius: 10px;
-  z-index: 1;
-}
-.about1-content-right__icon {
-  display: flex;
-  gap: 10px;
-  position: absolute;
-  left: 68px;
-  z-index: 9;
-  top: 57px;
-}
-.about1-content-right__text {
-  display: flex;
-  gap: 10px;
-  position: absolute;
-  bottom: 48px;
-  left: 6%;
-  z-index: 9;
-  color: #FFF;
-  text-align: center;
-  font-family: "Marcellus", serif;
-  font-size: 24px;
+.about1-desc {
+  color: var(--900, #010003);
+  font-family: Urbanist;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 34px; /* 141.667% */
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.8;
 }
 
 .about2 {
@@ -6647,6 +6587,8 @@ img {
     # Title style here
 ----------------------------------------------*/
 .section-top__subtitle {
+  display: flex;
+  gap: 8px;
   color: var(--black);
   font-family: "Urbanist", sans-serif;
   font-size: 16px;
@@ -6662,7 +6604,6 @@ img {
 }
 .section-top__subtitle2 {
   display: flex;
-  justify-content: center;
   gap: 8px;
   color: var(--white);
   font-family: "Urbanist", sans-serif;
@@ -6703,7 +6644,6 @@ img {
 }
 .section-top__title2 {
   color: var(--white);
-  text-align: center;
   font-feature-settings: "liga" off, "clig" off;
   font-family: "Marcellus", serif;
   font-size: 60px;
@@ -6739,7 +6679,6 @@ img {
 }
 .section-top__desc2 {
   color: var(--white);
-  text-align: center;
   font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;

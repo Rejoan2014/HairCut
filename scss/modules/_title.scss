@@ -7,6 +7,8 @@
 ----------------------------------------------*/
  .section-top {
     &__subtitle {
+        display: flex;
+        gap: 8px;
         color: $black;
         font-family: $body-font;
         font-size: 16px;
@@ -22,7 +24,6 @@
     }
     &__subtitle2 {
         display: flex;
-        justify-content: center;
         gap: 8px;
         color: $white;
         font-family: $body-font;
@@ -58,7 +59,6 @@
     }
     &__title2 {
         color: $white;
-        text-align: center;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: $title-font;
         font-size: 60px;
@@ -89,7 +89,6 @@
     }
     &__desc2 {
         color: $white;
-        text-align: center;
         font-family: $body-font;
         font-size: 16px;
         font-style: normal;
