@@ -22,8 +22,8 @@ Description: CleanPro - Creative & Digital Agency Html Template
 13. WCU
 14. Team
 15. FAQ
-16. Timeline
-17. Error
+16. Work Process
+17. Appointment
 18. Footer
 ------------------------------------------------------------------*/
 
@@ -44,7 +44,9 @@ Description: CleanPro - Creative & Digital Agency Html Template
 @use "./modules/common/widget";   
 
 /* 2. Header */
-@use "./modules/header";
+@use "./modules/header/header";
+@use "./modules/header/header-2";
+@use "./modules/header/mobile-menu";
 
 /* 3. Hero */
 @use "./modules/hero/hero1";
@@ -56,6 +58,9 @@ Description: CleanPro - Creative & Digital Agency Html Template
 
 /* 5. Meanmenu */
 @use "./modules/meanmenu";
+
+/* 5. Offcanvas */
+@use "./modules/offcanvas";
   
 /* 6. Title */
 @use "./modules/title";
@@ -97,15 +102,11 @@ Description: CleanPro - Creative & Digital Agency Html Template
 /* 15. FAQ */
 @use "./modules/faq/faq1";  
 
-
 /* 16. Work Process */
 @use "./modules/work-process";
 
-/* 16. Appointment */
+/* 17. Appointment */
 @use "./modules/appointment";
-
-/* 17. Error */
-@use "./modules/error"; 
 
 /* 18. Footer */
 @use "./modules/footer/footer1";

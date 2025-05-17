@@ -98,6 +98,20 @@
   display: flex;
   gap: 30px;
 }
+.section-padding-testi {
+  padding: 120px 0;
+  @include breakpoint(max-lg) {
+    padding: 40px 0;
+  }
+  @include breakpoint(max-sm) {
+    padding: 20px 0;
+  }
+}
+.gutter-pricing {
+  @include breakpoint(max-xxl) {
+    --bs-gutter-y: 3.5rem;
+  }
+}
 
 // Margin
 .mb-120 {
@@ -125,7 +139,7 @@
   padding-bottom: 30px !important;
 }
 .pb-52 {
-  @include breakpoint(lg){
+  @include breakpoint(xxl){
     padding-bottom: 52px;
   }
 }
