@@ -160,7 +160,7 @@ a {
     text-decoration: none;
     outline: none !important;
     cursor: pointer;
-    color: $title-color;
+    color: inherit;
     @include transition;
     &:hover {
         color: $theme-color;
