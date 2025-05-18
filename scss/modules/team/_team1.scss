@@ -2,94 +2,129 @@
 @use '../../utilities' as *;
 
 .team1 {
+    background-color: $white;
     &-card {
         position: relative;
-        border-radius: 5px;
-        background: $smoke2;
-        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
+        border-radius: 999px 999px 5px 5px;
+        background: linear-gradient(180deg, rgba(255, 165, 0, 0.70) 0%, rgba(255, 165, 0, 0.00) 100%);
 
         &-thumb {
             position: relative;
             &__img {
                 position: relative;
+                padding: 31px 30px 0;
+                text-align: center;
+                &-shape {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+                img {
+                    position: relative;
+                    z-index: 5;
+                    width: 252px;
+                    height: 320px;
+                }
+            }
+            &__ratting {
+                position: absolute;
+                top: 20px;
+                left: 20px;            
+                z-index: 9;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                padding-top: 30px;
-                z-index: 9;
+                gap: 7px;
+                border-radius: 50px;
+                background: #F5D04A;
+                width: 75px;
+                height: 30px;
+                flex-shrink: 0;
+                color: $title-color;
+                font-family: $body-font;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26px; /* 162.5% */
             }
-
-            &__shape {
+            &__link {
+                opacity: 0;
+                visibility: hidden;
+                display: flex;
+                align-items: center;
+                gap: 5px;
                 position: absolute;
-                top: 0;
-                z-index: 1;
-                width: 100%;
-
+                top: 50%;
+                left: 30%;            
+                z-index: 9;
                 img {
-                    width: 100%;
+                    border-radius: 30px;
+                     background: $title-color2;
+                    padding: 9px;
+                    width: 32px;
+                    height: 32px;
+                    flex-shrink: 0;
                 }
-
-                &--one {
-                    display: block;
-                }
-                &--two {
-                    display: none;
+                p {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 20px;
+                    border-radius: 30px;
+                     background: $title-color2;
+                    color: $title-color;
+                    font-family: $body-font;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 56px; /* 350% */
+                    width: 101px;
+                    height: 32px;
                 }
             }
+
         }
         &-content {
             text-align: center;
-
-            padding: 20px 30px 30px;
+            padding: 25px 30px 25px;
+            background: #D9EADE;
             &__title {
                 color: $title-color;
-                font-family: $title-font;
-                font-size: 24px;
+                text-align: center;
+                font-family: $body-font;
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 600;
-                line-height: 34px; /* 141.667% */
+                line-height: 24px; /* 120% */
+                padding-bottom: 8px;
             }
             &__desc {
-                border-bottom:1px solid rgb(199, 203, 206) ;   
-                padding-bottom: 14px;
-                margin-bottom: 20px;          
-                p {
-                    color: $gray2;
-                    font-family: $body-font;
-                    font-size: 14px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 24px; /* 171.429% */
-                }
-            }
-            &__phone {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 8px;
-
-                p {
-                    color: $title-color;
-                    font-family: $paragraph-font;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 28px; /* 155.556% */
-                }
+                color: $title-color;
+                text-align: center;
+                font-family: $body-font;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+                opacity: 0.6;
             }
         }
         &:hover {
             .team1 {
                 &-card {
                     &-thumb {
-                        &__shape {
-                            &--two {
-                                display: block;
+                        &__img {            
+                            &::before {
+                                opacity: 1;
+                                visibility: visible;
                                 @include transition;
                             }
-                            &--one {
-                                display: none;
-                            }
+                        }
+                        &__link {
+                            opacity: 1;
+                            visibility: visible;
+                            @include transition;
                         }
                     }
                 }
