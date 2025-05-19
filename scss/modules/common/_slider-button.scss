@@ -7,21 +7,22 @@
 ----------------------------------------------*/
 .slider-btn {
     @include flex;
-    gap: 12px;
+    gap: 40px;
     .style1 {
         display: flex;
-        width: 64px;
-        height: 64px;
+        width: 67px;
+        height: 67px;
+        flex-shrink: 0;
         justify-content: center;
         align-items: center;
         gap: 10px;
         border-radius: 42px;
-        border: 1px solid rgba(38, 38, 38, 0.30);
-        background: $black;
+        background: rgba(43, 42, 44);
 
         i {
             color: $white;
-            font-size: 20px;
+            font-size: 17px;
+            font-weight: 900;
         }
 
         img {
@@ -38,6 +39,11 @@
         &:hover {
             background: $theme-color;
             @include transition;
+            i {
+                color: $black;
+                font-size: 17px;
+                font-weight: 900;
+            }
         }
     }
     .style2 {
