@@ -5,14 +5,41 @@
     &-card {
         background: var(--700, #131215);
         &__thumb {
+            position: relative;
             border-radius: 0px 5px 5px 5px;
             img {
                 border-radius: 0px 5px 5px 5px;
                 width: 100%;
             }
+            &-date {
+                padding: 4px 13px;
+                border-radius: 5px 0px 0px 5px;
+                background: var(--P, #B8E451);
+                position: absolute;
+                bottom: -20px;
+                h3 {
+                    color: var(--900, #010003);
+                    font-family: Marcellus;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 36px; 
+                    @include breakpoint (max-md){
+                        font-size: 24px;
+                    }
+                }
+                &.except {
+                    top: -25px;
+                    right: 0;
+                    bottom: inherit;
+                }
+            }
         }
         &-content {
-            padding: 30px 30px 30px;
+            padding: 35px 30px 30px;
+            @include breakpoint (max-md){
+                padding: 30px 20px 20px;
+            }
             &-meta {
                 display: flex;
                 align-items: center;
@@ -45,6 +72,9 @@
                 font-weight: 400;
                 line-height: 30px; 
                 padding-bottom: 15px;
+                @include breakpoint (max-md){
+                    font-size: 20px;
+                }
             }
             &__title{
                 color: var(--White, #FFF);
@@ -54,6 +84,9 @@
                 font-weight: 400;
                 line-height: 36px; 
                 padding-bottom: 15px;
+                @include breakpoint (max-md){
+                    font-size: 24px;
+                }
 
             }
             &__link {
