@@ -3,6 +3,9 @@
 
 
 .progress-wrap {
+	display: flex;
+	align-items: center;
+	gap: 15px;
     &:not(:last-child) {
         padding-bottom: 27px;
     }
@@ -13,7 +16,7 @@
         padding-bottom: 9px;
 		.title {
             color: $white;
-            font-family: $title-font;
+            font-family: $body-font;
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -22,17 +25,17 @@
             text-transform: uppercase;
 		}
 		.title2 {
-			color: $title-color;
-			font-family: $title-font;
-			font-size: 18px;
+			color: var(--900, #010003);
+			font-family: Marcellus;
+			font-size: 22px;
 			font-style: normal;
-			font-weight: 600;
-			line-height: 28px; /* 155.556% */
+			font-weight: 400;
+			line-height: 30px; /* 136.364% */
 		}
 
 		.percentage {
             color: $white;
-            font-family: $title-font;
+            font-family: $body-font;
             font-size: 18px;
             font-style: normal;
             font-weight: 600;
@@ -41,12 +44,12 @@
             text-transform: uppercase;
 		}
 		.percentage2 {
-			color: $title-color;
+			color: rgba(31, 31, 31, 0.70);
 			font-family: $body-font;
-			font-size: 18px;
+			font-size: 16px;
 			font-style: normal;
 			font-weight: 500;
-			line-height: 26px; 
+			line-height: normal;
 			padding-right: 24px;
 		}
 
@@ -81,22 +84,24 @@
 			}
 		}
 	}
+	.progress-box {
+		width: 100%;
+	}
 
 	.progress-container {
 		display: flex;
 		align-items: center;
 		position: relative;
-		max-width: 570px;
+		max-width: 625px;
 		height: 8px;
-		border-radius: 15px;
-		border: 1px solid $smoke2;
-		background: $white;
+		border-radius: 2px;
+		background: rgba(31, 31, 31, 0.12);
 		overflow: visible;
 
 		.progress-bar {
-			height: 2px;
-			border-radius: 6px;
-			background: $theme-color;
+			height: 6px;
+			border-radius: 2px;
+			background: #4D7B6B;
 			position: relative;
 			display: flex;
 			align-items: center;
