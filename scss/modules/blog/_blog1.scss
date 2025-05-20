@@ -3,30 +3,58 @@
 
 .blog1 {
     &-card {
-        border-radius: 20px;
-        background: #F9F9F9;
+        background: var(--700, #131215);
         &__thumb {
-            border-radius: 20px 20px 0px 0px;
+            border-radius: 0px 5px 5px 5px;
             img {
-                border-radius: 20px 20px 0px 0px;
+                border-radius: 0px 5px 5px 5px;
                 width: 100%;
             }
         }
         &-content {
-            padding: 18px 28px 26px;
+            padding: 30px 30px 30px;
             &-meta {
-                padding-bottom: 6px;
-                &__date {
-                    color: $title-color;
-                    font-family: $body-font;
-                    font-size: 16px;
+                display: flex;
+                align-items: center;
+                gap: 14px;
+                padding-bottom: 16px;
+                color: var(--800, #CCCCCD);
+                font-family: Urbanist;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px; 
+                @include breakpoint (max-xs) {
+                    flex-wrap: wrap;
+                    row-gap: 10px;
+                }
+                i {
+                    padding-right: 8px;
+                    color: var(--P, #B8E451);
+                    font-size: 12px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 26px;
-                }      
+                    line-height: normal;
+                }
+            }
+            &__subtitle{
+                color: #FFF;
+                font-family: Marcellus;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px; 
+                padding-bottom: 15px;
             }
             &__title{
-                padding-bottom: 36px;
+                color: var(--White, #FFF);
+                font-family: Marcellus;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 36px; 
+                padding-bottom: 15px;
+
             }
             &__link {
                 color: $theme-color;
