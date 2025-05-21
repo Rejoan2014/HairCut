@@ -2,130 +2,81 @@
 @use '../../utilities' as *;
 
 .service2 {
-    &-details {
+    position: relative;;
+    background: var(--White, #FFF);
+    &-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        border: 1px solid var(--200, #CCC);
         padding: 30px;
-        border-radius: 10px;
-        background: $white;
-        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
-        &__thumb {
-            padding-bottom: 18px;
-            border-radius: 10px;
-            img {
-                border-radius: 10px;
-            }
-        }
-        &-content {
-            &__title{
-                padding-bottom: 20px;
-                h3 {
-                    color: $title-color4;
-                    font-family: $title-font;
-                    font-size: 48px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 54px; 
-                    text-transform: capitalize;
-                    @include breakpoint (max-md){
-                        font-size: 34px;
-                        line-height: 42px; 
-                    }
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 30px;
+        &-item {
+            &__icon {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 120px;
+                height: 120px;
+                background: $theme-color;
+                border-radius: 5px;
+                img {
+                    width: 65px;
+                    height: 65px;
+                    aspect-ratio: 1/1;
                 }
+            }
+            &__numb {
+                color: var(--900, #010003);
+                font-family: Marcellus;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 50px; /* 125% */
+                max-width: 100px;
+            }
+            &__title {
+                color: var(--900, #010003);
+                font-family: Marcellus;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 50px; /* 125% */
+                max-width: 260px;
             }
             &__desc {
+                color: var(--900, #010003);
+                font-family: Urbanist;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px; 
+                opacity: 0.8;
                 padding-bottom: 20px;
-                p {
-                    color: $gray2;
-                    font-family: $body-font;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 26px; 
-                }
             }
+            &__link {
+                color: var(--900, #010003);
+                font-family: Urbanist;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 14px; /* 87.5% */
+                letter-spacing: 2px;
+                text-transform: uppercase;
 
-            &__desc2 {
-                padding-bottom: 23px;
-                p {
-                    color: $gray2;
-                    font-family: $body-font;
-                    font-size: 16px;
-                    font-style: normal;
+                i {
+                    color: #B8E451;
                     font-weight: 400;
-                    line-height: 26px; /* 162.5% */
                 }
             }
-            &__title2 {
-                padding-bottom: 24px;
-                h5 {
-                    color: $title-color4;
-                    font-family: $paragraph-font2;
-                    font-size: 30px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 40px; /* 133.333% */
-                    @include breakpoint (max-md){
-                        font-size: 20px;
-                    }
-                }
-            }
-            &__desc3 {
-                max-width: 713px;
-                padding-bottom: 33px;
-                p {
-                    color: $gray2;
-                    font-family: $body-font;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 26px; /* 162.5% */
-                }
-            }
-            &-thumb {
-                display: flex;
-                gap: 24px;
-                padding-bottom: 33px;
-
-                img {
-                    border-radius: 20px;
-                }
-            }
-            &__title3 {
-                padding-bottom: 24px;
-                h5 {
-                    color: $title-color4;
-                    font-family: $paragraph-font2;
-                    font-size: 30px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 40px; /* 133.333% */
-                    @include breakpoint (max-md){
-                        font-size: 20px;
-                    }
-                }
-            }
-            &-list {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 78px;
-                @include breakpoint (max-xxl){
-                    gap: 20px;
-                }
-            }
-            &__title4 {
-                padding-bottom: 24px;
-                padding-top: 24px;
-                h5 {
-                    color: $title-color4;
-                    font-family: $title-font;
-                    font-size: 30px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 40px; /* 133.333% */
-                    @include breakpoint (max-md){
-                        font-size: 20px;
-                    }
-                }
-            }
-        }        
+        }
+        &:hover {
+            background: var(--100, #FCF9EB);
+            border: 1px solid transparent;
+            @include transition;
+        }
     }
 }
