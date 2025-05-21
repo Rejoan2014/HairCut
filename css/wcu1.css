@@ -1806,20 +1806,19 @@ span {
 ----------------------------------------------*/
 .theme-btn.style1 {
   display: inline-flex;
-  height: 60px;
-  padding: 22px 25px;
+  height: 54px;
+  padding: 20px 20px;
   align-items: center;
   gap: 8px;
-  flex-shrink: 0;
-  border-radius: 40px;
-  border: 1px solid var(--theme);
-  background: var(--theme);
-  color: var(--White, #FFF);
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  border-radius: 5px;
+  background: var(--P, #B8E451);
+  color: var(--900, #010003);
+  font-family: Urbanist;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+  font-weight: 500;
+  line-height: 14px; /* 87.5% */
+  letter-spacing: 2px;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
@@ -1840,8 +1839,8 @@ span {
   display: inline-block;
 }
 .theme-btn.style1 i {
-  color: var(--white);
-  transform: rotate(-45deg);
+  color: var(--black);
+  font-weight: 400;
   transition: all 0.4s ease-in-out;
 }
 .theme-btn.style1:before {
@@ -1860,14 +1859,13 @@ span {
 }
 .theme-btn.style1:hover {
   color: var(--white) !important;
-  border: 1px solid var(--yellow2);
-}
-.theme-btn.style1:hover i {
-  transform: rotate(0deg);
-  transition: all 0.4s ease-in-out;
 }
 .theme-btn.style1:hover:before {
   top: -96%;
+}
+.theme-btn.style1:hover i {
+  color: var(--white);
+  transition: all 0.4s ease-in-out;
 }
 
 .theme-btn.style2 {

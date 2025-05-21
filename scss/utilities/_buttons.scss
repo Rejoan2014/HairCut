@@ -7,20 +7,19 @@
 .theme-btn {
     &.style1 {
         display: inline-flex;
-        height: 60px;
-        padding: 22px 25px;
+        height: 54px;
+        padding: 20px 20px;
         align-items: center;
         gap: 8px;
-        flex-shrink: 0;
-        border-radius: 40px;
-        border: 1px solid $theme-color;
-        background: $theme-color;
-        color: var(--White, #FFF);
-        font-family: $title-font2;
-        font-size: 15px;
+        border-radius: 5px;
+        background: var(--P, #B8E451);
+        color: var(--900, #010003);
+        font-family: Urbanist;
+        font-size: 16px;
         font-style: normal;
-        font-weight: 600;
-        line-height: normal;
+        font-weight: 500;
+        line-height: 14px; /* 87.5% */
+        letter-spacing: 2px;
         text-transform: uppercase;
 
         position: relative;
@@ -40,9 +39,8 @@
             display: inline-block;
         }
         i {
-            // margin-left: 8px;
-            color: $white;
-            transform: rotate(-45deg);
+            color: $black;
+            font-weight: 400;
             @include transition;
         }
         &:before {
@@ -61,16 +59,12 @@
         }
         &:hover {
             color: $white !important;
-            border: 1px solid $yellow2;
-
-            i {
-                transform: rotate(0deg);
-                @include transition;
-            }
-
-
             &:before {
                 top: -96%;
+            }
+            i {
+                color: $white;
+                @include transition;
             }
         }
     }  
