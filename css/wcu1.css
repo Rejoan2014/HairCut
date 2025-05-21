@@ -2290,6 +2290,10 @@ span {
   }
 }
 
+.mxw-405 {
+  max-width: 405px;
+}
+
 img {
   max-width: 100%;
   height: auto;
