@@ -50,8 +50,6 @@
                 display: flex;
                 align-items: center;
                 gap: 15px;
-                &__icon {
-                }
                 &__text {
                     color: var(--900, #010003);
                     font-family: Urbanist;
@@ -92,6 +90,14 @@
                         @include transition;
                     }
                     &-list {
+                        &-item {
+                            &__icon {
+                                svg path {
+                                    fill: $black;
+                                    @include transition;
+                                }
+                            }
+                        }
                         background-color: $theme-color;
                         @include transition;
 
