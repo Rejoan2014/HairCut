@@ -6519,7 +6519,7 @@ img {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 50px; /* 125% */
+  line-height: 50px;
 }
 .project2-card-content__link {
   display: inline-flex;
@@ -6539,16 +6539,43 @@ img {
   transform: rotate(-45deg);
   transition: all 0.4s ease-in-out;
 }
-.project2-card__thumb {
+.project2-card-thumb {
+  position: relative;
   max-height: 0;
   overflow: hidden;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(20px);
-  transition: max-height 0.5s ease, opacity 0.4s ease, transform 0.4s ease, visibility 0.4s ease;
   border-radius: 5px;
+  transition: all 0.4s ease-in-out;
 }
-.project2-card__thumb img {
+.project2-card-thumb-info {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  border-radius: 5px;
+  background: var(--P, #B8E451);
+  padding: 35px;
+  max-width: 544px;
+}
+.project2-card-thumb-info__title {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.project2-card-thumb-info__desc {
+  color: var(--900, #010003);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.8;
+}
+.project2-card-thumb img {
   border-radius: 5px;
   width: 100%;
   height: auto;
@@ -6565,11 +6592,10 @@ img {
   transform: rotate(45deg);
   transition: all 0.4s ease-in-out;
 }
-.project2-card:hover .project2-card__thumb {
+.project2-card:hover .project2-card-thumb {
   max-height: 1000px;
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
   transition: all 0.4s ease-in-out;
 }
 
