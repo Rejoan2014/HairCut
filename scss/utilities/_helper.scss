@@ -105,4 +105,13 @@
   border-radius: 5px;
   background: var(--100, #FCF9EB);
   padding: 130px 90px;
+  @include breakpoint (max-xl){
+    padding: 60px 40px;
+  }
+  @include breakpoint (max-md){
+    padding: 30px 30px;
+  }
+  @include breakpoint (max-xs){
+    padding: 20px 15px;
+  }
 }

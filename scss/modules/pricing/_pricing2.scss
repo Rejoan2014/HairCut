@@ -82,9 +82,24 @@
                 letter-spacing: 2px;
                 text-transform: uppercase;
                 cursor: pointer;
-                &:hover {
-                    color: $black;
-                    background: #B8E451;
+            }
+        }
+        &:hover {
+            .pricing2 {
+                &-card {
+                    &-header {
+                        background-color: $theme-color;
+                        @include transition;
+                    }
+                    &-list {
+                        background-color: $theme-color;
+                        @include transition;
+
+                        &__btn {
+                            background-color: $white;
+                            @include transition;
+                        }
+                    }
                 }
             }
         }

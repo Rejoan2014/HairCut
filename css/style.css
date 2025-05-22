@@ -2332,6 +2332,21 @@ span {
   background: var(--100, #FCF9EB);
   padding: 130px 90px;
 }
+@media (max-width: 1199px) {
+  .bg-pricing2 {
+    padding: 60px 40px;
+  }
+}
+@media (max-width: 767px) {
+  .bg-pricing2 {
+    padding: 30px 30px;
+  }
+}
+@media (max-width: 499px) {
+  .bg-pricing2 {
+    padding: 20px 15px;
+  }
+}
 
 img {
   max-width: 100%;
@@ -8443,9 +8458,17 @@ img {
   text-transform: uppercase;
   cursor: pointer;
 }
-.pricing2-card-list__btn:hover {
-  color: var(--black);
-  background: #B8E451;
+.pricing2-card:hover .pricing2-card-header {
+  background-color: var(--theme);
+  transition: all 0.4s ease-in-out;
+}
+.pricing2-card:hover .pricing2-card-list {
+  background-color: var(--theme);
+  transition: all 0.4s ease-in-out;
+}
+.pricing2-card:hover .pricing2-card-list__btn {
+  background-color: var(--white);
+  transition: all 0.4s ease-in-out;
 }
 
 /* 13. WCU */

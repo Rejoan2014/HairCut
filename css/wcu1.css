@@ -2303,6 +2303,21 @@ span {
   background: var(--100, #FCF9EB);
   padding: 130px 90px;
 }
+@media (max-width: 1199px) {
+  .bg-pricing2 {
+    padding: 60px 40px;
+  }
+}
+@media (max-width: 767px) {
+  .bg-pricing2 {
+    padding: 30px 30px;
+  }
+}
+@media (max-width: 499px) {
+  .bg-pricing2 {
+    padding: 20px 15px;
+  }
+}
 
 img {
   max-width: 100%;
