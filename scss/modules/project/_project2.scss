@@ -40,38 +40,48 @@
             }
         }
         &__thumb {
-            display: none;
+            max-height: 0;
+            overflow: hidden;
             opacity: 0;
             visibility: hidden;
-            @include transition;
+            transform: translateY(20px);
+            transition: max-height 0.5s ease, opacity 0.4s ease, transform 0.4s ease, visibility 0.4s ease;
 
             border-radius: 5px;
+
             img {
                 border-radius: 5px;
+                width: 100%;
+                height: auto;
+                display: block;
             }
         }
+
 
         &:hover {
             .project2 {
                 &-card {
                     &-content {
-                        border-bottom: none;
+                        border-bottom: 1px solid transparent;
                         &__link {
                             background: var(--P, #B8E451);
                             i {
                                 color: $black;
+                                transform: rotate(45deg);
                                 @include transition;
                             }
                         }
-                    }
+                    }    
                     &__thumb {
-                        display: block;
+                        max-height: 1000px; 
                         opacity: 1;
                         visibility: visible;
+                        transform: translateY(0);
                         @include transition;
                     }
                 }
             }
         }
+
     }
 }

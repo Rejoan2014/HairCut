@@ -6540,29 +6540,36 @@ img {
   transition: all 0.4s ease-in-out;
 }
 .project2-card__thumb {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.4s ease-in-out;
+  transform: translateY(20px);
+  transition: max-height 0.5s ease, opacity 0.4s ease, transform 0.4s ease, visibility 0.4s ease;
   border-radius: 5px;
 }
 .project2-card__thumb img {
   border-radius: 5px;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .project2-card:hover .project2-card-content {
-  border-bottom: none;
+  border-bottom: 1px solid transparent;
 }
 .project2-card:hover .project2-card-content__link {
   background: var(--P, #B8E451);
 }
 .project2-card:hover .project2-card-content__link i {
   color: var(--black);
+  transform: rotate(45deg);
   transition: all 0.4s ease-in-out;
 }
 .project2-card:hover .project2-card__thumb {
-  display: block;
+  max-height: 1000px;
   opacity: 1;
   visibility: visible;
+  transform: translateY(0);
   transition: all 0.4s ease-in-out;
 }
 
