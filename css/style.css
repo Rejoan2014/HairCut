@@ -8313,9 +8313,12 @@ img {
   background: var(--900, #010003);
 }
 .pricing1-card__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 5px 5px 0px 0px;
   background: var(--P, #B8E451);
-  padding: 13px 82px;
+  padding: 13px 20px;
   color: var(--900, #010003);
   font-family: Marcellus;
   font-size: 40px;
@@ -8323,6 +8326,12 @@ img {
   font-weight: 400;
   line-height: 50px;
   margin-bottom: 40px;
+}
+@media (max-width: 1199px) {
+  .pricing1-card__title {
+    padding: 5px 20px;
+    font-size: 30px;
+  }
 }
 .pricing1-card-list {
   padding: 0 30px 30px;
@@ -8348,6 +8357,11 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+}
+@media (max-width: 1399px) {
+  .pricing1-card-list-item__value span {
+    display: none;
+  }
 }
 .pricing1-card-list__btn {
   display: flex;
