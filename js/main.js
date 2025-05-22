@@ -480,6 +480,17 @@
       });
     });
 
+    /*-----------------------------------
+      Project two hover effect
+    -----------------------------------*/
+    $(document).ready(function () {
+      $('.project2-card').on('mouseenter', function () {
+        $('.project2-card').removeClass('active'); 
+        $(this).addClass('active'); 
+      });
+    });
+
+
     
     /*-----------------------------------
       Tab section
