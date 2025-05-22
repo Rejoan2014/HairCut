@@ -2298,6 +2298,10 @@ span {
   max-width: 363px;
 }
 
+.mxw-570 {
+  max-width: 570px;
+}
+
 .bg-pricing2 {
   border-radius: 5px;
   background: var(--100, #FCF9EB);

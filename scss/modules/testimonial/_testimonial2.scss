@@ -5,22 +5,16 @@
   background: var(--700, #131215);
   &-card {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    padding: 50px 50px 50px 109px;
+    padding: 70px 40px 40px;
     border-radius: 5px;
+    border: 2px solid rgba(204, 204, 204, 0.20);
     background: var(--900, #010003);
-    margin-left: 95px;
-    margin-bottom: 40px;
     @include breakpoint (max-sm){
         padding: 20px;
     }
     &__thumb {
-      flex: none;
       position: absolute;
-      left: -90px;
+      top: -40px;
     }
 
     &-content {
@@ -37,17 +31,8 @@
               }
             }
         }
-        &__title {
-          color: var(--White, #FFF);
-          font-family: Marcellus;
-          font-size: 22px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 30px; 
-          padding-bottom: 10px;
-        }
         &__desc{
-          color: var(--800, #CCCCCD);
+          color: var(--White, #FFF);
           font-family: Urbanist;
           font-size: 16px;
           font-style: normal;
