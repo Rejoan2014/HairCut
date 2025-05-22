@@ -1870,19 +1870,20 @@ span {
 
 .theme-btn.style2 {
   display: inline-flex;
-  height: 60px;
-  padding: 17px 30px;
+  height: 54px;
+  padding: 20px 20px;
   align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 999px;
-  background: var(--yellow2);
-  color: #FFF;
-  font-family: "Urbanist", sans-serif;
+  gap: 8px;
+  border-radius: 5px;
+  border: 1px solid var(--900, #010003);
+  background: var(--white);
+  color: var(--900, #010003);
+  font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 26px;
+  font-weight: 500;
+  line-height: 14px; /* 87.5% */
+  letter-spacing: 2px;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
@@ -1903,7 +1904,9 @@ span {
   display: inline-block;
 }
 .theme-btn.style2 i {
-  margin-left: 10px;
+  color: var(--black);
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
 }
 .theme-btn.style2:before {
   transition-duration: 800ms;
@@ -1914,6 +1917,7 @@ span {
   top: 162%;
   left: 50%;
   background: var(--theme);
+  border: 1px solid var(--theme);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%) rotate(-8deg);
   border-radius: 80%;
@@ -1921,9 +1925,14 @@ span {
 }
 .theme-btn.style2:hover {
   color: var(--white) !important;
+  border: 1px solid var(--theme);
 }
 .theme-btn.style2:hover:before {
   top: -96%;
+}
+.theme-btn.style2:hover i {
+  color: var(--white);
+  transition: all 0.4s ease-in-out;
 }
 
 .theme-btn.style3 {

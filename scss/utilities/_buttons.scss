@@ -73,19 +73,20 @@
 .theme-btn {
     &.style2 {
         display: inline-flex;
-        height: 60px;
-        padding: 17px 30px;
+        height: 54px;
+        padding: 20px 20px;
         align-items: center;
-        gap: 10px;
-        flex-shrink: 0;
-        border-radius: 999px;
-        background: $yellow2;
-        color: #FFF;
-        font-family: $body-font;
+        gap: 8px;
+        border-radius: 5px;
+        border: 1px solid var(--900, #010003);
+        background: $white;
+        color: var(--900, #010003);
+        font-family: Urbanist;
         font-size: 16px;
         font-style: normal;
-        font-weight: 700;
-        line-height: 26px; 
+        font-weight: 500;
+        line-height: 14px; /* 87.5% */
+        letter-spacing: 2px;
         text-transform: uppercase;
 
         position: relative;
@@ -105,7 +106,9 @@
             display: inline-block;
         }
         i {
-            margin-left: 10px;
+            color: $black;
+            font-weight: 400;
+            @include transition;
         }
         &:before {
             transition-duration: 800ms;
@@ -116,6 +119,8 @@
             top: 162%;
             left: 50%;
             background: $theme-color;
+            border: 1px solid $theme-color;
+
             -webkit-transform: translateX(-50%);
             transform: translateX(-50%) rotate(-8deg);
             border-radius: 80%;
@@ -123,8 +128,13 @@
         }
         &:hover {
             color: $white !important;
+            border: 1px solid $theme-color;
             &:before {
                 top: -96%;
+            }
+            i {
+                color: $white;
+                @include transition;
             }
         }
     } 
