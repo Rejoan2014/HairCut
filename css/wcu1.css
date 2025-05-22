@@ -2298,6 +2298,12 @@ span {
   max-width: 363px;
 }
 
+.bg-pricing2 {
+  border-radius: 5px;
+  background: var(--100, #FCF9EB);
+  padding: 130px 90px;
+}
+
 img {
   max-width: 100%;
   height: auto;
