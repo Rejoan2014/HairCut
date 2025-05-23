@@ -2,162 +2,133 @@
 @use '../../utilities' as *;
 
 .team2 {
-    &-profile {
-        &__thumb {
-            padding: 30px;
-            border-radius: 20px;
-            background: $white;
-            box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
-            margin-bottom: 70px;
-            img {
-                border-radius: 20px;
+    background-color: $white;
+    &-card {
+        position: relative;
+        border-radius: 999px 999px 5px 5px;
+        background: linear-gradient(180deg, rgba(255, 165, 0, 0.70) 0%, rgba(255, 165, 0, 0.00) 100%);
+
+        &-thumb {
+            position: relative;
+            &__img {
+                position: relative;
+                padding: 31px 30px 0;
+                text-align: center;
+                &-shape {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+                img {
+                    position: relative;
+                    z-index: 5;
+                    width: 252px;
+                    height: 320px;
+                }
             }
-        }
-        &__title {
-            padding-bottom: 22px;
-            h5 {
+            &__ratting {
+                position: absolute;
+                top: 20px;
+                left: 20px;            
+                z-index: 9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 7px;
+                border-radius: 50px;
+                background: #F5D04A;
+                width: 75px;
+                height: 30px;
+                flex-shrink: 0;
                 color: $title-color;
-                font-family: $title-font;
-                font-size: 30px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 40px; /* 133.333% */
-            }
-        }
-        &__desc {
-            p {
-                color: $gray2;
                 font-family: $body-font;
                 font-size: 16px;
                 font-style: normal;
-                font-weight: 400;
+                font-weight: 500;
                 line-height: 26px; /* 162.5% */
             }
-        }
-    }
-    &-content {
-        padding-left: 0px;
-        @include breakpoint (xl) {
-            padding-left: 54px;
-        } 
-        &__name {
-            padding-bottom: 10px;
-            color: $title-color;
-            font-family: $title-font;
-            font-size: 36px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 46px; 
-            @include breakpoint (max-md){
-                font-size: 32px;
-                line-height: 30px; 
-            }
-            @include breakpoint (max-xs){
-                font-size: 30px;
-                line-height: 30px; 
-            }
-        }
-        &__designation {
-            margin-bottom: 25px;
-            color: $theme-color;
-            font-family: $body-font;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 24px; /* 171.429% */
-        }
-        .global-social5 {
-            justify-content: start;
-            padding-bottom: 32px;
-        }
-        &__desc {
-            color: $gray2;
-            font-family: $body-font;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 26px;
-            padding-bottom: 26px;
-        }
-        &-contact {
-            padding-bottom: 76px;
-            @include breakpoint (max-xl){
-                padding-bottom: 40px;
-            }
-            ul li {
-                strong {
-                    color: $title-color;
-                    font-family: $title-font;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 28px; /* 155.556% */
-                    min-width: 187px;
-                    @include breakpoint (max-sm){
-                        min-width: 160px;
-                    }
-                    @include breakpoint (max-xxsmall){
-                        min-width: 110px;
-                    }
+            &__link {
+                opacity: 0;
+                visibility: hidden;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                position: absolute;
+                top: 50%;
+                left: 30%;            
+                z-index: 9;
+                img {
+                    border-radius: 30px;
+                     background: $title-color2;
+                    padding: 9px;
+                    width: 32px;
+                    height: 32px;
+                    flex-shrink: 0;
                 }
-                span {
-                    color: $gray2;
+                p {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 20px;
+                    border-radius: 30px;
+                     background: $title-color2;
+                    color: $title-color;
                     font-family: $body-font;
                     font-size: 16px;
                     font-style: normal;
-                    font-weight: 400;
-                    line-height: 26px; 
+                    font-weight: 500;
+                    line-height: 56px; /* 350% */
+                    width: 101px;
+                    height: 32px;
                 }
             }
+
         }
-        &-progress {
+        &-content {
+            text-align: center;
+            padding: 25px 30px 25px;
+            background: #D9EADE;
             &__title {
-                color: $title-color;
-                font-family: $title-font;
-                font-size: 30px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 40px;
-            }
-            &__desc {
-                color: $gray2;
-                font-family: $body-font;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 26px;
-            }
-        }
-        &-form {
-            padding-top: 78px;
-            @include breakpoint (max-md) {
-                padding-top: 40px;
-            }
-            &__title {
-                padding-bottom: 13px;
-            }
-            &__desc {
-                padding-bottom: 30px;
-            }
-        }
-    }
-    &-form {
-        padding: 50px 40px 60px;
-        border-radius: 30px;
-        background: $white;
-        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.08);
-        text-align: center;
-        &__title {
-            padding-bottom: 26px;
-            h6 {
                 color: $title-color;
                 text-align: center;
-                font-family: $paragraph-font2;
-                font-size: 36px;
+                font-family: $body-font;
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 600;
-                line-height: 46px;
+                line-height: 24px; /* 120% */
+                padding-bottom: 8px;
             }
+            &__desc {
+                color: $title-color;
+                text-align: center;
+                font-family: $body-font;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+                opacity: 0.6;
+            }
+        }
+        &:hover {
+            .team2 {
+                &-card {
+                    &-thumb {
+                        &__img {            
+                            &::before {
+                                opacity: 1;
+                                visibility: visible;
+                                @include transition;
+                            }
+                        }
+                        &__link {
+                            opacity: 1;
+                            visibility: visible;
+                            @include transition;
+                        }
+                    }
+                }
+            }            
         }
     }
 }
