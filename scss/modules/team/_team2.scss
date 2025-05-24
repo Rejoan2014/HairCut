@@ -47,6 +47,7 @@
                 flex-shrink: 0;
                 border-radius: 5px;
                 border: 1px solid var(--P, #B8E451);
+                cursor: pointer; 
                 i {
                     color: $black;
                 }
@@ -58,14 +59,25 @@
         &-thumb {
             padding: 30px;
             position: relative;  
-            border-radius: 5px;
             border: 1px solid #FFA500;
-            background: var(--100, #FCF9EB);  
+            border-bottom: none;
+            border-radius: 5px;
+            background: var(--100, #FCF9EB);
+            &__desc {
+                color: var(--900, #010003);
+                font-family: Urbanist;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px; 
+                opacity: 0.8;
+                padding-top: 32px;
+            }  
         }
         &-content {
             padding: 25px 30px 25px;
             border-radius: 0px 0px 5px 5px;
-            background: var(--100, #FCF9EB);
+            background: var(--P, #B8E451);
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -97,9 +109,10 @@
                 align-items: center;
                 flex-shrink: 0;
                 border-radius: 5px;
-                border: 1px solid var(--P, #B8E451);
+                background: var(--900, #010003);
+                cursor: pointer;
                 i {
-                    color: $black;
+                    color: $white;
                 }
             }
         }
