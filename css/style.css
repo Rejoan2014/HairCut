@@ -3135,48 +3135,66 @@ img {
 
 .counter {
   position: relative;
-  background: linear-gradient(90deg, #3CA200 0%, #16171A 100%);
-}
-.counter-shape1 {
-  position: absolute;
-  top: 0;
-}
-@media (max-width: 1199px) {
-  .counter-shape1 {
-    display: none;
-  }
-}
-.counter-shape2 {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-@media (max-width: 1199px) {
-  .counter-shape2 {
-    display: none;
-  }
 }
 .counter-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 50px;
+}
+@media (max-width: 1599px) {
+  .counter-item {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .counter-item {
+    justify-content: space-around;
+  }
+}
+.counter-item-box {
+  padding: 53px 0 30px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px dashed var(--200, #CCC);
+  background: var(--100, #FCF9EB);
+  width: 320px;
+  height: 159px;
+}
+.counter-item-box__icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border: 1px dashed var(--200, #CCC);
+  background: var(--100, #FCF9EB);
+  border-radius: 50px;
+}
+.counter-item-box__icon img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
 }
 .counter-item-box__value {
-  display: flex;
-  align-items: center;
-  color: var(--White, #FFF);
-  font-family: "Urbanist", sans-serif;
-  font-size: 64px;
+  color: var(--900, #010003);
+  text-align: center;
+  font-family: Marcellus;
+  font-size: 40px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 26px; /* 40.625% */
+  font-weight: 400;
+  line-height: 50px;
   padding-bottom: 14px;
 }
 @media (max-width: 767px) {
   .counter-item-box__value {
-    font-size: 54px;
+    font-size: 24px;
   }
 }
 .counter-item-box__value img {
@@ -3184,12 +3202,17 @@ img {
   padding-bottom: 7px;
 }
 .counter-item-box__label p {
-  color: var(--White, #FFF);
-  font-family: "Marcellus", serif;
-  font-size: 24px;
+  color: var(--900, #010003);
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 34px; /* 141.667% */
+  font-weight: 400;
+  line-height: 22px;
+}
+.counter-item-box:hover .counter-item-box__icon {
+  background: var(--theme);
+  border: 1px solid var(--theme);
 }
 
 .counter2-item {
