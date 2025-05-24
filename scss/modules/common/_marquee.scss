@@ -6,8 +6,8 @@
 	position: relative;
 	overflow: hidden;
 	white-space: nowrap;
-	height: 185px;
-	padding-top: 60px;
+	height: 107px;
+	padding-top: 22px;
 	background: $theme-color;
 	z-index: 9;
 
@@ -32,12 +32,12 @@
 }
 
 .text-slider {
-	font-family: $title-color;
-	font-size: 48px;
+	color: var(--900, #010003);
+	font-family: Marcellus;
+	font-size: 50px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 57.6px;
-	color: $white;
+	line-height: 50px; 
 
 
 	@include breakpoint (max-md) {
@@ -92,14 +92,12 @@
 
 	&.style-2 {
 		.text-slider {
-            color: $white;
-            font-family: $title-font;
-            font-size: 60px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: 66px; 
-            letter-spacing: -1.2px;
-            text-transform: uppercase;
+			color: var(--900, #010003);
+			font-family: Marcellus;
+			font-size: 50px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 50px; 
             padding-right: 40px;
 
 			@include breakpoint (max-md) {
