@@ -3749,10 +3749,9 @@ img {
 }
 .faq-content .accordion-item {
   margin-bottom: 25px;
-  border-radius: 50px;
-  border: 1px solid var(--border);
+  border-radius: 6px;
+  border: 1px solid rgba(31, 31, 31, 0.12);
   overflow: hidden;
-  background-color: gainsboro;
 }
 .faq-content .accordion-item .accordion-header .accordion-button {
   height: 60px;
@@ -3762,12 +3761,13 @@ img {
   border: none;
   border-radius: 0;
   box-shadow: none;
-  background: #16171A;
+  background: #4D7B6B;
   color: var(--white);
-  font-family: "Archivo", sans-serif;
-  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 22px;
+  font-style: normal;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 28px;
   padding: 0 30px;
 }
 @media (max-width: 575px) {
@@ -3782,17 +3782,19 @@ img {
 }
 .faq-content .accordion-item .accordion-header .accordion-button.collapsed {
   padding: 0 30px;
+  background: var(--white);
+  color: var(--title);
 }
 .faq-content .accordion-item .accordion-header .accordion-button:after {
   font-weight: 500;
   transition: all 0.3s ease-in-out !important;
-  background-image: url(../images/icon/faq-icon1.svg);
+  background-image: url(../images/icon/faq1.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 18px 18px;
 }
 .faq-content .accordion-item .accordion-header .accordion-button:not(.collapsed):after {
-  background-image: url(../images/icon/faq-icon2.svg);
+  background-image: url(../images/icon/faq2.svg);
   transform: rotate(0deg);
 }
 .faq-content .accordion-item .accordion-collapse {
@@ -3800,10 +3802,12 @@ img {
 }
 .faq-content .accordion-item .accordion-collapse .accordion-body {
   padding: 20px 30px 23px;
-  background-color: #16171A;
-  color: var(--smoke);
-  font-family: "Archivo", sans-serif;
+  background-color: var(--theme2);
+  box-shadow: 0px 1px 2px 0px rgba(13, 18, 30, 0.08);
+  color: var(--white);
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 26px;
 }
@@ -8611,106 +8615,91 @@ img {
 }
 
 /* 15. FAQ */
-.faq1 {
-  position: relative;
-  background: var(--title);
-}
-.faq1__shape1 {
-  position: relative;
-  z-index: 5;
-  width: 100%;
-}
-@media (max-width: 1399px) {
-  .faq1__shape1 {
-    display: none;
-  }
-}
-.faq1__shape1::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--smoke2);
-  z-index: -1;
-}
-.faq1__shape1 img {
-  position: relative;
-  z-index: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.faq1__shape1__thumb {
-  position: absolute;
-  z-index: 9;
-  right: 0;
-  bottom: 0;
-}
-@media (max-width: 1799px) {
-  .faq1__shape1__thumb {
-    width: 36%;
-  }
-}
-.faq1-content {
-  position: absolute;
-  max-width: 570px;
-  top: 12%;
-  z-index: 9;
-}
-@media (max-width: 1699px) {
-  .faq1-content {
-    top: 6%;
-  }
-}
-@media (max-width: 1599px) {
-  .faq1-content {
-    top: 1%;
-  }
-}
-@media (max-width: 1399px) {
-  .faq1-content {
-    position: static;
-    padding: 70px 0;
-  }
-}
-.faq1-content-btn {
-  display: flex;
-  gap: 30px;
-}
-@media (max-width: 575px) {
-  .faq1-content-btn {
-    flex-direction: column;
-  }
-}
-.faq1-content-btn-item {
-  position: relative;
-}
-.faq1-content-btn-item p {
-  padding: 35px 22px 35px 63px;
+.faq1-card {
+  padding: 50px 50px;
   border-radius: 20px;
-  border: 1px solid var(--gray2);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 283px;
-  height: 84px;
-  color: #FFF;
-  font-family: "Marcellus", serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 30px; /* 150% */
+  background: var(--theme);
 }
 @media (max-width: 767px) {
-  .faq1-content-btn-item p {
-    padding: 35px 22px 35px 60px;
-    width: 244px;
-    height: 71px;
-    font-size: 16px;
+  .faq1-card {
+    padding: 30px 30px;
   }
 }
-.faq1-content-btn-item__icon {
-  position: absolute;
-  top: 0;
+.faq1-card__thumb {
+  padding-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .faq1-card__thumb {
+    padding-bottom: 20px;
+  }
+}
+.faq1-card__title {
+  color: var(--title);
+  font-family: "Urbanist", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  padding-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .faq1-card__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+.faq1-card__desc {
+  color: var(--title);
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+  opacity: 0.7;
+  padding-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .faq1-card__desc {
+    padding-bottom: 30px;
+  }
+}
+.faq1-card-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 85px;
+}
+@media (max-width: 767px) {
+  .faq1-card-item {
+    padding-top: 50px;
+  }
+}
+.faq1-card-item-text__title {
+  color: var(--title);
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  padding-bottom: 10px;
+}
+.faq1-card-item-text__desc {
+  color: rgba(31, 31, 31, 0.7);
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+  text-transform: uppercase;
+}
+.faq1-content .section-top {
+  padding-bottom: 45px;
+}
+@media (max-width: 991px) {
+  .faq1-content .section-top {
+    padding-bottom: 7px;
+  }
 }
 
 /* 16. Work Process */
