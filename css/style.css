@@ -3759,15 +3759,15 @@ img {
   align-items: center;
   justify-content: space-between;
   border: none;
-  border-radius: 0;
-  box-shadow: none;
-  background: #4D7B6B;
-  color: var(--white);
-  font-family: "Urbanist", sans-serif;
+  border-radius: 5px;
+  background: var(--700, #131215);
+  box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
+  color: var(--White, #FFF);
+  font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 28px;
+  font-weight: 400;
+  line-height: 30px;
   padding: 0 30px;
 }
 @media (max-width: 575px) {
@@ -3782,8 +3782,10 @@ img {
 }
 .faq-content .accordion-item .accordion-header .accordion-button.collapsed {
   padding: 0 30px;
-  background: var(--white);
-  color: var(--title);
+  border-radius: 5px;
+  background: var(--700, #131215);
+  box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
+  color: var(--white);
 }
 .faq-content .accordion-item .accordion-header .accordion-button:after {
   font-weight: 500;
@@ -3802,8 +3804,9 @@ img {
 }
 .faq-content .accordion-item .accordion-collapse .accordion-body {
   padding: 20px 30px 23px;
-  background-color: var(--theme2);
-  box-shadow: 0px 1px 2px 0px rgba(13, 18, 30, 0.08);
+  border-radius: 5px;
+  background: var(--700, #131215);
+  box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
   color: var(--white);
   font-family: "Urbanist", sans-serif;
   font-size: 16px;
@@ -6342,6 +6345,19 @@ img {
   text-transform: uppercase;
   margin-bottom: 12px;
 }
+.section-top__subtitle2 {
+  display: flex;
+  gap: 8px;
+  color: var(--white);
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
 .section-top__title {
   color: var(--black);
   font-feature-settings: "liga" off, "clig" off;
@@ -6395,6 +6411,35 @@ img {
     font-size: 30px;
     line-height: 40px;
   }
+}
+.section-top__title3 {
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+}
+@media (max-width: 1199px) {
+  .section-top__title3 {
+    font-size: 38px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 767px) {
+  .section-top__title3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .section-top__title3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+.section-top__title3 span {
+  color: #B8E451;
 }
 .section-top__desc {
   color: var(--900, #010003);

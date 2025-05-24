@@ -23,16 +23,16 @@
           justify-content: space-between;
   
           border: none;
-          border-radius: 0;
-          box-shadow: none;
-          background: #4D7B6B;
+          border-radius: 5px;
+          background: var(--700, #131215);
+          box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
 
-          color: $white;
-          font-family: $body-font;
+          color: var(--White, #FFF);
+          font-family: Marcellus;
           font-size: 22px;
           font-style: normal;
-          font-weight: 600;
-          line-height: 28px;
+          font-weight: 400;
+          line-height: 30px; 
 
           padding: 0 30px;
           @include breakpoint (max-sm) {
@@ -44,8 +44,10 @@
   
           &.collapsed {
             padding: 0 30px;
-            background: $white;
-            color: $title-color;
+            border-radius: 5px;
+            background: var(--700, #131215);
+            box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
+            color: $white;
           }
   
           &:after {
@@ -69,8 +71,9 @@
   
         .accordion-body {
           padding: 20px 30px 23px;
-          background-color: $theme-color2;
-          box-shadow: 0px 1px 2px 0px rgba(13, 18, 30, 0.08);
+          border-radius: 5px;
+          background: var(--700, #131215);
+          box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
           color: $white;
           font-family: $body-font;
           font-size: 16px;
