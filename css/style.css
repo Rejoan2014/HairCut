@@ -8685,6 +8685,24 @@ img {
   width: 100%;
 }
 
+.faq2-thumb {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px dashed var(--P, #B8E451);
+  background: linear-gradient(0deg, #B8E451 0%, rgba(184, 228, 81, 0) 100%);
+}
+@media (max-width: 991px) {
+  .faq2-thumb {
+    margin-bottom: 30px;
+  }
+}
+.faq2-content {
+  width: 100%;
+}
+
 /* 16. Work Process */
 .workProcess1 {
   position: relative;
