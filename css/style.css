@@ -8667,91 +8667,22 @@ img {
 }
 
 /* 15. FAQ */
-.faq1-card {
-  padding: 50px 50px;
-  border-radius: 20px;
-  background: var(--theme);
-}
-@media (max-width: 767px) {
-  .faq1-card {
-    padding: 30px 30px;
-  }
-}
-.faq1-card__thumb {
-  padding-bottom: 40px;
-}
-@media (max-width: 767px) {
-  .faq1-card__thumb {
-    padding-bottom: 20px;
-  }
-}
-.faq1-card__title {
-  color: var(--title);
-  font-family: "Urbanist", sans-serif;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
-  padding-bottom: 20px;
-}
-@media (max-width: 767px) {
-  .faq1-card__title {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
-.faq1-card__desc {
-  color: var(--title);
-  font-family: "Urbanist", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  padding-bottom: 20px;
-  opacity: 0.7;
-  padding-bottom: 60px;
-}
-@media (max-width: 767px) {
-  .faq1-card__desc {
-    padding-bottom: 30px;
-  }
-}
-.faq1-card-item {
-  display: flex;
+.faq1-thumb {
+  display: inline-flex;
   align-items: center;
-  gap: 15px;
-  padding-top: 85px;
-}
-@media (max-width: 767px) {
-  .faq1-card-item {
-    padding-top: 50px;
-  }
-}
-.faq1-card-item-text__title {
-  color: var(--title);
-  font-family: "Urbanist", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px; /* 150% */
-  padding-bottom: 10px;
-}
-.faq1-card-item-text__desc {
-  color: rgba(31, 31, 31, 0.7);
-  font-family: "Urbanist", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px; /* 187.5% */
-  text-transform: uppercase;
-}
-.faq1-content .section-top {
-  padding-bottom: 45px;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px dashed var(--P, #B8E451);
+  background: linear-gradient(0deg, #B8E451 0%, rgba(184, 228, 81, 0) 100%);
 }
 @media (max-width: 991px) {
-  .faq1-content .section-top {
-    padding-bottom: 7px;
+  .faq1-thumb {
+    margin-bottom: 30px;
   }
+}
+.faq1-content {
+  width: 100%;
 }
 
 /* 16. Work Process */
