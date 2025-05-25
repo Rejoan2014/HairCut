@@ -2543,8 +2543,8 @@ img {
 
 .social-profile {
   position: absolute;
-  right: 44%;
-  bottom: 0;
+  right: 50px;
+  bottom: 20px;
   max-height: 380px;
   content: "";
   -webkit-transition: all 0.4s ease-in-out;
@@ -2575,7 +2575,7 @@ img {
   -o-border-radius: 144px;
 }
 .social-profile ul li {
-  background-color: var(--theme2);
+  background-color: var(--black);
   margin-bottom: 8px;
   display: block;
   text-align: center;
@@ -2606,6 +2606,7 @@ img {
   flex-shrink: 0;
   line-height: 44px;
   text-align: center;
+  border-radius: 6px;
   font-size: 18px;
   display: inline-block;
   background-color: var(--theme);
@@ -2613,10 +2614,10 @@ img {
   transition: all 0.4s ease-in-out;
 }
 .social-profile .plus-btn:hover {
-  background-color: var(--theme2);
+  background-color: var(--theme);
 }
 .social-profile .plus-btn:hover i {
-  color: var(--white);
+  color: var(--title);
 }
 .social-profile:hover ul {
   transform: translateY(-10%);
