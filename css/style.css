@@ -8545,6 +8545,64 @@ img {
   opacity: 0.75;
 }
 
+.wcu2 {
+  position: relative;
+  background-color: var(--white);
+}
+.wcu2-thumb {
+  position: relative;
+}
+.wcu2-thumb__img {
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+@media (max-width: 991px) {
+  .wcu2-thumb__img {
+    text-align: start;
+  }
+  .wcu2-thumb__img img {
+    width: 100%;
+  }
+}
+.wcu2-thumb__shape1 {
+  position: absolute;
+  top: -64px;
+  right: -43px;
+  z-index: 5;
+}
+@media (max-width: 1199px) {
+  .wcu2-thumb__shape1 {
+    display: none;
+  }
+}
+.wcu2-content__desc {
+  color: var(--900, #010003);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  opacity: 0.8;
+}
+.wcu2-content-checklist {
+  padding-bottom: 15px;
+}
+.wcu2-content-checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 12px;
+}
+.wcu2-content-checklist-item__text {
+  color: var(--900, #010003);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
 /* 14. Team */
 .team1 {
   background-color: var(--white);
