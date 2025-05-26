@@ -8,11 +8,12 @@
 
 .footer2 {
   position: relative;
+  background: var(--700, #131215);
   &-shape1 {
     position: absolute;
-    top: 68px;
+    top: 0;
     z-index: 5;
-    opacity: 0.2;
+    opacity: 0.1;
     @include breakpoint (max-xl2){
      display: none;
     }
@@ -20,9 +21,8 @@
   &-shape2 {
       position: absolute;
       right: 0;
-      bottom: 20%;
       z-index: 5;
-      opacity: 0.2;
+      opacity: 0.1;
       @include breakpoint (max-xl2){
       display: none;
       }
@@ -208,7 +208,7 @@
     z-index: 9;
     &-logoInfo {
       padding-bottom: 70px;
-      padding-top: 32px;
+      padding-top: 75px;
       @include breakpoint (max-lg){
         padding-bottom: 25px;
       }
@@ -223,15 +223,15 @@
         font-weight: 400;
         line-height: 26px; 
         padding-bottom: 22px;
+        @include breakpoint (xl){
+          padding-right: 60px;
+        }
       }
     }
 
     &-service {
       padding-bottom: 70px;
-      padding-top: 32px;
-      @include breakpoint (xxl){
-        padding-left: 65px;
-      }
+      padding-top: 75px;
       @include breakpoint (max-lg){
         padding-bottom: 25px;
       }
@@ -251,7 +251,7 @@
       &-list {
         &__item {    
           &:not(:last-child) {
-            padding-bottom: 10px;
+            padding-bottom: 20px;
           }
           a {
             color: var(--White, #FFF);
@@ -273,7 +273,7 @@
     }
     &-about {
       padding-bottom: 70px;
-      padding-top: 32px;
+      padding-top: 75px;
       @include breakpoint (xxl){
         padding-left: 65px;
       }
@@ -296,7 +296,7 @@
       &-list {
         &__item {    
           &:not(:last-child) {
-            padding-bottom: 10px;
+            padding-bottom: 20px;
           }
           a {
             color: var(--White, #FFF);
@@ -318,7 +318,7 @@
     }
     &-link {
       padding-bottom: 70px;
-      padding-top: 32px;
+      padding-top: 75px;
       @include breakpoint (max-lg){
         padding-bottom: 25px;
       }
@@ -355,7 +355,7 @@
     }    
     &-contact {
       padding-bottom: 100px;
-      padding-top: 32px;
+      padding-top: 75px;
       @include breakpoint (max-md){
         padding-bottom: 0px;
         padding-top: 7px;
@@ -375,7 +375,7 @@
         }
         &__item {    
           &:not(:last-child) {
-            padding-bottom: 10px;
+            padding-bottom: 40px;
           }
           a {
             display: flex !important;

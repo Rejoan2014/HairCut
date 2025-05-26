@@ -9541,12 +9541,13 @@ img {
 ----------------------------------------------*/
 .footer2 {
   position: relative;
+  background: var(--700, #131215);
 }
 .footer2-shape1 {
   position: absolute;
-  top: 68px;
+  top: 0;
   z-index: 5;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 @media (max-width: 1699px) {
   .footer2-shape1 {
@@ -9556,9 +9557,8 @@ img {
 .footer2-shape2 {
   position: absolute;
   right: 0;
-  bottom: 20%;
   z-index: 5;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 @media (max-width: 1699px) {
   .footer2-shape2 {
@@ -9781,7 +9781,7 @@ img {
 }
 .footer2-wrapper-logoInfo {
   padding-bottom: 70px;
-  padding-top: 32px;
+  padding-top: 75px;
 }
 @media (max-width: 991px) {
   .footer2-wrapper-logoInfo {
@@ -9800,14 +9800,14 @@ img {
   line-height: 26px;
   padding-bottom: 22px;
 }
+@media (min-width: 1200px) {
+  .footer2-wrapper-logoInfo__desc {
+    padding-right: 60px;
+  }
+}
 .footer2-wrapper-service {
   padding-bottom: 70px;
-  padding-top: 32px;
-}
-@media (min-width: 1400px) {
-  .footer2-wrapper-service {
-    padding-left: 65px;
-  }
+  padding-top: 75px;
 }
 @media (max-width: 991px) {
   .footer2-wrapper-service {
@@ -9830,7 +9830,7 @@ img {
   padding-bottom: 27px;
 }
 .footer2-wrapper-service-list__item:not(:last-child) {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .footer2-wrapper-service-list__item a {
   color: var(--White, #FFF);
@@ -9849,7 +9849,7 @@ img {
 }
 .footer2-wrapper-about {
   padding-bottom: 70px;
-  padding-top: 32px;
+  padding-top: 75px;
 }
 @media (min-width: 1400px) {
   .footer2-wrapper-about {
@@ -9877,7 +9877,7 @@ img {
   padding-bottom: 27px;
 }
 .footer2-wrapper-about-list__item:not(:last-child) {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .footer2-wrapper-about-list__item a {
   color: var(--White, #FFF);
@@ -9896,7 +9896,7 @@ img {
 }
 .footer2-wrapper-link {
   padding-bottom: 70px;
-  padding-top: 32px;
+  padding-top: 75px;
 }
 @media (max-width: 991px) {
   .footer2-wrapper-link {
@@ -9931,7 +9931,7 @@ img {
 }
 .footer2-wrapper-contact {
   padding-bottom: 100px;
-  padding-top: 32px;
+  padding-top: 75px;
 }
 @media (max-width: 767px) {
   .footer2-wrapper-contact {
@@ -9954,7 +9954,7 @@ img {
   }
 }
 .footer2-wrapper-contact-list__item:not(:last-child) {
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 .footer2-wrapper-contact-list__item a {
   display: flex !important;
