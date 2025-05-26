@@ -8,6 +8,9 @@
     position: absolute;
     right: 0;
     top: 0;
+    @include breakpoint (max-xxl){
+      display: none;
+    }
   }
   &-card {
     border-radius: 5px;

@@ -7466,6 +7466,11 @@ img {
   right: 0;
   top: 0;
 }
+@media (max-width: 1399px) {
+  .testimonial4__thumb {
+    display: none;
+  }
+}
 .testimonial4-card {
   border-radius: 5px;
   background: var(--700, #131215);
