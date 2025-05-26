@@ -7458,65 +7458,70 @@ img {
 }
 
 .testimonial4 {
-  background: var(--700, #131215);
+  background: var(--100, #FCF9EB);
 }
 .testimonial4-card {
+  border-radius: 5px;
+  background: var(--700, #131215);
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25px;
-  padding: 50px 50px 50px 109px;
-  border-radius: 5px;
-  background: var(--900, #010003);
-  margin-left: 95px;
-  margin-bottom: 40px;
-}
-@media (max-width: 575px) {
-  .testimonial4-card {
-    padding: 20px;
-  }
 }
 .testimonial4-card__thumb {
   flex: none;
-  position: absolute;
-  left: -90px;
 }
-.testimonial4-card-content__star {
-  padding-bottom: 10px;
+.testimonial4-card-content {
+  padding: 30px;
 }
-.testimonial4-card-content__star i {
-  color: #FFA800;
+.testimonial4-card-content__label {
+  color: var(--White, #FFF);
+  font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
-  font-weight: 900;
-  line-height: normal;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.8;
+  padding-bottom: 10px;
 }
-.testimonial4-card-content__star i:last-child {
-  color: var(--800, #CCCCCD);
-}
-.testimonial4-card-content__title {
+.testimonial4-card-content__name {
   color: var(--White, #FFF);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .testimonial4-card-content__desc {
-  color: var(--800, #CCCCCD);
+  color: var(--White, #FFF);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
+  opacity: 0.8;
   padding-bottom: 10px;
 }
-.testimonial4-card__quote i {
+.testimonial4-card-content-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial4-card-content-icon__star i {
+  color: #FFA800;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.testimonial4-card-content-icon__star i:last-child {
+  color: var(--800, #CCCCCD);
+}
+.testimonial4-card-content-icon__quote i {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--200, #CCC);
-  font-size: 64px;
+  -webkit-text-stroke-color: var(--P, #B8E451);
+  font-size: 48px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
