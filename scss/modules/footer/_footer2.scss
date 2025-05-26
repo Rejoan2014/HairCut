@@ -27,16 +27,6 @@
       display: none;
       }
   }
-  &-shape3 {
-    position: absolute;
-    bottom: 0;
-    left: 38%;
-    z-index: 5;
-    opacity: 0.2;
-      @include breakpoint (max-xl2){
-      display: none;
-      }
-  }
 
   &-cta {
     display: flex;
@@ -250,12 +240,12 @@
         padding-top: 7px;
       }
       &__title {
-        color: #FFF;
-        font-family: $title-font;
-        font-size: 20px;
+        color: var(--White, #FFF);
+        font-family: Marcellus;
+        font-size: 22px;
         font-style: normal;
-        font-weight: 600;
-        line-height: 30px; /* 150% */
+        font-weight: 400;
+        line-height: 30px; /* 136.364% */
         padding-bottom: 27px;
       }
       &-list {
@@ -264,12 +254,58 @@
             padding-bottom: 10px;
           }
           a {
-            color: $white;
-            font-family: $title-font;
+            color: var(--White, #FFF);
+            font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
-            font-weight: 600;
-            line-height: 26px;
+            font-weight: 400;
+            line-height: 26px; 
+            opacity: 0.9;
+            &:hover {
+              color: $theme-color;
+            }
+          }
+          img {
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+    &-about {
+      padding-bottom: 70px;
+      padding-top: 32px;
+      @include breakpoint (xxl){
+        padding-left: 65px;
+      }
+      @include breakpoint (max-lg){
+        padding-bottom: 25px;
+      }
+      @include breakpoint (max-md){
+        padding-bottom: 5px;
+        padding-top: 7px;
+      }
+      &__title {
+        color: var(--White, #FFF);
+        font-family: Marcellus;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 136.364% */
+        padding-bottom: 27px;
+      }
+      &-list {
+        &__item {    
+          &:not(:last-child) {
+            padding-bottom: 10px;
+          }
+          a {
+            color: var(--White, #FFF);
+            font-family: Urbanist;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; 
+            opacity: 0.9;
             &:hover {
               color: $theme-color;
             }
@@ -334,6 +370,9 @@
         padding-bottom: 27px;
       }
       &-list {
+        @include breakpoint (xl){
+          padding-left: 60px;
+        }
         &__item {    
           &:not(:last-child) {
             padding-bottom: 10px;
@@ -341,18 +380,46 @@
           a {
             display: flex !important;
             align-items: center !important;
-            color: $white;
-            font-family: $title-font;
+            color: var(--White, #FFF);
+            font-feature-settings: 'liga' off, 'clig' off;
+            font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
-            font-weight: 600;
-            line-height: 26px;
+            font-weight: 400;
+            line-height: 22px; /* 137.5% */
             &:hover {
               color: $theme-color;
             }
 
             img {
               padding-right: 10px;
+            }
+            .icon {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 999px;
+              border: 1px solid var(--P, #B8E451);
+              background: var(--P, #B8E451);
+              width: 65px;
+              height: 65px;
+              flex-shrink: 0;
+              i {
+                color: var(--900, #010003);
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+              }
+            }
+            .text span:first-child {
+              color: var(--White, #FFF);
+              font-family: Marcellus;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 30px; /* 136.364% */
+              padding-bottom: 5px;
             }
           }
         }
