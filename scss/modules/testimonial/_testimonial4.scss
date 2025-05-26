@@ -2,7 +2,13 @@
 @use '../../utilities' as *;
 
 .testimonial4 {
+  position: relative;
   background: var(--100, #FCF9EB);
+  &__thumb {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
   &-card {
     border-radius: 5px;
     background: var(--700, #131215);
@@ -13,6 +19,9 @@
 
     &__thumb {
       flex: none;
+      img {
+        border-radius: 5px;
+      }
     }
 
     &-content {

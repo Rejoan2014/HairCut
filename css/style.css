@@ -7458,7 +7458,13 @@ img {
 }
 
 .testimonial4 {
+  position: relative;
   background: var(--100, #FCF9EB);
+}
+.testimonial4__thumb {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .testimonial4-card {
   border-radius: 5px;
@@ -7470,6 +7476,9 @@ img {
 }
 .testimonial4-card__thumb {
   flex: none;
+}
+.testimonial4-card__thumb img {
+  border-radius: 5px;
 }
 .testimonial4-card-content {
   padding: 30px;
