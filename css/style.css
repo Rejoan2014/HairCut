@@ -7457,6 +7457,71 @@ img {
   transition: all 0.4s ease-in-out;
 }
 
+.testimonial4 {
+  background: var(--700, #131215);
+}
+.testimonial4-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px 50px 50px 109px;
+  border-radius: 5px;
+  background: var(--900, #010003);
+  margin-left: 95px;
+  margin-bottom: 40px;
+}
+@media (max-width: 575px) {
+  .testimonial4-card {
+    padding: 20px;
+  }
+}
+.testimonial4-card__thumb {
+  flex: none;
+  position: absolute;
+  left: -90px;
+}
+.testimonial4-card-content__star {
+  padding-bottom: 10px;
+}
+.testimonial4-card-content__star i {
+  color: #FFA800;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.testimonial4-card-content__star i:last-child {
+  color: var(--800, #CCCCCD);
+}
+.testimonial4-card-content__title {
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.testimonial4-card-content__desc {
+  color: var(--800, #CCCCCD);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding-bottom: 10px;
+}
+.testimonial4-card__quote i {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--200, #CCC);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
 /* 10. Contact */
 .contact1 {
   padding-bottom: 120px;
