@@ -6713,6 +6713,53 @@ img {
   transition: all 0.4s ease-in-out;
 }
 
+.service3 {
+  position: relative;
+  background: var(--White, #FFF);
+}
+.service3-thumb {
+  position: relative;
+}
+.service3-thumb__one {
+  position: relative;
+}
+.service3-thumb__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  padding: 54px;
+  border-radius: 5px;
+  border: 1px solid var(--P, #B8E451);
+  background: var(--P, #B8E451);
+}
+.service3-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--theme);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.service3-content__title {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+}
+.service3-content__link {
+  color: var(--900, #010003);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 /* 8. Project */
 .project1 {
   position: relative;
