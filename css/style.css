@@ -4811,73 +4811,6 @@ img {
 }
 
 .widget2-card {
-  padding-left: 85px;
-}
-@media (max-width: 1399px) {
-  .widget2-card {
-    padding-left: 0;
-  }
-}
-.widget2-card-header {
-  padding: 16px 30px;
-  border-radius: 20px 20px 0px 0px;
-  background: var(--theme);
-}
-.widget2-card-header__title h5 {
-  color: var(--white);
-  font-family: "Marcellus", serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  text-transform: none;
-}
-.widget2-card-body {
-  padding: 24px 30px 40px;
-  border-radius: 0px 0px 20px 20px;
-  background: var(--title);
-}
-.widget2-card-body-items {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.widget2-card-body-items:not(:last-child) {
-  padding-bottom: 14px;
-  margin-bottom: 14px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-.widget2-card-body-items__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--white);
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
-}
-.widget2-card-body-items-content__label {
-  padding-bottom: 6px;
-  color: var(--white);
-  font-family: "Plus Jakarta Sans";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px; /* 100% */
-}
-.widget2-card-body-items-content__value {
-  color: var(--white);
-  font-family: "Marcellus", serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px; /* 111.111% */
-  letter-spacing: -0.36px;
-  text-transform: uppercase;
-}
-
-.widget2-card {
-  padding: 40px 40px;
   border-radius: 10px;
 }
 .widget2-card:not(:last-child) {
@@ -4962,59 +4895,50 @@ img {
   color: var(--black);
   transition: all 0.4s ease-in-out;
 }
-.widget2-getTouch {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 20px;
-  background: linear-gradient(180deg, #F3604C 0%, #262626 100%);
-  height: 470px;
+.widget2-contact {
+  position: relative;
+  border-radius: 5px 5px 0px 0px;
+  background: var(--P, #B8E451);
 }
-@media (max-width: 499px) {
-  .widget2-getTouch {
-    height: 430px;
-  }
+.widget2-contact__thumb {
+  width: 100%;
 }
-.widget2-getTouch__icon {
-  margin-top: 60px;
-  display: flex;
-  width: 90px;
-  height: 90px;
-  padding: 21.336px 20.666px 20.664px 21.334px;
-  align-items: center;
-  border-radius: 10px;
-  background: var(--white);
+.widget2-contact__thumb img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
 }
-.widget2-getTouch__title {
-  margin-top: 25px;
-  max-width: 300px;
+.widget2-contact-content {
+  border-radius: 0px 0px 5px 5px;
+  background: var(--P, #B8E451);
 }
-@media (max-width: 1199px) {
-  .widget2-getTouch__title {
-    max-width: 255px;
-  }
+.widget2-contact-content__icon {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-@media (max-width: 991px) {
-  .widget2-getTouch__title {
-    max-width: 300px;
-  }
-}
-.widget2-getTouch__title h3 {
-  color: var(--white);
+.widget2-contact-content__text {
+  color: var(--900, #010003);
   text-align: center;
-}
-.widget2-getTouch__text {
-  margin-top: 5px;
-  max-width: 300px;
-}
-.widget2-getTouch__text p {
-  color: var(--theme);
-  text-align: center;
-  font-family: "Plus Jakarta Sans";
+  font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 22px;
+  padding-top: 64px;
+}
+.widget2-contact-content__numb {
+  color: var(--900, #010003);
+  text-align: center;
+  font-family: Marcellus;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding-top: 12px;
+  padding-bottom: 52px;
+}
+.widget2-contact-content__numb:hover a {
+  color: var(--black);
 }
 
 /* 2. Header */
@@ -6880,6 +6804,11 @@ img {
   text-transform: uppercase;
 }
 
+@media (min-width: 1400px) {
+  .service4-details {
+    padding-right: 20px;
+  }
+}
 .service4-details__title {
   color: var(--White, #FFF);
   font-family: Marcellus;

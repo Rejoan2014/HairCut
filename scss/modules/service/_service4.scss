@@ -3,6 +3,9 @@
 
 .service4 {
     &-details {
+        @include breakpoint (xxl){
+            padding-right: 20px;
+        }
         &__title {
             color: var(--White, #FFF);
             font-family: Marcellus;
