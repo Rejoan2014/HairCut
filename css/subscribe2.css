@@ -3096,31 +3096,32 @@ img {
   -o-transition: 0.7s;
 }
 
-.wcu1 {
-  background-color: var(--white);
-}
-.wcu1-progress {
-  padding: 50px;
+.subscribe2-info {
+  display: flex;
+  gap: 80px;
+  padding: 114px 135px;
   border-radius: 5px;
-  border: 1px solid var(--insurance-200, #E3E3E3);
-  background: var(--100, #FCF9EB);
+  border: 1px solid var(--P, #B8E451);
+  background: var(--700, #131215);
 }
-.wcu1-info__title {
-  color: var(--900, #010003);
+.subscribe2-info-titleArea {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.subscribe2-info-titleArea__title {
+  color: var(--White, #FFF);
   font-family: Marcellus;
-  font-size: 28px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 36px; /* 128.571% */
-  padding-bottom: 15;
+  line-height: 50px;
 }
-.wcu1-info__desc {
-  color: var(--900, #010003);
-  font-feature-settings: "liga" off, "clig" off;
-  font-family: Urbanist;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px; /* 137.5% */
-  opacity: 0.75;
-}/*# sourceMappingURL=wcu1.css.map */
+.subscribe2-info-form {
+  display: flex;
+  align-items: center;
+}
+.subscribe2-info-form-wrap {
+  display: flex;
+  gap: 60px;
+}/*# sourceMappingURL=subscribe2.css.map */

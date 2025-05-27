@@ -89,21 +89,22 @@
     input,
     textarea {
       border: 1px solid transparent;
-      border-radius: 10px;
-      background: $smoke2;
+      border-bottom: 1px solid #E3E3E3;
+      border-radius: 0px;
+      background: #131215;
       padding: 15px 30px;
       width: 100%;
       outline: none;
 
-      color: $gray2;
-      font-family: $body-font;
-      font-size: 14px;
+      color: var(--White, #FFF);
+      font-family: Urbanist;
+      font-size: 16px;
       font-style: normal;
       font-weight: 400;
-      line-height: 24px; 
+      line-height: 22px; 
 
       &::placeholder {
-        color: $gray2;
+        color: $white;
       }
     }
     select.form__select {
@@ -144,7 +145,7 @@
 
 .input-icon {
   position: absolute;
-  right: 15px;
+  left: 10px;
   top: 50%;
   transform: translateY(-50%);
   
