@@ -2483,26 +2483,6 @@ img {
   text-align: right;
 }
 
-.checklist.style1 {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.checklist.style1 li {
-  padding-bottom: 8px;
-}
-.checklist.style1 li img {
-  padding-right: 3px;
-}
-.checklist.style1 li span {
-  color: var(--gray);
-  font-family: "Urbanist", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-}
-
 .checklist {
   list-style: none;
   padding: 0;
@@ -2513,18 +2493,26 @@ img {
   align-items: center;
 }
 .checklist-item:not(:last-child) {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .checklist-item__icon {
-  padding-right: 10px;
+  padding-right: 15px;
+}
+.checklist-item__icon i {
+  color: var(--theme);
 }
 .checklist-item__text {
-  color: var(--gray2);
-  font-family: "Urbanist", sans-serif;
-  font-size: 16px;
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 30px;
+}
+@media (max-width: 1399px) {
+  .checklist-item__text {
+    font-size: 18px;
+  }
 }
 
 .map-container {
@@ -6776,6 +6764,82 @@ img {
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.service4-details__title {
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  padding-bottom: 15px;
+}
+.service4-details__desc {
+  color: var(--White, #FFF);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.service4-details__list {
+  padding-top: 30px;
+  display: flex;
+  gap: 115px;
+}
+@media (max-width: 1399px) {
+  .service4-details__list {
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+}
+@media (max-width: 1199px) {
+  .service4-details__list {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+.service4-details-card {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.service4-details-card-item {
+  border-radius: 5px;
+  border: 1px solid var(--White, #FFF);
+  padding: 30px;
+}
+.service4-details-card-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.service4-details-card-item-header__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: var(--P, #B8E451);
+  width: 82.254px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.service4-details-card-item-header__icon img {
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+}
+.service4-details-card-item-header__text {
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 /* 8. Project */
