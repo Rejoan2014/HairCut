@@ -71,19 +71,7 @@
           background: $white;
           &:not(:last-child) {
               margin-bottom: 12px;
-          }
-
-          &:hover {
-            background: $theme-color;
-
-            a {
-              color: $white;
-              i {
-                  color: $white;
-              }
-            }
-          }
-
+          }          
           a {
             padding: 12px 20px;
             display: flex;
@@ -100,8 +88,9 @@
               color: $title-color;
             }
           }
-          &.active {
-            background-color: $theme-color;
+          &:hover {
+            background: $theme-color;
+
             a {
               color: $white;
               i {
@@ -147,15 +136,6 @@
               line-height: normal;
             }
           }
-          &.active {
-            background-color: $theme-color;
-            a {
-              color: $white;
-              i {
-                  color: $white;
-              }
-            }
-          }
           &:hover {
             a {
               color: $theme-color;
@@ -176,18 +156,6 @@
           &:not(:last-child) {
               margin-bottom: 12px;
           }
-
-          &:hover {
-            background: $theme-color;
-
-            a {
-              color: $white;
-              i {
-                  color: $white;
-              }
-            }
-          }
-
           a {
             padding: 12px 20px;
             display: flex;
@@ -204,8 +172,9 @@
               color: $title-color;
             }
           }
-          &.active {
-            background-color: $theme-color;
+          &:hover {
+            background: $theme-color;
+
             a {
               color: $white;
               i {
