@@ -6884,6 +6884,74 @@ img {
   font-weight: 400;
   line-height: 30px;
 }
+.service4-gallery {
+  background: var(--100, #FCF9EB);
+  border-radius: 5px;
+  padding: 50px;
+}
+@media (max-width: 991px) {
+  .service4-gallery {
+    padding-top: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .service4-gallery {
+    padding: 15px;
+  }
+}
+.service4-gallery-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 45px;
+}
+@media (max-width: 991px) {
+  .service4-gallery-content {
+    padding-bottom: 25px;
+  }
+}
+.service4-gallery-content__title {
+  color: #000;
+  font-family: Marcellus;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px; /* 125% */
+}
+@media (max-width: 1199px) {
+  .service4-gallery-content__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .service4-gallery-content__title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 449px) {
+  .service4-gallery-content__title {
+    font-size: 24px;
+  }
+}
+.service4-gallery-thumb {
+  display: flex;
+  position: relative;
+}
+.service4-gallery-thumb__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 49.7%;
+}
+@media (max-width: 991px) {
+  .service4-gallery-thumb__icon img {
+    width: 60%;
+  }
+}
 
 /* 8. Project */
 .project1 {
