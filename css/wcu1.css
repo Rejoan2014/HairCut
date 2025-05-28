@@ -2187,6 +2187,16 @@ span {
   transition: background 0.3s ease;
   cursor: pointer;
 }
+@media (max-width: 575px) {
+  .btn-submit2 {
+    padding: 17px 30px;
+  }
+}
+@media (max-width: 374px) {
+  .btn-submit2 {
+    padding: 17px 15px;
+  }
+}
 .btn-submit2:hover {
   color: var(--white);
   background-color: #3CA200;

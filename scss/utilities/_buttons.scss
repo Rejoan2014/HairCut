@@ -406,7 +406,12 @@
     border: none;
     transition: background 0.3s ease;
     cursor: pointer;
-
+    @include breakpoint (max-sm){
+        padding: 17px 30px;
+    }
+    @include breakpoint (max-xxsmall){
+        padding: 17px 15px;
+    }
     &:hover {
       color: $white;
       background-color: #3CA200;
