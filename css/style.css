@@ -9437,6 +9437,7 @@ img {
 }
 
 .team4-card {
+  margin-bottom: 30px;
   position: relative;
   border-radius: 6.731px;
   background: linear-gradient(0deg, #131215 0%, rgba(111, 105, 123, 0) 100%);
@@ -9457,6 +9458,7 @@ img {
 .team4-card-thumb__img img {
   position: relative;
   z-index: 5;
+  width: 100%;
 }
 .team4-card-thumb__link {
   opacity: 0;
