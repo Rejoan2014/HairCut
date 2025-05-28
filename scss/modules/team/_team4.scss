@@ -1,19 +1,16 @@
 @use '../../root' as *;
 @use '../../utilities' as *;
 
-.team3 {
-    background-color: $white;
+.team4 {
     &-card {
         position: relative;
         border-radius: 6.731px;
-        border: 1.346px solid var(--P, #B8E451);
         background: linear-gradient(0deg, #131215 0%, rgba(111, 105, 123, 0.00) 100%);
 
         &-thumb {
             position: relative;
             &__img {
                 position: relative;
-                padding: 17px 17px 0;
                 text-align: center;
                 &-shape {
                     position: absolute;
@@ -63,32 +60,27 @@
 
         }
         &-content {
-            text-align: center;
-            padding: 40px 30px 40px;
+            padding: 20px 30px 20px;
             &__title {
                 color: var(--White, #FFF);
-                text-align: center;
-                font-feature-settings: 'liga' off, 'clig' off;
                 font-family: Marcellus;
-                font-size: 29.615px;
+                font-size: 22px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 40.385px; /* 136.364% */
+                line-height: 30px; /* 136.364% */
                 padding-bottom: 8px;
             }
             &__desc {
                 color: var(--White, #FFF);
-                text-align: center;
-                font-feature-settings: 'liga' off, 'clig' off;
                 font-family: Urbanist;
-                font-size: 21.538px;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 29.615px; /* 137.5% */
+                line-height: 22px; 
             }
         }
         &:hover {
-            .team3 {
+            .team4 {
                 &-card {
                     &-thumb {
                         &__img {            

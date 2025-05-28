@@ -27,27 +27,6 @@
                     height: 320px;
                 }
             }
-            &__ratting {
-                position: absolute;
-                top: 20px;
-                left: 20px;            
-                z-index: 9;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 7px;
-                border-radius: 50px;
-                background: #F5D04A;
-                width: 75px;
-                height: 30px;
-                flex-shrink: 0;
-                color: $title-color;
-                font-family: $body-font;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 26px; /* 162.5% */
-            }
             &__link {
                 opacity: 0;
                 visibility: hidden;
