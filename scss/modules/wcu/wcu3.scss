@@ -37,6 +37,9 @@
       }
       &-progress {
         padding-top: 60px;
+        @include breakpoint (max-xxl){
+          padding-top: 30px;
+        }
         &__title {
           color: var(--900, #010003);
           font-family: Marcellus;
@@ -49,6 +52,9 @@
     }
     &-thumb {
       flex: none;
+      @include breakpoint (max-xl){
+        display: none;
+      }
     }
   }
 }

@@ -3230,6 +3230,11 @@ img {
 .wcu3-box-content-progress {
   padding-top: 60px;
 }
+@media (max-width: 1399px) {
+  .wcu3-box-content-progress {
+    padding-top: 30px;
+  }
+}
 .wcu3-box-content-progress__title {
   color: var(--900, #010003);
   font-family: Marcellus;
@@ -3240,4 +3245,9 @@ img {
 }
 .wcu3-box-thumb {
   flex: none;
+}
+@media (max-width: 1199px) {
+  .wcu3-box-thumb {
+    display: none;
+  }
 }/*# sourceMappingURL=wcu3.css.map */

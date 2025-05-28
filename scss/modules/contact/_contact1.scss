@@ -73,6 +73,9 @@
         align-items: center;
         gap: 40px;
         margin-top: 40px;
+        @include breakpoint (max-md){
+            flex-wrap: wrap;
+        }
     }
    }
 }

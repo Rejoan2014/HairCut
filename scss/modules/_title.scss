@@ -123,16 +123,16 @@
         line-height: 100px; /* 100% */
         text-transform: uppercase;
         @include breakpoint (max-xl) {
-            font-size: 70px;
-            line-height: 70px;
+            font-size: 60px;
+            line-height: 75px;
         }
-        @include breakpoint (max-md) {
-            font-size: 65px;
-            line-height: 40px;
+        @include breakpoint (max-lg) {
+            font-size: 50px;
+            line-height: 65px;
         }
         @include breakpoint (max-sm) {
             font-size: 40px;
-            line-height: 40px;
+            line-height: 50px;
         }
     }
 
