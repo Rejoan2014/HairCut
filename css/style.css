@@ -3657,6 +3657,115 @@ img {
   z-index: 1;
 }
 
+.progress-wrap2:not(:last-child) {
+  padding-bottom: 27px;
+}
+.progress-wrap2 .progress-meta {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 9px;
+}
+.progress-wrap2 .progress-meta .title {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 136.364% */
+}
+.progress-wrap2 .progress-meta .title2 {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 136.364% */
+}
+.progress-wrap2 .progress-meta .percentage {
+  color: var(--900, #010003);
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  text-transform: capitalize;
+}
+.progress-wrap2 .progress-meta .percentage2 {
+  color: var(--900, #010003);
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  text-transform: capitalize;
+}
+.progress-wrap2 .progress-meta.mxw-424 {
+  max-width: 375px;
+}
+@media (min-width: 500px) {
+  .progress-wrap2 .progress-meta.mxw-424 {
+    max-width: 420px;
+  }
+}
+@media (min-width: 768px) {
+  .progress-wrap2 .progress-meta.mxw-424 {
+    max-width: 510px;
+  }
+}
+@media (min-width: 992px) {
+  .progress-wrap2 .progress-meta.mxw-424 {
+    max-width: 370px;
+  }
+}
+@media (min-width: 1400px) {
+  .progress-wrap2 .progress-meta.mxw-424 {
+    max-width: 424px;
+  }
+}
+.progress-wrap2 .progress-meta.mxw-375 {
+  max-width: 340px;
+}
+@media (min-width: 500px) {
+  .progress-wrap2 .progress-meta.mxw-375 {
+    max-width: 370px;
+  }
+}
+@media (min-width: 768px) {
+  .progress-wrap2 .progress-meta.mxw-375 {
+    max-width: 450px;
+  }
+}
+@media (min-width: 992px) {
+  .progress-wrap2 .progress-meta.mxw-375 {
+    max-width: 325px;
+  }
+}
+@media (min-width: 1400px) {
+  .progress-wrap2 .progress-meta.mxw-375 {
+    max-width: 375px;
+  }
+}
+.progress-wrap2 .progress-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 8px;
+  border-radius: 2px;
+  background: rgba(31, 31, 31, 0.12);
+  overflow: visible;
+}
+.progress-wrap2 .progress-container .progress-bar {
+  height: 6px;
+  border-radius: 10px;
+  background: var(--P, #B8E451);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+
 .marquee-wrapper {
   position: relative;
   overflow: hidden;
@@ -9127,6 +9236,54 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
+}
+
+.wcu3-box {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  border-radius: 5px;
+  background: var(--White, #FFF);
+}
+.wcu3-box-content__name {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+  padding-bottom: 10px;
+}
+.wcu3-box-content__label {
+  color: var(--900, #010003);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  padding-bottom: 30px;
+}
+.wcu3-box-content__desc {
+  color: var(--900, #010003);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+.wcu3-box-content-progress {
+  padding-top: 60px;
+}
+.wcu3-box-content-progress__title {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 128.571% */
+}
+.wcu3-box-thumb {
+  flex: none;
 }
 
 /* 14. Team */
