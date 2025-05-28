@@ -2,6 +2,14 @@
 @use '../../utilities' as *;
 
 .project3 {
+    position: relative;
+    &__shape1 {
+        position: absolute;
+        right: 23%;
+        @include breakpoint (max-xxl){
+            display: none;
+        }
+    }
     &__thumb {
         border-radius: 5px;
         img {

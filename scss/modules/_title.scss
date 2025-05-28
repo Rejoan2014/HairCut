@@ -114,6 +114,27 @@
             color: #B8E451;
         }
     }
+    &__title4 {
+        color: #FFF;
+        font-family: Marcellus;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100px; /* 100% */
+        text-transform: uppercase;
+        @include breakpoint (max-xl) {
+            font-size: 70px;
+            line-height: 70px;
+        }
+        @include breakpoint (max-md) {
+            font-size: 65px;
+            line-height: 40px;
+        }
+        @include breakpoint (max-sm) {
+            font-size: 40px;
+            line-height: 40px;
+        }
+    }
 
     &__desc {
         color: var(--900, #010003);
