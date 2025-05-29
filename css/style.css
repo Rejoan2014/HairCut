@@ -9888,6 +9888,7 @@ img {
   position: relative;
 }
 .video1-thumb__videoIcon {
+  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -9896,6 +9897,11 @@ img {
   -moz-transform: translate(50%, 50%);
   -ms-transform: translate(50%, 50%);
   -o-transform: translate(50%, 50%);
+}
+@media (max-width: 767px) {
+  .video1-thumb__videoIcon img {
+    width: 70%;
+  }
 }
 
 /* 17. Subscribe */
