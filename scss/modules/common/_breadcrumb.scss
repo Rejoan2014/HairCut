@@ -4,7 +4,6 @@
 //>>>>> Breadcrumb Start <<<<<//
 .breadcrumb {
     overflow: hidden;
-    // background-color: $title-color;
     padding: 212px 0 206px 0;
     margin: 0 auto;
     margin-top: 93px;
@@ -14,9 +13,7 @@
 	&::before {
 		@include before;
         z-index: 5;
-        background: linear-gradient(270deg, #131215 29.82%, rgba(111, 105, 123, 0.00) 100%);
-        opacity: 0.7;
-        mix-blend-mode: multiply;
+        background: linear-gradient(90deg, #131215 29.82%, rgba(111, 105, 123, 0.00) 100%);
 	}
   
     @include breakpoint (max-md) {
