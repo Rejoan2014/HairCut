@@ -7479,6 +7479,7 @@ img {
   }
 }
 .project3__thumb {
+  position: relative;
   border-radius: 5px;
 }
 .project3__thumb img {
@@ -7489,6 +7490,45 @@ img {
   .project3__thumb--top {
     padding-bottom: 24px;
   }
+}
+.project3__thumb-content {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  padding: 5px 20px;
+  border-radius: 0px 0px 5px 5px;
+  background: var(--P, #B8E451);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project3__thumb-content__title {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.project3__thumb-content__title:hover a {
+  color: var(--black);
+}
+.project3__thumb-content__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid var(--700, #131215);
+}
+.project3__thumb-content__link i {
+  color: var(--black);
+  transform: rotate(-45deg);
+  transition: all 0.4s ease-in-out;
 }
 
 .project4-card {
@@ -9841,6 +9881,21 @@ img {
   .appointment1-thumb__rightShape {
     display: none;
   }
+}
+
+/* 17. Video */
+.video1-thumb {
+  position: relative;
+}
+.video1-thumb__videoIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
 }
 
 /* 17. Subscribe */
