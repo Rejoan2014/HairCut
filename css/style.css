@@ -9724,66 +9724,86 @@ img {
 }
 
 /* 16. Work Process */
-.workProcess1 {
-  position: relative;
-  background: var(--smoke);
+.resume1-info {
+  padding: 80px 80px;
+  border-radius: 5px;
+  background: var(--100, #FCF9EB);
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
 }
-.workProcess1-shape1 {
-  position: absolute;
-  bottom: 110px;
-}
-@media (max-width: 1399px) {
-  .workProcess1-shape1 {
-    display: none;
+@media (max-width: 1599px) {
+  .resume1-info {
+    padding: 90px 70px;
+    gap: 30px;
   }
 }
-.workProcess1-shape2 {
-  position: absolute;
-  top: 0;
-}
 @media (max-width: 1399px) {
-  .workProcess1-shape2 {
-    display: none;
+  .resume1-info {
+    padding: 65px 45px;
   }
 }
-.workProcess1-card {
-  position: relative;
-  text-align: center;
-  padding: 0 23px;
+@media (max-width: 1199px) {
+  .resume1-info {
+    flex-direction: column;
+  }
 }
-.workProcess1-card__icon {
-  padding-bottom: 16px;
-}
-.workProcess1-card__title {
-  padding-bottom: 12px;
-  color: var(--theme);
-  font-family: "Marcellus", serif;
-  font-size: 24px;
+.resume1-info__title {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 60px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 34px; /* 141.667% */
+  font-weight: 400;
+  line-height: 75px; /* 125% */
+  max-width: 285px;
+  border-left: 1px solid var(--black);
+  padding-left: 36px;
 }
-.workProcess1-card__desc {
-  color: var(--gray);
+.resume1-info-form__label {
+  color: var(--900, #010003);
+  font-family: Marcellus;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  padding-bottom: 30px;
+}
+.resume1-info-form-wrap {
+  position: relative;
+  padding-bottom: 35px;
+  max-width: 350px;
+}
+.resume1-info-form-wrap__input {
+  border-radius: 5px;
+  border: 1px dashed var(--P, #B8E451);
+  background: var(--100, #FCF9EB);
+  width: 100%;
+  height: 50px;
+  padding: 21px 40px 21px 16px;
+  outline: none;
+  box-sizing: border-box;
+  color: var(--900, #010003);
   text-align: center;
-  font-family: "Urbanist", sans-serif;
+  font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
-  padding-bottom: 18px;
+  line-height: 22px; /* 137.5% */
 }
-.workProcess1-card__link {
-  color: var(--theme);
-  font-family: "Urbanist", sans-serif;
-  font-size: 14px;
+.resume1-info-form-wrap__button {
+  position: absolute;
+  right: -40%;
+  border-radius: 5px;
+  background: var(--900, #010003);
+  padding: 17px 20px;
+  color: var(--White, #FFF);
+  font-family: Urbanist;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 24px; /* 171.429% */
+  font-weight: 500;
+  line-height: 14px; /* 87.5% */
+  letter-spacing: 2px;
   text-transform: uppercase;
-}
-.workProcess1-card__link img {
-  padding-left: 5px;
 }
 
 /* 17. Appointment */
