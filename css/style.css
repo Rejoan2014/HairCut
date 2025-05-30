@@ -9725,6 +9725,7 @@ img {
 
 /* 16. Work Process */
 .resume1-info {
+  position: relative;
   padding: 80px 80px;
   border-radius: 5px;
   background: var(--100, #FCF9EB);
@@ -9745,7 +9746,23 @@ img {
 }
 @media (max-width: 1199px) {
   .resume1-info {
+    padding: 40px 45px;
     flex-direction: column;
+    gap: 0;
+  }
+}
+@media (max-width: 449px) {
+  .resume1-info {
+    padding: 20px 20px;
+  }
+}
+.resume1-info__icon {
+  position: absolute;
+  right: 40%;
+}
+@media (max-width: 1399px) {
+  .resume1-info__icon {
+    display: none;
   }
 }
 .resume1-info__title {
@@ -9759,6 +9776,31 @@ img {
   border-left: 1px solid var(--black);
   padding-left: 36px;
 }
+@media (max-width: 1199px) {
+  .resume1-info__title {
+    max-width: none;
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .resume1-info__title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 449px) {
+  .resume1-info__title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 374px) {
+  .resume1-info__title {
+    font-size: 36px;
+  }
+}
+.resume1-info-form {
+  width: 100%;
+}
 .resume1-info-form__label {
   color: var(--900, #010003);
   font-family: Marcellus;
@@ -9768,10 +9810,31 @@ img {
   line-height: 50px;
   padding-bottom: 30px;
 }
+@media (max-width: 449px) {
+  .resume1-info-form__label {
+    font-size: 34px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 374px) {
+  .resume1-info-form__label {
+    font-size: 30px;
+  }
+}
 .resume1-info-form-wrap {
   position: relative;
   padding-bottom: 35px;
-  max-width: 350px;
+  max-width: 550px;
+}
+@media (max-width: 991px) {
+  .resume1-info-form-wrap {
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 449px) {
+  .resume1-info-form-wrap {
+    padding-bottom: 0px;
+  }
 }
 .resume1-info-form-wrap__input {
   border-radius: 5px;
@@ -9779,11 +9842,10 @@ img {
   background: var(--100, #FCF9EB);
   width: 100%;
   height: 50px;
-  padding: 21px 40px 21px 16px;
+  padding: 12px 40px 12px 20px;
   outline: none;
   box-sizing: border-box;
   color: var(--900, #010003);
-  text-align: center;
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9792,7 +9854,7 @@ img {
 }
 .resume1-info-form-wrap__button {
   position: absolute;
-  right: -40%;
+  right: 0;
   border-radius: 5px;
   background: var(--900, #010003);
   padding: 17px 20px;
@@ -9804,6 +9866,19 @@ img {
   line-height: 14px; /* 87.5% */
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+@media (max-width: 374px) {
+  .resume1-info-form-wrap__button {
+    padding: 17px 10px;
+  }
+}
+.resume1-info-form-wrap__button i {
+  color: var(--theme);
+}
+@media (max-width: 374px) {
+  .resume1-info-form-wrap__button i {
+    display: none;
+  }
 }
 
 /* 17. Appointment */
