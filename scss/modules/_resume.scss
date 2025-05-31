@@ -2,6 +2,8 @@
 @use '../utilities' as *;
 
 .resume1 {
+    position: relative;
+    z-index: 3;
     &-info {
         position: relative;
         padding: 80px 80px;

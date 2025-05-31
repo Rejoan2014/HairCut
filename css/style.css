@@ -9724,6 +9724,10 @@ img {
 }
 
 /* 16. Work Process */
+.resume1 {
+  position: relative;
+  z-index: 3;
+}
 .resume1-info {
   position: relative;
   padding: 80px 80px;
@@ -9999,6 +10003,26 @@ img {
 }
 
 /* 17. Video */
+.video1 {
+  position: relative;
+  z-index: 1;
+  margin-top: -161px;
+}
+@media (max-width: 1199px) {
+  .video1 {
+    margin-top: -100px;
+  }
+}
+@media (max-width: 991px) {
+  .video1 {
+    margin-top: -80px;
+  }
+}
+@media (max-width: 575px) {
+  .video1 {
+    margin-top: 50px;
+  }
+}
 .video1-thumb {
   position: relative;
 }
@@ -10013,7 +10037,7 @@ img {
   -ms-transform: translate(50%, 50%);
   -o-transform: translate(50%, 50%);
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .video1-thumb__videoIcon img {
     width: 70%;
   }
