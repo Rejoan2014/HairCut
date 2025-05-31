@@ -3,12 +3,12 @@
 
 .blog4 {
     &-card {
-        background: $white;
         margin-bottom: 40px;
         &__thumb {
-            border-radius: 20px;
+            border-radius: 5px;
             img {
-                border-radius: 20px;
+                border-radius: 5px;
+                width: 100%;
             }
         }
         &-content {
@@ -16,14 +16,15 @@
                 display: flex;
                 align-items: center;
                 gap: 18px;
-                padding-top: 35px;
-                padding-bottom: 6px;
-                color: $gray2;
-                font-family: $body-font;
-                font-size: 14px;
+                padding-top: 30px;
+                padding-bottom: 11px;
+                color: var(--White, #FFF);
+                text-align: center;
+                font-family: Urbanist;
+                font-size: 16px;
                 font-style: normal;
-                font-weight: 700;
-                line-height: 24px; 
+                font-weight: 400;
+                line-height: 22px; 
                 @include breakpoint (max-xs) {
                     flex-wrap: wrap;
                     row-gap: 10px;
@@ -32,6 +33,17 @@
                     padding-right: 6px;
                 }
                 &__user {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                    color: var(--White, #FFF);
+                    font-family: Marcellus;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30px; /* 136.364% */
+                }
+                &__tag {
                     display: flex;
                     align-items: center;
                     gap: 7px;
@@ -55,12 +67,12 @@
             &__title{
                 padding-bottom: 15px;
                 h5 {
-                    color: $title-color;
-                    font-family: $body-font;
-                    font-size: 30px;
+                    color: var(--White, #FFF);
+                    font-family: Marcellus;
+                    font-size: 28px;
                     font-style: normal;
-                    font-weight: 700;
-                    line-height: 38px; /* 126.667% */
+                    font-weight: 400;
+                    line-height: 36px; /* 128.571% */
                     @include breakpoint (max-sm){
                         font-size: 28px;
                     }
@@ -69,13 +81,12 @@
             &__desc {
                 padding-right: 5px;    
                 p {
-                    color: $title-color;
-                    font-family: $body-font;
+                    color: var(--White, #FFF);
+                    font-family: Urbanist;
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 26px;
-                    opacity: 0.7;
+                    line-height: 22px; /* 137.5% */
                 }            
             }
             &__quote {
@@ -119,22 +130,21 @@
                     }
                 }
                 &__title {
-                    color: $title-color;
-                    font-family: $body-font;
-                    font-size: 24px;
+                    color: var(--White, #FFF);
+                    font-family: Marcellus;
+                    font-size: 28px;
                     font-style: normal;
-                    font-weight: 600;
-                    line-height: 34px;
+                    font-weight: 400;
+                    line-height: 36px; /* 128.571% */
                     padding-bottom: 30px;
                 }
                 &__desc {
-                    color: $title-color;
-                    font-family: $body-font;
-                    font-size: 18px;
+                    color: var(--White, #FFF);
+                    font-family: Urbanist;
+                    font-size: 16px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 28px;
-                    opacity: 0.7;
+                    line-height: 22px; /* 137.5% */
                 }
             }
             &-profile2 {
@@ -220,6 +230,7 @@
                 display: flex;
                 padding-top: 30px;
                 padding-bottom: 30px;
+                gap: 30px;
                 @include breakpoint (max-xxl){
                     gap: 20px;
                 }

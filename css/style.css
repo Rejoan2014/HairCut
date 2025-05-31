@@ -8554,27 +8554,28 @@ img {
 }
 
 .blog4-card {
-  background: var(--white);
   margin-bottom: 40px;
 }
 .blog4-card__thumb {
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .blog4-card__thumb img {
-  border-radius: 20px;
+  border-radius: 5px;
+  width: 100%;
 }
 .blog4-card-content-meta {
   display: flex;
   align-items: center;
   gap: 18px;
-  padding-top: 35px;
-  padding-bottom: 6px;
-  color: var(--gray2);
-  font-family: "Urbanist", sans-serif;
-  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 11px;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
+  font-weight: 400;
+  line-height: 22px;
 }
 @media (max-width: 499px) {
   .blog4-card-content-meta {
@@ -8586,6 +8587,17 @@ img {
   padding-right: 6px;
 }
 .blog4-card-content-meta__user {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 136.364% */
+}
+.blog4-card-content-meta__tag {
   display: flex;
   align-items: center;
   gap: 7px;
@@ -8609,12 +8621,12 @@ img {
   padding-bottom: 15px;
 }
 .blog4-card-content__title h5 {
-  color: var(--title);
-  font-family: "Urbanist", sans-serif;
-  font-size: 30px;
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 28px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 38px; /* 126.667% */
+  font-weight: 400;
+  line-height: 36px; /* 128.571% */
 }
 @media (max-width: 575px) {
   .blog4-card-content__title h5 {
@@ -8625,13 +8637,12 @@ img {
   padding-right: 5px;
 }
 .blog4-card-content__desc p {
-  color: var(--title);
-  font-family: "Urbanist", sans-serif;
+  color: var(--White, #FFF);
+  font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
-  opacity: 0.7;
+  line-height: 22px; /* 137.5% */
 }
 .blog4-card-content__quote {
   text-align: center;
@@ -8677,22 +8688,21 @@ img {
   border-radius: 10px;
 }
 .blog4-card-content-profile__title {
-  color: var(--title);
-  font-family: "Urbanist", sans-serif;
-  font-size: 24px;
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 28px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 34px;
+  font-weight: 400;
+  line-height: 36px; /* 128.571% */
   padding-bottom: 30px;
 }
 .blog4-card-content-profile__desc {
-  color: var(--title);
-  font-family: "Urbanist", sans-serif;
-  font-size: 18px;
+  color: var(--White, #FFF);
+  font-family: Urbanist;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
-  opacity: 0.7;
+  line-height: 22px; /* 137.5% */
 }
 .blog4-card-content-profile2 {
   margin-top: 40px;
@@ -8775,6 +8785,7 @@ img {
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
+  gap: 30px;
 }
 @media (max-width: 1399px) {
   .blog4-card-content-list {
