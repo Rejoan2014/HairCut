@@ -5,8 +5,18 @@
 .widget {
   &-card {
     padding: 40px 40px;
-    border-radius: 10px;
-    background: $smoke2;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    &--except {
+      border-radius: 5px;
+      border: 1px solid var(--White, #FFF);
+      background: var(--White, #FFF);
+      &__title {
+        h6 {
+          color: var(--900, #010003) !important;
+        }
+      }
+    }
 
     &:not(:last-child) {
       margin-bottom: 60px;
@@ -19,12 +29,12 @@
     &__title {
       padding-bottom: 11px;
       h6 {
-        color: $title-color4;
-        font-family: $title-font;
-        font-size: 24px;
+        color: var(--White, #FFF);
+        font-family: Marcellus;
+        font-size: 28px;
         font-style: normal;
-        font-weight: 600;
-        line-height: 34px; 
+        font-weight: 400;
+        line-height: 36px; /* 128.571% */ 
       }
     }
     &-search {
@@ -33,16 +43,16 @@
         input {
             padding: 20px 70px 20px 20px;
             width: 100%;
-            background-color: $white;
-            border-radius: 20px;
-            border: 1px solid rgba(38, 38, 38, 0.10);
+            border-radius: 5px;
+            background: var(--700, #131215);
+            border: none;
 
-            color: $gray2;
-            font-family: $body-font;
-            font-size: 14px;
+            color: var(--White, #FFF);
+            font-family: Urbanist;
+            font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 24px; /* 171.429% */          
+            line-height: 22px; /* 137.5% */          
         }
 
         button {
@@ -51,14 +61,15 @@
           top: 0;
           width: 60px;
           height: 100%;
-          border-radius: 20px;
-          background: $theme-color;
+          border-radius: 0px 5px 5px 0px;
+          background: var(--P, #B8E451);
           font-size: 16px;
 
           text-align: center;
-          color: $white;
+          color: var(--900, #010003);
+          font-size: 16px;
           font-style: normal;
-          font-weight: 400;
+          font-weight: 900;
           line-height: normal;
         }
       }
@@ -109,17 +120,18 @@
           }
 
           a {
-            border-bottom: 1px solid #D8DDE1;
-            padding: 12px 0px;
+            border-radius: 5px;
+            border: 1px solid var(--200, #CCC);
+            padding: 12px 15px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            color: $gray2;
-            font-family: $body-font;
+            color: var(--900, #010003);
+            font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 26px; /* 162.5% */ 
+            line-height: 22px; /* 137.5% */
             span>i {
               padding-right: 13px;
               color: $gray2;
@@ -138,7 +150,8 @@
           }
           &:hover {
             a {
-              color: $theme-color;
+              color: $black;
+              background: $theme-color;
               i {
                   color: $theme-color;
               }
@@ -204,12 +217,12 @@
         &-content {
           h5 {
             padding-bottom: 12px;
-            color: $title-color4;
-            font-family: $title-font;
-            font-size: 18px;
+            color: var(--White, #FFF);
+            font-family: Marcellus;
+            font-size: 22px;
             font-style: normal;
-            font-weight: 600;
-            line-height: 28px; 
+            font-weight: 400;
+            line-height: 30px; /* 136.364% */
             &:hover {
               a {
                 color: $theme-color;
@@ -219,13 +232,14 @@
           p {
             display: flex;
             gap: 10px;
-            color: $gray2;
-            font-family: $body-font;
+            color: var(--White, #FFF);
+            font-family: Urbanist;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
-            line-height: 24px; 
+            line-height: 18px; /* 128.571% */
             padding-top: 4px;
+            padding-bottom: 15px;
           }
         }
       }
@@ -245,16 +259,16 @@
             justify-content: center;
             align-items: center;
             gap: 10px;
-            border-radius: 10px;
-            background: $white;
-            color: $gray2;
-            font-family: $body-font;
-            font-size: 14px;
+            border-radius: 5px;
+            background: var(--700, #131215);
+            color: var(--White, #FFF);
+            font-family: Urbanist;
+            font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 24px; /* 171.429% */
+            line-height: 22px; /* 137.5% */
             &:hover {
-              color: $white;
+              color: $black;
               background: $theme-color;
 
             } 
