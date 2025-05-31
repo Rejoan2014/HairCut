@@ -24,12 +24,13 @@
                 gap: 18px;
                 padding-top: 30px;
                 padding-bottom: 11px;
-                color: rgba(31, 31, 31, 0.60);
-                font-family: $body-font;
+                color: var(--White, #FFF);
+                text-align: center;
+                font-family: Urbanist;
                 font-size: 16px;
                 font-style: normal;
-                font-weight: 500;
-                line-height: 26px; /* 162.5% */
+                font-weight: 400;
+                line-height: 22px; /* 137.5% */
                 @include breakpoint (max-xxl) {
                     gap: 15px;
                 }
@@ -52,7 +53,7 @@
                         display: none;
                     }
                 }
-                &__care {
+                &__tag {
                     display: flex;
                     align-items: center;
                     gap: 7px;
@@ -71,12 +72,12 @@
             &__title{
                 padding-bottom: 15px;
                 h5 {
-                    color: $title-color;
-                    font-family: $body-font;
-                    font-size: 30px;
+                    color: var(--White, #FFF);
+                    font-family: Marcellus;
+                    font-size: 40px;
                     font-style: normal;
-                    font-weight: 700;
-                    line-height: 38px; /* 126.667% */
+                    font-weight: 400;
+                    line-height: 50px; /* 125% */
                     @include breakpoint (max-sm){
                         font-size: 28px;
                     }
@@ -85,22 +86,20 @@
             &__desc {
                 padding-right: 5px;    
                 p {
-                    color: $title-color;
-                    font-family: $body-font;
+                    color: var(--White, #FFF);
+                    font-family: Urbanist;
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 26px;
-                    opacity: 0.7;
+                    line-height: 22px; /* 137.5% */
                 }            
             }
         }
         &__quote {
             margin-bottom: 40px;
-            text-align: center;
             padding: 50px 50px;
             border-radius: 10px;
-            background: #EBF3ED;
+            background: #FCF9EB;
             @include breakpoint (max-xs){
                 padding: 25px 28px 50px;
             }
@@ -108,23 +107,21 @@
                 padding-bottom: 21px;
             }
             p {
-                color: #1F1F1F;
-                text-align: center;
-                font-family: Roboto;
-                font-size: 18px;
+                color: var(--900, #010003);
+                font-family: Urbanist;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 28px; 
-                padding-bottom: 32px;
-                opacity: 0.7;
+                line-height: 22px; /* 137.5% */
+                padding-bottom: 15px;
             }
             h4 {
-                color: #1F1F1F;
-                font-family: Roboto;
-                font-size: 24px;
+                color: var(--900, #010003);
+                font-family: Marcellus;
+                font-size: 22px;
                 font-style: normal;
-                font-weight: 500;
-                line-height: 34px; 
+                font-weight: 400;
+                line-height: 30px; /* 136.364% */
             }
         }
     }
