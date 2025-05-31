@@ -7575,13 +7575,20 @@ img {
 }
 .project4-groupBtn {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 .project4-groupBtn-item {
   border-radius: 5px;
   background: var(--White, #FFF);
-  padding: 12px 60px 12px 25px;
+  padding: 12px 15px 12px 25px;
+  width: 320px;
+}
+@media (max-width: 374px) {
+  .project4-groupBtn-item {
+    padding: 12px 15px;
+  }
 }
 .project4-groupBtn-item__text {
   color: var(--900, #010003);
