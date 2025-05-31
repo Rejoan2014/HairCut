@@ -8455,8 +8455,8 @@ img {
 }
 .blog3-card {
   border-radius: 10px;
-  background: var(--white);
-  box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 0px 0px 5px 5px;
+  background: var(--700, #131215);
   margin-bottom: 40px;
 }
 .blog3-card__thumb {
@@ -8468,9 +8468,9 @@ img {
 .blog3-card-content {
   padding: 0 40px 40px;
 }
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .blog3-card-content {
-    padding: 0 5px 25px;
+    padding: 30px;
   }
 }
 .blog3-card-content-meta {
@@ -8479,20 +8479,44 @@ img {
   gap: 18px;
   padding-top: 30px;
   padding-bottom: 11px;
-  color: var(--gray2);
+  color: rgba(31, 31, 31, 0.6);
   font-family: "Urbanist", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
 }
-@media (max-width: 499px) {
+@media (max-width: 1399px) {
+  .blog3-card-content-meta {
+    gap: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .blog3-card-content-meta {
+    gap: 10px;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 575px) {
   .blog3-card-content-meta {
     flex-wrap: wrap;
     row-gap: 10px;
   }
 }
+.blog3-card-content-meta img {
+  padding-right: 6px;
+}
 .blog3-card-content-meta__user {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+@media (max-width: 1199px) {
+  .blog3-card-content-meta__user {
+    display: none;
+  }
+}
+.blog3-card-content-meta__care {
   display: flex;
   align-items: center;
   gap: 7px;
@@ -8507,47 +8531,71 @@ img {
   align-items: center;
   gap: 7px;
 }
-.blog3-card-content-meta i {
-  color: var(--theme);
-}
-.blog3-card-content-meta img {
-  padding-right: 6px;
-}
 .blog3-card-content__title {
   padding-bottom: 15px;
 }
-.blog3-card-content__title h2 {
-  color: var(--title4);
-  font-family: "Outfit", sans-serif;
+.blog3-card-content__title h5 {
+  color: var(--title);
+  font-family: "Urbanist", sans-serif;
   font-size: 30px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 40px; /* 133.333% */
+  font-weight: 700;
+  line-height: 38px; /* 126.667% */
 }
 @media (max-width: 575px) {
-  .blog3-card-content__title h2 {
+  .blog3-card-content__title h5 {
     font-size: 28px;
   }
-}
-.blog3-card-content__title h2:hover {
-  color: var(--theme);
 }
 .blog3-card-content__desc {
   padding-right: 5px;
 }
 .blog3-card-content__desc p {
-  color: var(--gray2);
+  color: var(--title);
   font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  opacity: 0.7;
+}
+.blog3-card__quote {
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 50px 50px;
+  border-radius: 10px;
+  background: #EBF3ED;
+}
+@media (max-width: 499px) {
+  .blog3-card__quote {
+    padding: 25px 28px 50px;
+  }
+}
+.blog3-card__quote img {
+  padding-bottom: 21px;
+}
+.blog3-card__quote p {
+  color: #1F1F1F;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 32px;
+  opacity: 0.7;
+}
+.blog3-card__quote h4 {
+  color: #1F1F1F;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
 }
 
 .blog4-card {
-  border-radius: 10px;
   background: var(--white);
-  box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.05);
   margin-bottom: 40px;
 }
 .blog4-card__thumb {
@@ -8555,14 +8603,6 @@ img {
 }
 .blog4-card__thumb img {
   border-radius: 20px;
-}
-.blog4-card-content {
-  padding: 0 40px 40px;
-}
-@media (max-width: 575px) {
-  .blog4-card-content {
-    padding: 0 15px 40px;
-  }
 }
 .blog4-card-content-meta {
   display: flex;
@@ -8583,7 +8623,15 @@ img {
     row-gap: 10px;
   }
 }
+.blog4-card-content-meta img {
+  padding-right: 6px;
+}
 .blog4-card-content-meta__user {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.blog4-card-content-meta__care {
   display: flex;
   align-items: center;
   gap: 7px;
@@ -8598,40 +8646,39 @@ img {
   align-items: center;
   gap: 7px;
 }
-.blog4-card-content-meta i {
-  color: var(--theme);
-}
-.blog4-card-content-meta img {
-  padding-right: 6px;
-}
 .blog4-card-content__title {
   padding-bottom: 15px;
 }
-.blog4-card-content__title h2 {
+.blog4-card-content__title h5 {
   color: var(--title);
-  font-family: "Marcellus", serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 133.333% */
+  line-height: 38px; /* 126.667% */
+}
+@media (max-width: 575px) {
+  .blog4-card-content__title h5 {
+    font-size: 28px;
+  }
+}
+.blog4-card-content__desc {
+  padding-right: 5px;
 }
 .blog4-card-content__desc p {
-  color: var(--gray2);
+  color: var(--title);
   font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  opacity: 0.7;
 }
 .blog4-card-content__quote {
-  padding: 6px 50px 50px;
-  border: 1px solid #D8DDE1;
-  border-radius: 20px;
-}
-@media (min-width: 1600px) {
-  .blog4-card-content__quote {
-    margin-right: 100px;
-  }
+  text-align: center;
+  padding: 50px 50px;
+  border-radius: 10px;
+  background: #EBF3ED;
 }
 @media (max-width: 499px) {
   .blog4-card-content__quote {
@@ -8639,52 +8686,122 @@ img {
   }
 }
 .blog4-card-content__quote img {
-  padding: 21px;
-  background: var(--white);
-  margin-top: -41px;
-  margin-left: -71px;
-}
-@media (max-width: 499px) {
-  .blog4-card-content__quote img {
-    margin-left: -46px;
-  }
+  padding-bottom: 21px;
 }
 .blog4-card-content__quote p {
+  color: #1F1F1F;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 32px;
+  opacity: 0.7;
+}
+.blog4-card-content__quote h4 {
+  color: #1F1F1F;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+}
+.blog4-card-content-profile {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.blog4-card-content-profile__thumb {
+  border-radius: 10px;
+}
+.blog4-card-content-profile__thumb img {
+  border-radius: 10px;
+}
+.blog4-card-content-profile__title {
+  color: var(--title);
+  font-family: "Urbanist", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  padding-bottom: 30px;
+}
+.blog4-card-content-profile__desc {
+  color: var(--title);
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.blog4-card-content-profile2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.blog4-card-content-profile2__thumb {
+  border-radius: 10px;
+}
+.blog4-card-content-profile2__thumb img {
+  border-radius: 10px;
+}
+.blog4-card-content-profile2__subtitle {
+  display: inline-flex;
+  padding: 6px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: var(--white);
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 100px;
+  background: var(--theme2);
+  width: max-content;
+  margin-bottom: 30px;
+}
+.blog4-card-content-profile2__title {
+  color: var(--title);
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.blog4-card-content-profile2__desc {
   color: var(--title);
   font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
-  padding-bottom: 32px;
+  line-height: 26px;
+  opacity: 0.7;
+  padding-bottom: 40px;
 }
-.blog4-card-content__quote__btn {
-  margin-bottom: -64px;
-}
-.blog4-card-content__quote__btn p {
-  border-radius: 10px;
-  height: 35px;
-  display: inline-block;
-  padding: 2px 11px 2px 29px;
-  background: var(--theme);
-  color: var(--white);
-  font-family: "Marcellus", serif;
-  font-size: 20px;
+.blog4-card-content-profile2__link {
+  color: var(--title);
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 30px;
+  font-weight: 500;
+  line-height: normal;
 }
 .blog4-card-content__title2 {
   padding-top: 48px;
   padding-bottom: 25px;
 }
-.blog4-card-content__title2 h2 {
+.blog4-card-content__title2 h5 {
   color: var(--title);
-  font-family: "Outfit", sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
-  line-height: 40px; /* 133.333% */
+  line-height: 40px;
 }
 .blog4-card-content-thumb {
   display: flex;
@@ -8697,9 +8814,8 @@ img {
 }
 .blog4-card-content-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 115px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 @media (max-width: 1399px) {
   .blog4-card-content-list {
@@ -8714,7 +8830,7 @@ img {
   padding-top: 40px;
   margin-top: 35px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1399px) {
   .blog4-card-content-tagShare {
     flex-direction: column;
     align-items: start;
@@ -8726,34 +8842,33 @@ img {
   gap: 10px;
 }
 .blog4-card-content-tagShare-tags__title {
-  display: flex;
-  align-items: center;
   color: var(--title);
-  font-family: "Marcellus", serif;
-  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 30px;
+  line-height: normal;
 }
 .blog4-card-content-tagShare-tags__name a {
   height: 40px;
   display: inline-flex;
-  padding: 15px 18px;
+  padding: 9px 14px;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 10px;
-  background: var(--smoke2);
-  color: var(--gray2);
+  border-radius: 4px;
+  border: 1px solid rgba(31, 31, 31, 0.14);
+  background: rgba(255, 255, 255, 0);
+  color: rgba(31, 31, 31, 0.7);
   font-family: "Urbanist", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  font-weight: 500;
+  line-height: normal;
 }
 .blog4-card-content-tagShare-tags__name a:hover {
+  background-color: var(--theme2);
   color: var(--white);
-  background: var(--theme);
 }
 .blog4-card-content-tagShare-shareicon {
   display: flex;
@@ -8763,11 +8878,11 @@ img {
 .blog4-card-content-tagShare-shareicon__title {
   padding-right: 5px;
   color: var(--title);
-  font-family: "Outfit", sans-serif;
-  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 30px; /* 150% */
+  font-weight: 600;
+  line-height: normal;
 }
 .blog4-card-comment {
   padding: 30px 40px 40px;
@@ -8777,11 +8892,11 @@ img {
 }
 .blog4-card-comment__title h3 {
   color: var(--title);
-  font-family: "Marcellus", serif;
-  font-size: 30px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 50px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
+  font-weight: 600;
+  line-height: normal;
 }
 .blog4-card-comment__title h3 i {
   color: var(--theme);
@@ -8795,9 +8910,9 @@ img {
   position: relative;
   display: flex;
   gap: 20px;
-  padding: 24px 30px 30px;
+  padding: 0 0 0;
   border-radius: 14px;
-  background: var(--smoke2);
+  background: var(--white);
   border: 1px solid transparent;
   margin-bottom: 30px;
 }
@@ -8830,30 +8945,31 @@ img {
 }
 .blog4-card-comment-profile-content__author h5 {
   color: var(--title);
-  font-family: "Marcellus", serif;
-  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 30px; /* 150% */
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
 }
 .blog4-card-comment-profile-content__date {
   padding-bottom: 17px;
 }
 .blog4-card-comment-profile-content__date p {
-  color: var(--gray2);
+  color: rgba(31, 31, 31, 0.7);
   font-family: "Urbanist", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: normal;
 }
 .blog4-card-comment-profile-content__desc p {
-  color: var(--gray2);
+  color: var(--title);
   font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+  opacity: 0.7;
 }
 .blog4-card-comment-profile-content__reply {
   position: absolute;
@@ -8862,25 +8978,24 @@ img {
 }
 .blog4-card-comment-profile-content__reply .btn {
   display: flex;
-  color: var(--title);
+  color: rgba(31, 31, 31, 0.7);
   font-family: "Urbanist", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  text-transform: uppercase;
+  font-weight: 500;
+  line-height: normal;
+  border: 1px solid rgba(31, 31, 31, 0.1);
+  background: rgba(255, 255, 255, 0);
 }
 .blog4-card-comment-profile-content__reply .btn:hover {
-  color: var(--theme);
+  background-color: var(--theme2);
+  color: var(--white);
 }
 .blog4-card-comment-profile-content__reply .btn span {
   cursor: pointer;
 }
 .blog4-card-comment-profile-content__reply .btn span i {
   padding-right: 5px;
-}
-.blog4-card-comment-profile:hover {
-  border: 1px solid var(--theme);
 }
 .blog4-card-comment-form {
   padding-top: 78px;
@@ -8908,11 +9023,11 @@ img {
 }
 .blog4-form__title h6 {
   color: var(--title);
-  font-family: "Outfit", sans-serif;
-  font-size: 30px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 50px;
   font-style: normal;
   font-weight: 600;
-  line-height: 40px;
+  line-height: normal;
 }
 .blog4-form__title h6 i {
   color: var(--theme);
