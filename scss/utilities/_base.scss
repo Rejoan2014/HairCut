@@ -165,16 +165,20 @@ img {
   }
   
   // Map Section
+  .map-section {
+    height: 100%;
+  }
   .map-container {
     width: 100%;
-    height: 380px;
+    height: 100%;
+    // height: 380px;
   
-    @include breakpoint (md) {
-      height: 600px;
-    }
-    @include breakpoint (xl) {
-      height: 700px;
-    }
+    // @include breakpoint (md) {
+    //   height: 600px;
+    // }
+    // @include breakpoint (xl) {
+    //   height: 700px;
+    // }
   
     iframe {
         width: 100%;
