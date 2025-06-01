@@ -2370,7 +2370,8 @@ img {
   align-items: center;
   gap: 10px;
   border-radius: 50px;
-  background: var(--theme);
+  background: var(--black);
+  border: 1px solid var(--P, #B8E451);
 }
 @media (max-width: 374px) {
   .preview-area .preview-item .icon {
@@ -2392,13 +2393,12 @@ img {
   }
 }
 .preview-area .preview-item .content h5 {
-  color: var(--Black-01, #141422);
-  font-family: "Marcellus", serif;
-  font-size: 20px;
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 22px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 30px;
-  padding-bottom: 5px;
+  font-weight: 400;
+  line-height: 30px; /* 136.364% */
 }
 @media (max-width: 767px) {
   .preview-area .preview-item .content h5 {
@@ -2409,6 +2409,9 @@ img {
   .preview-area .preview-item .content h5 {
     font-size: 14px;
   }
+}
+.preview-area .preview-item .content h5:hover {
+  color: var(--theme);
 }
 .preview-area .preview-item .content.text-right {
   text-align: right;
@@ -2928,6 +2931,58 @@ img {
   border-radius: 10px;
 }
 .form__group3--large textarea {
+  height: 189px;
+}
+
+.form__group4 span {
+  color: var(--title);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.form__group4 input,
+.form__group4 textarea {
+  border: 1px solid transparent;
+  border-radius: 0px;
+  background: #131215;
+  padding: 15px 30px;
+  width: 100%;
+  outline: none;
+  color: var(--White, #FFF);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.form__group4 input::placeholder,
+.form__group4 textarea::placeholder {
+  color: var(--white);
+}
+.form__group4 select.form__select {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: var(--smoke2);
+  padding: 15px 30px;
+  width: 100%;
+  outline: none;
+  color: var(--gray2);
+  font-family: "Urbanist", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  appearance: none; /* hide native arrow */
+  background-image: none; /* in case you want custom arrow later */
+}
+.form__group4 select.form__select::placeholder {
+  color: var(--gray2);
+}
+.form__group4 textarea {
+  padding-top: 18px;
+  height: 164px;
+  border-radius: 10px;
+}
+.form__group4--large textarea {
   height: 189px;
 }
 
