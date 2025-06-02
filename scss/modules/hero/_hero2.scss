@@ -20,10 +20,10 @@
     }
     &__shape1 {
         position: absolute;
-        top: 17%;
-        right: 37%;
+        top: 13%;
+        right: 35%;
         z-index: 5;
-        @include breakpoint (max-xxl){
+        @include breakpoint (max-xl){
             display: none;
         }
     }   
@@ -73,12 +73,10 @@
             line-height: 100px; /* 125% */
             text-transform: uppercase;
             @include breakpoint (max-xxl){
+                font-size: 70px;
                 line-height: 85px;
             }
             @include breakpoint (max-xl){
-                font-size: 63px;
-            }
-            @include breakpoint (max-lg) {
                 font-size: 60px;
                 line-height: 70px;
             }
@@ -104,6 +102,9 @@
             padding-top: 40px;
             display: flex;
             gap: 30px;
+            @include breakpoint (max-sm){
+                flex-direction: column;
+            }
         }
         &-ratting {
             padding-top: 35px;

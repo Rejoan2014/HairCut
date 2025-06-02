@@ -51,7 +51,7 @@
             content: "";
             top: 162%;
             left: 50%;
-            background: $yellow2;
+            background: $title-color;
             -webkit-transform: translateX(-50%);
             transform: translateX(-50%) rotate(-8deg);
             border-radius: 80%;
@@ -209,10 +209,12 @@
 .theme-btn {
     &.style4 {
         display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: fit-content;
         height: 54px;
         padding: 20px 20px;
-        align-items: center;
-        gap: 8px;
         border-radius: 5px;
         border: 1px solid $theme-color;
         color: var(--White, #FFF);
