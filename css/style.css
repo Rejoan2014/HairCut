@@ -7085,6 +7085,11 @@ img {
 .service1-thumb {
   position: relative;
 }
+@media (max-width: 1199px) {
+  .service1-thumb {
+    display: none;
+  }
+}
 .service1-thumb__one {
   position: relative;
 }
@@ -7097,6 +7102,11 @@ img {
   border-radius: 5px;
   border: 1px solid var(--P, #B8E451);
   background: var(--P, #B8E451);
+}
+@media (max-width: 1399px) {
+  .service1-thumb__icon {
+    display: none;
+  }
 }
 .service1-content {
   display: flex;

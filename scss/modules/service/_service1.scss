@@ -6,6 +6,9 @@
     background: var(--White, #FFF);
     &-thumb {
         position: relative;
+        @include breakpoint (max-xl){
+            display: none;
+        }
         &__one {
             position: relative;
   
@@ -19,6 +22,9 @@
             border-radius: 5px;
             border: 1px solid var(--P, #B8E451);
             background: var(--P, #B8E451);
+            @include breakpoint (max-xxl){
+                display: none;
+            }
         }       
 
     }
