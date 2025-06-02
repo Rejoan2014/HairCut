@@ -5765,6 +5765,11 @@ img {
     padding: 70px 0 80px;
   }
 }
+@media (max-width: 499px) {
+  .hero1 {
+    padding: 50px 0 40px;
+  }
+}
 .hero1-thumb {
   position: relative;
 }
@@ -5777,6 +5782,17 @@ img {
   border-radius: 0px 5px 5px 0px;
   background: var(--P, #B8E451);
 }
+@media (max-width: 1599px) {
+  .hero1__shape1 {
+    top: 22%;
+    width: 442px;
+  }
+}
+@media (max-width: 1399px) {
+  .hero1__shape1 {
+    display: none;
+  }
+}
 .hero1__shape2 {
   position: absolute;
   right: 7%;
@@ -5787,15 +5803,30 @@ img {
   border-radius: 0px 0px 5px 0px;
   background: var(--P, #B8E451);
 }
+@media (max-width: 1699px) {
+  .hero1__shape2 {
+    display: none;
+  }
+}
 .hero1__shape3 {
   position: absolute;
   bottom: 12%;
   left: 47%;
 }
+@media (max-width: 1399px) {
+  .hero1__shape3 {
+    display: none;
+  }
+}
 .hero1__shape4 {
   position: absolute;
   top: 13%;
   right: 2%;
+}
+@media (max-width: 1599px) {
+  .hero1__shape4 {
+    display: none;
+  }
 }
 .hero1__shape5 {
   position: absolute;
@@ -5811,6 +5842,16 @@ img {
   font-weight: 400;
   line-height: 137px;
   text-transform: uppercase;
+}
+@media (max-width: 1599px) {
+  .hero1__shape5 {
+    right: 3%;
+  }
+}
+@media (max-width: 1399px) {
+  .hero1__shape5 {
+    display: none;
+  }
 }
 .hero1-content {
   position: relative;
@@ -5853,40 +5894,56 @@ img {
   line-height: 120px;
   text-transform: uppercase;
 }
+@media (max-width: 1199px) {
+  .hero1-content__title span {
+    font-size: 75px;
+    line-height: 80px;
+  }
+}
 @media (max-width: 991px) {
   .hero1-content__title span {
-    font-size: 58px;
-    line-height: 70px;
+    font-size: 63px;
+    line-height: 80px;
   }
 }
 @media (max-width: 767px) {
   .hero1-content__title span {
-    font-size: 45px;
-    line-height: 50px;
+    font-size: 55px;
+    line-height: 80px;
   }
 }
 @media (max-width: 575px) {
   .hero1-content__title span {
-    font-size: 42px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 1399px) {
+  .hero1-content__title {
+    line-height: 85px;
+  }
+}
+@media (max-width: 1199px) {
+  .hero1-content__title {
+    font-size: 63px;
   }
 }
 @media (max-width: 991px) {
   .hero1-content__title {
-    font-size: 58px;
+    font-size: 60px;
     line-height: 70px;
   }
 }
 @media (max-width: 767px) {
   .hero1-content__title {
-    font-size: 45px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 70px;
   }
 }
 @media (max-width: 575px) {
   .hero1-content__title {
-    font-size: 42px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 60px;
   }
 }
 .hero1-content__desc {

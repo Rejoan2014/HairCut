@@ -11,6 +11,9 @@
     @include breakpoint (max-sm){
         padding: 70px 0 80px;
     }
+    @include breakpoint (max-xs){
+        padding: 50px 0 40px;
+    }
     &-thumb {
         position: relative;
     }
@@ -22,6 +25,13 @@
         flex-shrink: 0;
         border-radius: 0px 5px 5px 0px;
         background: var(--P, #B8E451);
+        @include breakpoint (max-xxxl){
+            top: 22%;
+            width: 442px;
+        }
+        @include breakpoint (max-xxl){
+            display: none;
+        }
     }   
     &__shape2 {
         position: absolute;
@@ -32,16 +42,25 @@
         flex-shrink: 0;
         border-radius: 0px 0px 5px 0px;
         background: var(--P, #B8E451);
+        @include breakpoint (max-xl2){
+            display: none;
+        }
     } 
     &__shape3 {
         position: absolute;
         bottom: 12%;
         left: 47%;
+        @include breakpoint (max-xxl){
+            display: none;
+        }
     }  
     &__shape4 {
         position: absolute;
         top: 13%;
         right: 2%;
+        @include breakpoint (max-xxxl){
+            display: none;
+        }
     }  
     &__shape5 {
         position: absolute;
@@ -57,6 +76,12 @@
         font-weight: 400;
         line-height: 137px; 
         text-transform: uppercase;
+        @include breakpoint (max-xxxl){
+            right: 3%;
+        }
+        @include breakpoint (max-xxl){
+            display: none;
+        }
     }  
     &-content {
         position: relative;
@@ -95,30 +120,40 @@
                 font-weight: 400;
                 line-height: 120px;
                 text-transform: uppercase;
+                @include breakpoint (max-xl) {
+                    font-size: 75px;
+                    line-height: 80px;
+                }
                 @include breakpoint (max-lg) {
-                    font-size: 58px;
-                    line-height: 70px;
+                    font-size: 63px;
+                    line-height: 80px;
                 }
                 @include breakpoint (max-md) {
-                    font-size: 45px;
-                    line-height: 50px;
+                    font-size: 55px;
+                    line-height: 80px;
                 }
                 @include breakpoint (max-sm) {
-                    font-size: 42px;
-                    line-height: 50px;
+                    font-size: 45px;
+                    line-height: 60px;
                 }
             }
+            @include breakpoint (max-xxl){
+                line-height: 85px;
+            }
+            @include breakpoint (max-xl){
+                font-size: 63px;
+            }
             @include breakpoint (max-lg) {
-                font-size: 58px;
+                font-size: 60px;
                 line-height: 70px;
             }
             @include breakpoint (max-md) {
-                font-size: 45px;
-                line-height: 50px;
+                font-size: 50px;
+                line-height: 70px;
             }
             @include breakpoint (max-sm) {
-                font-size: 42px;
-                line-height: 50px;
+                font-size: 45px;
+                line-height: 60px;
             }
         } 
         &__desc {
