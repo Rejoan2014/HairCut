@@ -94,6 +94,13 @@
   }
 }
 
+.fix-pb-50 {
+  padding-bottom: 50px;
+  @include breakpoint (max-md){
+    padding-bottom: 20px;
+  }
+}
+
 .mxw-405 {
   max-width: 405px;
 }

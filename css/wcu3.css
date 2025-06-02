@@ -2325,6 +2325,15 @@ span {
   }
 }
 
+.fix-pb-50 {
+  padding-bottom: 50px;
+}
+@media (max-width: 767px) {
+  .fix-pb-50 {
+    padding-bottom: 20px;
+  }
+}
+
 .mxw-405 {
   max-width: 405px;
 }
