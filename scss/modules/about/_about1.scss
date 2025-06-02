@@ -37,6 +37,9 @@
             background: var(--White, #FFF);
             box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
             padding: 25px 30px;
+            @include breakpoint (max-xl){
+                right: 30px;
+            }
 
             &__text {
                 h2 {
@@ -63,6 +66,9 @@
         padding-bottom: 38px;
         display: flex;
         gap: 20px;
+        @include breakpoint (max-xl){
+            flex-wrap: wrap;
+        }
         &-item {
             display: inline-flex;
             align-items: center;
@@ -71,6 +77,10 @@
             border-radius: 5px;
             border: 1px solid var(--200, #CCC);
             padding: 20px;
+            @include breakpoint (max-xs){
+                justify-content: start;
+                width: 100%;
+            }
             &__icon {
                 display: inline-flex;
                 align-items: center;
@@ -80,11 +90,19 @@
                 flex-shrink: 0;
                 background: $theme-color;
                 border-radius: 50px;
+                @include breakpoint (max-xs){
+                    width: 65px;
+                    height: 65px;
+                }
                 img {
                     width: 40px;
                     height: 40px;
                     flex-shrink: 0;
                     aspect-ratio: 1/1;
+                    @include breakpoint (max-xs){
+                        width: 30px;
+                        height: 30px;
+                    }
                 }
             }
             &__title {
