@@ -7931,6 +7931,11 @@ img {
 .testimonial1 {
   background: var(--700, #131215);
 }
+@media (max-width: 1399px) {
+  .testimonial1 {
+    padding-bottom: 80px !important;
+  }
+}
 .testimonial1-card {
   position: relative;
   display: flex;
@@ -7943,6 +7948,12 @@ img {
   margin-left: 95px;
   margin-bottom: 40px;
 }
+@media (max-width: 767px) {
+  .testimonial1-card {
+    padding: 50px;
+    margin-left: 0;
+  }
+}
 @media (max-width: 575px) {
   .testimonial1-card {
     padding: 20px;
@@ -7952,6 +7963,11 @@ img {
   flex: none;
   position: absolute;
   left: -90px;
+}
+@media (max-width: 767px) {
+  .testimonial1-card__thumb {
+    display: none;
+  }
 }
 .testimonial1-card-content__star {
   padding-bottom: 10px;

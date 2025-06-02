@@ -3,6 +3,9 @@
 
 .testimonial1 {
   background: var(--700, #131215);
+  @include breakpoint (max-xxl){
+    padding-bottom: 80px !important;
+  }
   &-card {
     position: relative;
     display: flex;
@@ -14,6 +17,10 @@
     background: var(--900, #010003);
     margin-left: 95px;
     margin-bottom: 40px;
+    @include breakpoint (max-md){
+        padding: 50px;
+        margin-left: 0;
+    }
     @include breakpoint (max-sm){
         padding: 20px;
     }
@@ -21,6 +28,9 @@
       flex: none;
       position: absolute;
       left: -90px;
+      @include breakpoint (max-md){
+        display: none;
+      }
     }
 
     &-content {
