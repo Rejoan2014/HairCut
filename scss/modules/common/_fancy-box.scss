@@ -118,5 +118,30 @@
       }
     }
 }
+.fancy-box5 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    &__item {
+      h4 {
+        color: var(--White, #FFF);
+        font-family: Marcellus;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 125% */
+      }
+
+      p {
+        color: var(--White, #FFF);
+        font-family: Marcellus;
+        font-size: 13.2px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+      }
+    }
+}
 
 

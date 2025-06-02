@@ -102,6 +102,34 @@
         } 
         &-cta {
             padding-top: 40px;
+            display: flex;
+            gap: 30px;
+        }
+        &-ratting {
+            padding-top: 35px;
+            &__star {
+                padding-bottom: 10px;
+                i {
+                    color: #FFA800;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+                    &:last-child {
+                        color: var(--800, #CCCCCD);
+                    }
+                }
+            }
+            &__desc {
+                padding-top: 5px;
+                max-width: 251px;
+                color: var(--White, #FFF);
+                font-family: Marcellus;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px; 
+            }
         }   
     }
 }

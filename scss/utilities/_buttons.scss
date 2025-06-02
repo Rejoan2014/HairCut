@@ -206,6 +206,72 @@
     }  
 }
 
+.theme-btn {
+    &.style4 {
+        display: inline-flex;
+        height: 54px;
+        padding: 20px 20px;
+        align-items: center;
+        gap: 8px;
+        border-radius: 5px;
+        border: 1px solid $theme-color;
+        color: var(--White, #FFF);
+        font-family: Urbanist;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px; /* 87.5% */
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+
+        @include breakpoint (max-md) {
+            padding: 15px 28px;
+        }
+        a {
+            color: $white!important;
+            display: inline-block;
+        }
+        i {
+            color: $white;
+            font-weight: 400;
+            @include transition;
+        }
+        &:before {
+            transition-duration: 800ms;
+            position: absolute;
+            width: 210%;
+            height: 290%;
+            content: "";
+            top: 162%;
+            left: 50%;
+            background: $theme-color;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%) rotate(-8deg);
+            border-radius: 80%;
+            z-index: -1;
+        }
+        &:hover {
+            color: $white !important;
+            &:before {
+                top: -96%;
+            }
+            i {
+                color: $white;
+                @include transition;
+            }
+        }
+    }  
+}
+
 .help-contact {
     padding: 5px 26px 5px 6px;
     border-radius: 999px;

@@ -1999,6 +1999,70 @@ span {
   transition: all 0.4s ease-in-out;
 }
 
+.theme-btn.style4 {
+  display: inline-flex;
+  height: 54px;
+  padding: 20px 20px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 5px;
+  border: 1px solid var(--theme);
+  color: var(--White, #FFF);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 87.5% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+@media (max-width: 767px) {
+  .theme-btn.style4 {
+    padding: 15px 28px;
+  }
+}
+.theme-btn.style4 a {
+  color: var(--white) !important;
+  display: inline-block;
+}
+.theme-btn.style4 i {
+  color: var(--white);
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+.theme-btn.style4:before {
+  transition-duration: 800ms;
+  position: absolute;
+  width: 210%;
+  height: 290%;
+  content: "";
+  top: 162%;
+  left: 50%;
+  background: var(--theme);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%) rotate(-8deg);
+  border-radius: 80%;
+  z-index: -1;
+}
+.theme-btn.style4:hover {
+  color: var(--white) !important;
+}
+.theme-btn.style4:hover:before {
+  top: -96%;
+}
+.theme-btn.style4:hover i {
+  color: var(--white);
+  transition: all 0.4s ease-in-out;
+}
+
 .help-contact {
   padding: 5px 26px 5px 6px;
   border-radius: 999px;
