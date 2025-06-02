@@ -2363,6 +2363,15 @@ span {
   }
 }
 
+.fix-pb-80 {
+  padding-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .fix-pb-80 {
+    padding-bottom: 40px;
+  }
+}
+
 .mxw-405 {
   max-width: 405px;
 }
@@ -7526,12 +7535,6 @@ img {
 /* 8. Project */
 .project1 {
   position: relative;
-}
-.project1 .section-top {
-  position: relative;
-  z-index: 5;
-  padding-top: 150px;
-  padding-bottom: 60px;
 }
 .project1-card {
   margin-bottom: 50px;

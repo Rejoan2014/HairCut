@@ -3,12 +3,12 @@
 
 .project1 {
     position: relative;
-    .section-top {
-        position: relative;
-        z-index: 5;
-        padding-top: 150px;
-        padding-bottom: 60px;
-    }
+    // .section-top {
+    //     padding-bottom: 60px;
+    //     @include breakpoint (max-lg){
+    //         padding-bottom: 30px;
+    //     }
+    // }
     &-card {
         margin-bottom: 50px;
         padding: 40px 40px 30px 40px;
