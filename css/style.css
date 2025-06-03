@@ -11388,11 +11388,6 @@ img {
   line-height: 30px; /* 150% */
   padding-bottom: 27px;
 }
-@media (min-width: 1200px) {
-  .footer2-wrapper-contact-list {
-    padding-left: 60px;
-  }
-}
 .footer2-wrapper-contact-list__item:not(:last-child) {
   padding-bottom: 40px;
 }

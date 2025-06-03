@@ -370,9 +370,6 @@
         padding-bottom: 27px;
       }
       &-list {
-        @include breakpoint (xl){
-          padding-left: 60px;
-        }
         &__item {    
           &:not(:last-child) {
             padding-bottom: 40px;
