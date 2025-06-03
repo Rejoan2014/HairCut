@@ -10079,6 +10079,7 @@ img {
   }
 }
 .faq1-content {
+  padding: 120px 60px;
   background-color: var(--black);
   width: 100%;
 }
