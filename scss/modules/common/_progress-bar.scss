@@ -13,6 +13,7 @@
 	.progress-meta {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
         padding-bottom: 9px;
 		.title {
             color: $white;
@@ -31,6 +32,9 @@
 			font-style: normal;
 			font-weight: 400;
 			line-height: 30px; /* 136.364% */
+			@include breakpoint (max-xxsmall){
+				font-size: 20px;
+			}
 		}
 
 		.percentage {
@@ -86,6 +90,11 @@
 	}
 	.progress-box {
 		width: 100%;
+	}
+	.progress-icon {
+		@include breakpoint (max-xsmall){
+			display: none;
+		}
 	}
 
 	.progress-container {

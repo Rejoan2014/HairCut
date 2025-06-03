@@ -3306,6 +3306,11 @@ img {
   border: 1px solid var(--insurance-200, #E3E3E3);
   background: var(--100, #FCF9EB);
 }
+@media (max-width: 767px) {
+  .wcu1-progress {
+    padding: 20px;
+  }
+}
 .wcu1-info__title {
   color: var(--900, #010003);
   font-family: Marcellus;
