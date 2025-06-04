@@ -2913,18 +2913,23 @@ img {
 }
 .form__group input,
 .form__group textarea {
-  border: 1px solid var(--border);
-  color: var(--title);
+  border-radius: 5px;
+  border: 1px solid var(--900, #010003);
   background-color: transparent;
-  padding: 17px 30px;
+  padding: 17px 21px;
   width: 100%;
-  border-radius: 10px;
-  opacity: 0.8;
+  height: 70px;
   outline: none;
+  color: var(--900, #010003);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }
 .form__group input::placeholder,
 .form__group textarea::placeholder {
-  color: var(--title);
+  color: var(--black);
 }
 .form__group textarea {
   padding-top: 18px;
@@ -2933,9 +2938,6 @@ img {
 }
 .form__group--large textarea {
   height: 189px;
-}
-.form__group .form-ctrl {
-  padding: 17px 90px 17px 30px;
 }
 
 .form__group2 span {
@@ -2950,7 +2952,6 @@ img {
   padding: 17px 30px;
   width: 100%;
   border-radius: 10px;
-  opacity: 0.8;
   outline: none;
   color: var(--gray2);
   font-family: "Urbanist", sans-serif;
@@ -2962,6 +2963,7 @@ img {
 .form__group2 input::placeholder,
 .form__group2 textarea::placeholder {
   color: var(--gray2);
+  opacity: 0.8;
 }
 .form__group2 textarea {
   padding-top: 18px;
