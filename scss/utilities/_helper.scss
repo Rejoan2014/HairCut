@@ -109,10 +109,15 @@
 
 .mxw-405 {
   max-width: 405px;
+  @include breakpoint (max-xl){
+    max-width: 100%;
+  }
 }
+
 .mxw-363 {
   max-width: 363px;
 }
+
 .mxw-570 {
   max-width: 570px;
 }

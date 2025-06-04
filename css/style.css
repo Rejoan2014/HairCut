@@ -2210,41 +2210,37 @@ span {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+@media (max-width: 767px) {
+  .submit-btn.style1 {
+    height: 50px;
+  }
+}
 .submit-btn.style1:hover {
   background-color: var(--black);
 }
 
-.btn-submit.style2 {
+.submit-btn.style2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 30px;
   width: 100%;
-  height: 56px;
-  padding: 17px 64px;
-  color: var(--900, #010003);
+  height: 70px;
+  border-radius: 5px;
+  background: var(--900, #010003);
+  color: var(--White, #FFF);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 14px;
+  line-height: 14px; /* 87.5% */
   letter-spacing: 2px;
   text-transform: uppercase;
-  border-radius: 5px;
-  background: var(--P, #B8E451);
-  border: none;
-  transition: background 0.3s ease;
-  cursor: pointer;
 }
-@media (max-width: 575px) {
-  .btn-submit.style2 {
-    padding: 17px 30px;
-  }
-}
-@media (max-width: 374px) {
-  .btn-submit.style2 {
-    padding: 17px 15px;
-  }
-}
-.btn-submit.style2:hover {
+.submit-btn.style2:hover {
   color: var(--white);
-  background-color: #3CA200;
+  background-color: var(--theme);
 }
 
 /*----------------------------------------------
@@ -2354,6 +2350,11 @@ span {
 
 .mxw-405 {
   max-width: 405px;
+}
+@media (max-width: 1199px) {
+  .mxw-405 {
+    max-width: 100%;
+  }
 }
 
 .mxw-363 {
@@ -4156,6 +4157,7 @@ img {
 @media (max-width: 449px) {
   .faq-group .accordion-item .accordion-header .accordion-button {
     font-size: 16px;
+    padding: 50px 30px 50px 70px;
   }
 }
 .faq-group .accordion-item .accordion-header .accordion-button.collapsed {
@@ -4165,6 +4167,11 @@ img {
   background: var(--700, #131215);
   box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
   color: var(--white);
+}
+@media (max-width: 449px) {
+  .faq-group .accordion-item .accordion-header .accordion-button.collapsed {
+    padding: 50px 20px 50px 70px;
+  }
 }
 .faq-group .accordion-item .accordion-header .accordion-button:after {
   font-weight: 500;
@@ -10081,7 +10088,7 @@ img {
   top: 0;
   right: 0;
 }
-@media (max-width: 1399px) {
+@media (max-width: 1599px) {
   .faq1__shape {
     display: none;
   }
@@ -10105,8 +10112,28 @@ img {
   background-color: var(--black);
   width: 100%;
 }
+@media (max-width: 1199px) {
+  .faq1-content {
+    padding: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .faq1-content {
+    padding: 30px;
+  }
+}
 .faq1-content .faq-group {
   max-width: 554px;
+}
+@media (max-width: 1399px) {
+  .faq1-content .faq-group {
+    max-width: 470px;
+  }
+}
+@media (max-width: 1199px) {
+  .faq1-content .faq-group {
+    max-width: 100%;
+  }
 }
 .faq1-card {
   position: relative;
@@ -10116,6 +10143,32 @@ img {
   padding: 60px;
   margin-left: -160px;
   margin-right: 115px;
+}
+@media (max-width: 1599px) {
+  .faq1-card {
+    margin-left: -120px;
+    margin-right: 90px;
+    padding: 40px;
+  }
+}
+@media (max-width: 1399px) {
+  .faq1-card {
+    margin-left: -100px;
+    margin-right: 0;
+    padding: 40px;
+  }
+}
+@media (max-width: 1199px) {
+  .faq1-card {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 40px;
+  }
+}
+@media (max-width: 449px) {
+  .faq1-card {
+    padding: 20px;
+  }
 }
 .faq1-card__title {
   padding-bottom: 50px;
