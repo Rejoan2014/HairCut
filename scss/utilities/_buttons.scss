@@ -377,79 +377,62 @@
 }
 
 // Form submit button
+.submit-btn {
+    &.style1 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 30px;
+        width: 100%;
+        height: 70px;
+        border-radius: 5px;
+        background: var(--900, #010003);
+
+        color: var(--White, #FFF);
+        font-family: Urbanist;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px; /* 87.5% */
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        &:hover {
+          background-color: $black;
+        }
+    }
+}
+
 .btn-submit {
-    width: 100%;
-    height: 60px;
-    padding: 17px;    
-    color: $white;
-    font-family: $title-font2;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-
-    border-radius: 10px;
-    background: $theme-color;
-    border: none;
-    transition: background 0.3s ease;
-    cursor: pointer;
-
-    &:hover {
-      background-color: #3CA200;
-    }
-}
-
-.btn-submit2 {
-    width: 100%;
-    height: 56px;
-    padding: 17px 64px;  
-    color: var(--900, #010003);
-    font-family: Urbanist;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 14px; 
-    letter-spacing: 2px;
-    text-transform: uppercase;
-
-    border-radius: 5px;
-    background: var(--P, #B8E451);
-    border: none;
-    transition: background 0.3s ease;
-    cursor: pointer;
-    @include breakpoint (max-sm){
-        padding: 17px 30px;
-    }
-    @include breakpoint (max-xxsmall){
-        padding: 17px 15px;
-    }
-    &:hover {
-      color: $white;
-      background-color: #3CA200;
-    }
-}
-
-.btn-submit3 {
-    width: 100%;
-    height: 56px;
-    padding: 17px;    
-    color: $white;
-    font-family: $body-font;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px; /* 171.429% */
-    text-transform: uppercase;
-
-    border-radius: 5px;
-    background: $theme-color;
-    border: none;
-    transition: background 0.3s ease;
-    cursor: pointer;
-    max-width: 200px;
-
-    &:hover {
-      background-color: $yellow;
+    &.style2 {
+        width: 100%;
+        height: 56px;
+        padding: 17px 64px;  
+        color: var(--900, #010003);
+        font-family: Urbanist;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px; 
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    
+        border-radius: 5px;
+        background: var(--P, #B8E451);
+        border: none;
+        transition: background 0.3s ease;
+        cursor: pointer;
+        @include breakpoint (max-sm){
+            padding: 17px 30px;
+        }
+        @include breakpoint (max-xxsmall){
+            padding: 17px 15px;
+        }
+        &:hover {
+          color: $white;
+          background-color: #3CA200;
+        }
     }
 }

@@ -2,6 +2,16 @@
 @use '../../utilities' as *;
 
 .faq1 {
+    position: relative;
+  &__shape {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      @include breakpoint (max-xxl){
+          display: none;
+      }
+  }
   &-thumb {
     display: inline-flex;
     align-items: center;
@@ -24,6 +34,8 @@
   }
 
   &-card {
+    position: relative;
+    z-index: 5;
     border-radius: 5px;
     background: var(--P, #B8E451);
     padding: 60px;
