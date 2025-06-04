@@ -4,6 +4,18 @@
 .service2 {
     position: relative;;
     background: var(--White, #FFF);
+    &__shape {
+        position: absolute;
+        top: 20px;
+        right: 12px;
+        @include breakpoint (max-xl3){
+            top: 10px;
+            right: 5px;
+        }
+        @include breakpoint (max-xl2){
+            display: none;
+        }
+    }
     &-card {
         display: flex;
         align-items: center;

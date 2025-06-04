@@ -7223,6 +7223,22 @@ img {
   position: relative;
   background: var(--White, #FFF);
 }
+.service2__shape {
+  position: absolute;
+  top: 20px;
+  right: 12px;
+}
+@media (max-width: 1799px) {
+  .service2__shape {
+    top: 10px;
+    right: 5px;
+  }
+}
+@media (max-width: 1699px) {
+  .service2__shape {
+    display: none;
+  }
+}
 .service2-card {
   display: flex;
   align-items: center;
