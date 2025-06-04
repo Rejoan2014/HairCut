@@ -51,36 +51,37 @@
 
     input,
     textarea {
-      border: 1px solid transparent;
-      background: $white;
-      padding: 17px 30px;
+      border-radius: 5px;
+      border: 1px solid rgb(204, 204, 205);
+      background-color: transparent;
+      padding: 17px 21px;
       width: 100%;
-      border-radius: 10px;
+      height: 54px;
       outline: none;
-      
-      color: $gray2;
-      font-family: $body-font;
-      font-size: 14px;
+
+      color: var(--900, #010003);
+      font-family: Urbanist;
+      font-size: 16px;
       font-style: normal;
       font-weight: 400;
-      line-height: 24px; 
-      
+      line-height: 22px; 
+
       &::placeholder {
-        color: $gray2;
-        opacity: 0.8;
+        color: $black;
       }
     }
 
     textarea {
       padding-top: 18px;
-      height: 100px;
-      border-radius: 10px;
+      height: 109px;
+      border-radius: 5px;
     }
     &--large textarea {
       height: 189px;
     }
   }  
 }
+
 
 .form {
   &__group3 {
