@@ -18,12 +18,17 @@
     padding: 120px 60px;
     background-color: $black;
     width: 100%;
+    .faq-group {
+      max-width: 554px;
+    }
   }
 
   &-card {
     border-radius: 5px;
     background: var(--P, #B8E451);
     padding: 60px;
+    margin-left: -160px;
+    margin-right: 115px;
     &__title {
         padding-bottom: 50px;
         @include breakpoint (max-md){
