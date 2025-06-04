@@ -8649,6 +8649,12 @@ img {
   gap: 30px;
   margin-bottom: 30px;
 }
+@media (max-width: 575px) {
+  .blog2-card {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
 .blog2-card-item-meta {
   display: flex;
   align-items: center;
