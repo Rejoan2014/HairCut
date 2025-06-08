@@ -1842,6 +1842,7 @@ span {
   border-radius: 5px;
   background: var(--P, #B8E451);
   color: var(--900, #010003);
+  border: 1px solid var(--theme);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -1888,6 +1889,7 @@ span {
 }
 .theme-btn.style1:hover {
   color: var(--white) !important;
+  border: 1px solid rgb(52, 51, 53);
 }
 .theme-btn.style1:hover:before {
   top: -96%;
@@ -10689,7 +10691,57 @@ img {
 .appointment1-schedule-button__item:hover {
   color: var(--900, #010003);
   background: var(--theme);
+  cursor: pointer;
   transition: all 0.4s ease-in-out;
+}
+.appointment1-booking {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  border-radius: 10px;
+  background: var(--700, #131215);
+  padding: 13px 30px;
+}
+.appointment1-booking-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.appointment1-booking-btn__text {
+  color: var(--White, #FFF);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.appointment1-booking-btn__text span {
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding-left: 30px;
+}
+@media (max-width: 374px) {
+  .appointment1-booking-btn__text span {
+    font-size: 24px;
+  }
+}
+.appointment1-booking__date {
+  color: var(--White, #FFF);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 87.5% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 /* 17. Video */
