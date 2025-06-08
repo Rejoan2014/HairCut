@@ -104,4 +104,77 @@
             }
         }
     }
+    &-schedule {
+        margin-top: 60px;
+        @include breakpoint (max-lg){
+            margin-top: 35px;
+        }
+        &-calendar {
+            &__title {
+                color: var(--White, #FFF);
+                font-family: Marcellus;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 50px; 
+                padding-bottom: 40px;
+                @include breakpoint (max-xl){
+                    font-size: 34px;
+                }
+                @include breakpoint (max-lg){
+                    padding-bottom: 20px;
+                }
+            }
+        }
+        &-button {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            @include breakpoint (max-xxxl){
+                gap: 20px;
+            }
+            &__item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 5px;
+                border: 1px solid rgb(52, 51, 53);
+                background: var(--900, #010003);
+                width: 234.572px;
+                height: 100px;
+                flex-shrink: 0;
+                color: var(--White, #FFF);
+                font-family: Marcellus;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                @include breakpoint (max-xxl){
+                    width: 196px;
+                    height: 85px;
+                }
+                @include breakpoint (max-xl){
+                    width: 164px;
+                    height: 65px;
+                    font-size: 18px;
+                }
+                @include breakpoint (max-md){
+                    width: 155px;
+                    height: 60px;
+                    font-size: 16px;
+                }
+                @include breakpoint (max-sm){
+                    width: 122px;
+                    height: 50px;
+                    font-size: 16px;
+                }
+                &:hover {
+                    color: var(--900, #010003);
+
+                    background: $theme-color;
+                    @include transition;
+                }
+            }
+        }
+    }
 }

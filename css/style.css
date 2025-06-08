@@ -10604,6 +10604,92 @@ img {
 .appointment1-content-item__star i:last-child {
   color: rgba(255, 255, 255, 0.2);
 }
+.appointment1-schedule {
+  margin-top: 60px;
+}
+@media (max-width: 991px) {
+  .appointment1-schedule {
+    margin-top: 35px;
+  }
+}
+.appointment1-schedule-calendar__title {
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  padding-bottom: 40px;
+}
+@media (max-width: 1199px) {
+  .appointment1-schedule-calendar__title {
+    font-size: 34px;
+  }
+}
+@media (max-width: 991px) {
+  .appointment1-schedule-calendar__title {
+    padding-bottom: 20px;
+  }
+}
+.appointment1-schedule-button {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+@media (max-width: 1599px) {
+  .appointment1-schedule-button {
+    gap: 20px;
+  }
+}
+.appointment1-schedule-button__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid rgb(52, 51, 53);
+  background: var(--900, #010003);
+  width: 234.572px;
+  height: 100px;
+  flex-shrink: 0;
+  color: var(--White, #FFF);
+  font-family: Marcellus;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+@media (max-width: 1399px) {
+  .appointment1-schedule-button__item {
+    width: 196px;
+    height: 85px;
+  }
+}
+@media (max-width: 1199px) {
+  .appointment1-schedule-button__item {
+    width: 164px;
+    height: 65px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .appointment1-schedule-button__item {
+    width: 155px;
+    height: 60px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .appointment1-schedule-button__item {
+    width: 122px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+.appointment1-schedule-button__item:hover {
+  color: var(--900, #010003);
+  background: var(--theme);
+  transition: all 0.4s ease-in-out;
+}
 
 /* 17. Video */
 .video1 {
