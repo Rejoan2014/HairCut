@@ -1,0 +1,17 @@
+@use '../root' as *;
+@use '../utilities' as *;
+
+.offer1 {
+    background: var(--P, #B8E451);
+    &-thumb {
+        text-align: center;
+    }
+}
+
+.package1 {
+    &-content {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+}

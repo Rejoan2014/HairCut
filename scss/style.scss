@@ -101,6 +101,7 @@ Description: CleanPro - Creative & Digital Agency Html Template
 @use "./modules/pricing/pricing1";   
 @use "./modules/pricing/pricing2";   
 @use "./modules/pricing/pricing3";   
+@use "./modules/pricing/pricing4";   
 
 /* 13. WCU */
 @use "./modules/wcu/wcu1";   
@@ -117,20 +118,23 @@ Description: CleanPro - Creative & Digital Agency Html Template
 @use "./modules/faq/faq1";  
 @use "./modules/faq/faq2";  
 
-/* 16. Work Process */
+/* 16. Resume */
 @use "./modules/resume";
 
 /* 17. Appointment */
 @use "./modules/appointment";
 
-/* 17. Video */
+/* 18. Offer and Package */
+@use "./modules/offerAndpackage";
+
+/* 19. Video */
 @use "./modules/video/video1";
 
-/* 17. Subscribe */
+/* 20. Subscribe */
 @use "./modules/subscribe/subscribe1";
 @use "./modules/subscribe/subscribe2";
 
-/* 18. Footer */
+/* 21. Footer */
 @use "./modules/footer/footer1";
 @use "./modules/footer/footer2";
 

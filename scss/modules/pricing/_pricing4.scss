@@ -1,0 +1,88 @@
+@use '../../root' as *;
+@use '../../utilities' as *;    
+
+.pricing4 {
+    position: relative;
+    background: var(--700, #131215);
+    &-card {
+        position: relative;
+        border-radius: 6.155px;
+        background: var(--White, #FFF);
+        &__title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px 5px 0px 0px;
+            background: var(--P, #B8E451);
+            padding: 13px 20px;
+            color: var(--900, #010003);
+            font-family: Marcellus;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 50px; 
+            margin-bottom: 40px;
+            @include breakpoint (max-xl){
+                padding: 5px 20px;
+                font-size: 30px;
+            }
+        }
+        &-list {
+            padding: 0 30px 30px;
+            &-item {
+                padding-bottom: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &__text {
+                    color: var(--900, #010003);
+                    font-family: Marcellus;
+                    font-size: 27.083px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 36.931px; 
+                }
+                &__value {
+                    color: var(--900, #010003);
+                    font-family: Marcellus;
+                    font-size: 27.083px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 36.931px; 
+                    span {
+                        @include breakpoint (max-xxl){
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &__btn {
+                display: flex;
+                width: 100%;
+                height: 73.862px;
+                padding: 24.621px 36.931px;
+                justify-content: center;
+                align-items: center;
+                gap: 12.31px;
+                flex-shrink: 0;
+                border-radius: 6.155px;
+                background: var(--900, #010003);
+                border: 1px solid var(--200, #CCC);
+                color: var(--P, #B8E451);
+                text-align: center;
+                font-family: Urbanist;
+                font-size: 19.696px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 17.234px; /* 87.5% */
+                letter-spacing: 2.462px;
+                text-transform: uppercase;
+                cursor: pointer;
+                &:hover {
+                    color: $black;
+                    background: #B8E451;
+                }
+            }
+        }
+    }
+}
