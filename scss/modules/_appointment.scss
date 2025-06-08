@@ -18,6 +18,7 @@
         @include breakpoint (max-md) {
             font-size: 42px;
             line-height: 45px;
+            padding-bottom: 10px;
         }
         @include breakpoint (max-sm) {
             font-size: 30px;

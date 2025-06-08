@@ -10502,6 +10502,7 @@ img {
   .appointment1__title {
     font-size: 42px;
     line-height: 45px;
+    padding-bottom: 10px;
   }
 }
 @media (max-width: 575px) {
