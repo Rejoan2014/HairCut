@@ -10901,7 +10901,21 @@ img {
   text-align: center;
 }
 
+.package1 {
+  position: relative;
+}
+.package1__shape1 {
+  position: absolute;
+  right: 31%;
+  top: 9%;
+}
+@media (max-width: 1399px) {
+  .package1__shape1 {
+    display: none;
+  }
+}
 .package1-content {
+  padding-top: 70px;
   display: flex;
   justify-content: center;
   gap: 50px;

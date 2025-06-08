@@ -9,7 +9,17 @@
 }
 
 .package1 {
+    position: relative;
+    &__shape1 {
+        position: absolute;
+        right: 31%;
+        top: 9%;
+        @include breakpoint (max-xxl){
+            display: none;
+        }
+    }
     &-content {
+        padding-top: 70px;
         display: flex;
         justify-content: center;
         gap: 50px;
