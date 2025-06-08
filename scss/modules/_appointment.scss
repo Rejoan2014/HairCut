@@ -2,84 +2,106 @@
 @use '../utilities' as *;
 
 .appointment1 {
-    position: relative;
-    &-shape1 {
-        position: absolute;
-        right: 0;
-        top: 0px;
-        z-index: 5;
-        @include breakpoint (max-xl2){
-         display: none;
-        }
-    }
-    &-shape2 {
-        position: absolute;
-        bottom: 14%;
-        z-index: 5;
-        @include breakpoint (max-xl2){
-         display: none;
-        }
-    }
-    &-form {
-        max-width: 460px;        
-    }
-    &-thumb {
-        position: relative;
+    &__title {
+        color: var(--White, #FFF);
         text-align: center;
-        margin-top: 100px;
-        &__top {
-            position: absolute;
-            top: -72px;
-            left: 20px;
-            z-index: 9;
-            @include breakpoint (max-xxl) {
-                img {
-                    width: 70%;
-                }
-            }
-            @include breakpoint (max-xl) {
-                display: none;
-            }
+        font-family: Marcellus;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 75px;
+        padding-bottom: 30px;
+        @include breakpoint (max-xl) {
+            font-size: 45px;
+            line-height: 50px;
         }
-        &__bottom {
+        @include breakpoint (max-md) {
+            font-size: 42px;
+            line-height: 45px;
+        }
+        @include breakpoint (max-sm) {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        @include breakpoint (max-xl){
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: 50px;
+        }
+        @include breakpoint (max-md){
+            gap: 30px;
+        }
+        &-item {
             position: relative;
-            z-index: 8;
-            @include breakpoint (max-xxl) {
-                img {
-                    width: 70%;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 27px 30px;
+            border-radius: 5px;
+            background: var(--700, #131215);
+            box-shadow: 0px 3.455px 17.565px -4.319px rgba(19, 16, 34, 0.10);
+            width: 440px;
+            height: 116px;
+            @include breakpoint (max-xxxl){
+                width: 410px;
+            }
+            @include breakpoint (max-xxl){
+                padding: 20px 20px;
+                gap: 10px;
+                width: 366px;
+            }
+            @include breakpoint (max-lg){
+                width: 322px;
+                padding: 23px 15px;
+            }
+            @include breakpoint (max-md){
+                width: 100%;
+                gap: 20px;
+            }
+            &-info {
+                &__name {
+                    color: var(--White, #FFF);
+                    font-family: Marcellus;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30px; /* 136.364% */
+                    padding-bottom: 7px;
+                    @include breakpoint (max-lg){
+                        font-size: 18px;
+                    }
+                }
+                &__label {
+                    color: var(--White, #FFF);
+                    font-family: Urbanist;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 22px;
+                    opacity: 0.8;
                 }
             }
-            @include breakpoint (max-xl) {
-                display: none;
-            }
-        }
-        &__leftShape {
-            position: absolute;
-            bottom: -30px;
-            left: -35px;
-            @include breakpoint (max-xxl) {
-                img {
-                    width: 70%;
+            &__star {
+                position: absolute;
+                right: 14px;
+                @include breakpoint (max-xxsmall){
+                    display: none;
+                }
+                i {
+                    color: var(--P, #B8E451);
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+                    &:last-child {
+                        color: rgba(255, 255, 255, 0.20);
+                    }
                 }
             }
-            @include breakpoint (max-xl) {
-                display: none;
-            }
-        }
-        &__rightShape {
-            position: absolute;
-            right: -44px;
-            bottom: 17%;
-            @include breakpoint (max-xxl) {
-                right: -87px;
-                img {
-                    width: 70%;
-                }
-            }
-            @include breakpoint (max-xl) {
-                display: none;
-            }
-
         }
     }
 }
