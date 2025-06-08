@@ -2398,7 +2398,7 @@ span {
   border-radius: 50%;
   transition: background 0.3s;
   font-weight: 500;
-  color: #333;
+  color: #010003;
   width: 40px;
   height: 40px;
 }
@@ -2417,7 +2417,7 @@ span {
 }
 
 .calendar-dates .outlined {
-  border: 2px solid #333;
+  border: 2px solid #010003;
 }
 
 img {
