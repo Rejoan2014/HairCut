@@ -12123,11 +12123,6 @@ img {
   padding-bottom: 70px;
   padding-top: 75px;
 }
-@media (min-width: 1400px) {
-  .footer2-wrapper-about {
-    padding-left: 65px;
-  }
-}
 @media (max-width: 991px) {
   .footer2-wrapper-about {
     padding-bottom: 25px;

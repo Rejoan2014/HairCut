@@ -271,12 +271,10 @@
         }
       }
     }
+
     &-about {
       padding-bottom: 70px;
       padding-top: 75px;
-      @include breakpoint (xxl){
-        padding-left: 65px;
-      }
       @include breakpoint (max-lg){
         padding-bottom: 25px;
       }
@@ -316,6 +314,7 @@
         }
       }
     }
+
     &-link {
       padding-bottom: 70px;
       padding-top: 75px;
