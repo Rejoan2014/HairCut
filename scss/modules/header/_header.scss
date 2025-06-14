@@ -178,21 +178,13 @@
 
 .header-1{
 	position: absolute;
-	top: 0; // task purpose
+	top: 0;
 	left: 0;
 	right: 0;
 	width: 100%;
 	z-index: 999;
 	padding: 0 100px;
-	background-color: $black;
-
-	@include breakpoint(max-xl){
-		top: 0;
-		padding: 0 40px;
-	}
-	@include breakpoint(max-lg){
-		padding: 0 30px;
-	}
+	background-color: $black;	
 	.header-wrap{
 		margin-top: 10px;
 		@include breakpoint(max-xl){

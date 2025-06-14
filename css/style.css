@@ -5557,17 +5557,6 @@ img {
   padding: 0 100px;
   background-color: var(--black);
 }
-@media (max-width: 1199px) {
-  .header-1 {
-    top: 0;
-    padding: 0 40px;
-  }
-}
-@media (max-width: 991px) {
-  .header-1 {
-    padding: 0 30px;
-  }
-}
 .header-1 .header-wrap {
   margin-top: 10px;
 }
