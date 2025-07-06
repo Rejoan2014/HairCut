@@ -2324,11 +2324,30 @@ span {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 150px 0;
+}
+@media (max-width: 1199px) {
+  .section-padding {
+    padding: 100px 0;
+  }
 }
 @media (max-width: 991px) {
   .section-padding {
     padding: 80px 0;
+  }
+}
+
+.fix-padding-215 {
+  padding: 215px 0 150px;
+}
+@media (max-width: 1199px) {
+  .fix-padding-215 {
+    padding: 100px 0;
+  }
+}
+@media (max-width: 991px) {
+  .fix-padding-215 {
+    padding: 80px 0 80px;
   }
 }
 
@@ -6294,8 +6313,8 @@ img {
 }
 .about1__shape1 {
   position: absolute;
-  left: 33%;
-  top: 3%;
+  left: 31%;
+  top: 14%;
 }
 @media (max-width: 1399px) {
   .about1__shape1 {
@@ -6353,9 +6372,10 @@ img {
   display: flex;
   gap: 20px;
 }
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   .about1-feature {
     flex-wrap: wrap;
+    gap: 7px;
   }
 }
 .about1-feature-item {
@@ -6367,8 +6387,22 @@ img {
   border: 1px solid var(--200, #CCC);
   padding: 20px;
 }
+@media (max-width: 767px) {
+  .about1-feature-item {
+    padding: 12px;
+    gap: 9px;
+  }
+}
+@media (max-width: 575px) {
+  .about1-feature-item {
+    padding: 12px 6px;
+    gap: 7px;
+  }
+}
 @media (max-width: 499px) {
   .about1-feature-item {
+    padding: 15px;
+    gap: 9px;
     justify-content: start;
     width: 100%;
   }
@@ -6383,10 +6417,10 @@ img {
   background: var(--theme);
   border-radius: 50px;
 }
-@media (max-width: 499px) {
+@media (max-width: 767px) {
   .about1-feature-item__icon {
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
   }
 }
 .about1-feature-item__icon img {
@@ -6395,19 +6429,29 @@ img {
   flex-shrink: 0;
   aspect-ratio: 1/1;
 }
-@media (max-width: 499px) {
+@media (max-width: 767px) {
   .about1-feature-item__icon img {
     width: 30px;
     height: 30px;
   }
 }
-.about1-feature-item__title {
+.about1-feature-item__text {
   color: var(--900, #010003);
   font-family: Marcellus;
-  font-size: 28px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 28px;
+}
+@media (max-width: 1199px) {
+  .about1-feature-item__text {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .about1-feature-item__text {
+    font-size: 20px;
+  }
 }
 .about1-desc {
   color: var(--900, #010003);

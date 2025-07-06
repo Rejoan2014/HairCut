@@ -6,8 +6,8 @@
     background: var(--White, #FFF);
     &__shape1 {
         position: absolute;
-        left: 33%;
-        top: 3%;
+        left: 31%;
+        top: 14%;
         @include breakpoint (max-xxl){
             display: none;
         }
@@ -66,8 +66,9 @@
         padding-bottom: 38px;
         display: flex;
         gap: 20px;
-        @include breakpoint (max-xl){
+        @include breakpoint (max-md){
             flex-wrap: wrap;
+            gap: 7px;
         }
         &-item {
             display: inline-flex;
@@ -77,7 +78,17 @@
             border-radius: 5px;
             border: 1px solid var(--200, #CCC);
             padding: 20px;
+            @include breakpoint (max-md){
+                padding: 12px;
+                gap: 9px;
+            }
+            @include breakpoint (max-sm){
+                padding: 12px 6px;
+                gap: 7px;
+            }
             @include breakpoint (max-xs){
+                padding: 15px;
+                gap: 9px;
                 justify-content: start;
                 width: 100%;
             }
@@ -90,29 +101,37 @@
                 flex-shrink: 0;
                 background: $theme-color;
                 border-radius: 50px;
-                @include breakpoint (max-xs){
-                    width: 65px;
-                    height: 65px;
+                @include breakpoint (max-md){
+                    width: 60px;
+                    height: 60px;
                 }
                 img {
                     width: 40px;
                     height: 40px;
                     flex-shrink: 0;
                     aspect-ratio: 1/1;
-                    @include breakpoint (max-xs){
+                    @include breakpoint (max-md){
                         width: 30px;
                         height: 30px;
                     }
                 }
             }
-            &__title {
+            &__text {
                 color: var(--900, #010003);
                 font-family: Marcellus;
-                font-size: 28px;
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 36px; 
+                line-height: 28px;
+
+                @include breakpoint(max-xl) {
+                    font-size: 24px;
+                }
+                @include breakpoint (max-md) {
+                    font-size: 20px;
+                } 
             }
+
         }
     }
     &-desc {
