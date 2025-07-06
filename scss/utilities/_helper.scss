@@ -113,6 +113,12 @@
     padding-bottom: 20px;
   }
 }
+.fix-pb-60 {
+  padding-bottom: 60px;
+  @include breakpoint (max-md){
+    padding-bottom: 20px;
+  }
+}
 .fix-pb-80 {
   padding-bottom: 80px;
   @include breakpoint (max-md){
@@ -130,9 +136,11 @@
 .mxw-363 {
   max-width: 363px;
 }
-
 .mxw-570 {
   max-width: 570px;
+}
+.mxw-610 {
+  max-width: 610px;
 }
 
 .bg-pricing2 {
