@@ -19,6 +19,15 @@
         }
     }
     &-content {
+        @include breakpoint (max-lg){
+            justify-content: start;
+            padding-top: 0;
+        }
+        &__thumb {
+            @include breakpoint (max-lg){
+                display: none;
+            }
+        }
         padding-top: 70px;
         display: flex;
         justify-content: center;

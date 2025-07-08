@@ -9833,6 +9833,7 @@ img {
   background: var(--700, #131215);
 }
 .pricing4-card {
+  width: 540px;
   position: relative;
   border-radius: 6.155px;
   background: var(--White, #FFF);
@@ -9861,6 +9862,11 @@ img {
 .pricing4-card-list {
   padding: 0 30px 30px;
 }
+@media (max-width: 374px) {
+  .pricing4-card-list {
+    padding: 0 7px 30px;
+  }
+}
 .pricing4-card-list-item {
   padding-bottom: 40px;
   display: flex;
@@ -9875,6 +9881,11 @@ img {
   font-weight: 400;
   line-height: 36.931px;
 }
+@media (max-width: 575px) {
+  .pricing4-card-list-item__text {
+    font-size: 24px;
+  }
+}
 .pricing4-card-list-item__value {
   color: var(--900, #010003);
   font-family: Marcellus;
@@ -9886,6 +9897,11 @@ img {
 @media (max-width: 1399px) {
   .pricing4-card-list-item__value span {
     display: none;
+  }
+}
+@media (max-width: 575px) {
+  .pricing4-card-list-item__value {
+    font-size: 24px;
   }
 }
 .pricing4-card-list__btn {
@@ -11139,6 +11155,17 @@ img {
   display: flex;
   justify-content: center;
   gap: 50px;
+}
+@media (max-width: 991px) {
+  .package1-content {
+    justify-content: start;
+    padding-top: 0;
+  }
+}
+@media (max-width: 991px) {
+  .package1-content__thumb {
+    display: none;
+  }
 }
 
 /* 19. Video */
