@@ -26,12 +26,33 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border-bottom: 1px solid $theme-color;
+        border-bottom: 1px solid #CCC;;
         padding-bottom: 30px;
         margin-bottom: 30px;
-        @include breakpoint (max-lg){
+        @include breakpoint (max-xsmall){
             flex-direction: column;
             gap: 30px;
+        }
+        &__left {
+            display: flex;
+            align-items: center;
+            gap: 353px;
+            @include breakpoint (max-xxl){
+                gap: 270px;
+            }
+            @include breakpoint (max-xl){
+                gap: 200px;
+            }
+            @include breakpoint (max-lg){
+                gap: 60px;
+            }
+            @include breakpoint (max-md){
+                gap: 20px;
+            }
+            @include breakpoint (max-xsmall){
+                flex-direction: column;
+                gap: 30px;
+            }
         }
         &__title {
             color: var(--900, #010003);
@@ -47,6 +68,16 @@
             @include breakpoint (max-md){
                 font-size: 24px;
                 line-height: 30px;
+            }
+            @include breakpoint (max-sm){
+                max-width: 260px;
+            }
+            @include breakpoint (max-xs){
+                max-width: 225px;
+            }
+            @include breakpoint (max-xsmall){
+                max-width: none;
+                text-align: center;
             }
         }
         &__link {
