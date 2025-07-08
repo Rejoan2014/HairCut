@@ -3,13 +3,14 @@
 
 .testimonial5 {
   &-card {
+    margin-top: 43px;
     position: relative;
     padding: 70px 40px 40px;
     border-radius: 5px;
     border: 2px solid rgba(204, 204, 204, 0.20);
     background: var(--White, #FFF);
-    @include breakpoint (max-sm){
-        padding: 20px;
+    @include breakpoint (max-xl){
+      padding: 55px 20px 40px;
     }
     &__thumb {
       position: absolute;
@@ -42,6 +43,11 @@
         }
     }
     &__quote {
+      @include breakpoint (max-sm){
+        img {
+          width: 85%;
+        }
+      }
       i {
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: var(--200, #CCC);
