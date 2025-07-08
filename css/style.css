@@ -2371,7 +2371,7 @@ span {
 }
 @media (max-width: 767px) {
   .fix-pb-60 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 }
 
@@ -8458,7 +8458,12 @@ img {
 }
 @media (max-width: 499px) {
   .testimonial4-card-content {
-    padding: 17px 20px;
+    padding: 25px 30px;
+  }
+}
+@media (max-width: 374px) {
+  .testimonial4-card-content {
+    padding: 20px 20px;
   }
 }
 .testimonial4-card-content__label {
