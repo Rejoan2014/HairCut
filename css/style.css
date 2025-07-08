@@ -10686,6 +10686,11 @@ img {
     gap: 0;
   }
 }
+@media (max-width: 575px) {
+  .resume1-info {
+    padding: 25px 30px;
+  }
+}
 @media (max-width: 449px) {
   .resume1-info {
     padding: 20px 20px;
@@ -10723,7 +10728,7 @@ img {
     font-size: 50px;
   }
 }
-@media (max-width: 449px) {
+@media (max-width: 575px) {
   .resume1-info__title {
     font-size: 40px;
   }
@@ -10745,9 +10750,9 @@ img {
   line-height: 50px;
   padding-bottom: 30px;
 }
-@media (max-width: 449px) {
+@media (max-width: 575px) {
   .resume1-info-form__label {
-    font-size: 34px;
+    font-size: 36px;
     padding-bottom: 20px;
   }
 }
