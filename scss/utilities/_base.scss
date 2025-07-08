@@ -215,6 +215,21 @@ img {
     -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
+    @include breakpoint (max-xl){
+      right: 40px;
+    }
+    @include breakpoint (max-lg){
+      right: 38px;
+    }
+    @include breakpoint (max-sm){
+      right: 80px;
+    }
+    @include breakpoint (max-xs){
+      right: 44px;
+    }
+    @include breakpoint (max-xxsmall){
+      right: 32px;
+    }
   
     ul {
       max-width: 50px;

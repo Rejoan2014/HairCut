@@ -2670,6 +2670,31 @@ img {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
+@media (max-width: 1199px) {
+  .social-profile {
+    right: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .social-profile {
+    right: 38px;
+  }
+}
+@media (max-width: 575px) {
+  .social-profile {
+    right: 80px;
+  }
+}
+@media (max-width: 499px) {
+  .social-profile {
+    right: 44px;
+  }
+}
+@media (max-width: 374px) {
+  .social-profile {
+    right: 32px;
+  }
+}
 .social-profile ul {
   max-width: 50px;
   padding: 5px 0;
