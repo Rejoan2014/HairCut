@@ -4854,7 +4854,7 @@ img {
 .swiper-pagination-bullet {
   width: 8px;
   height: 8px;
-  background-color: var(--title);
+  background-color: var(--white);
   border-radius: 50%;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -8268,6 +8268,7 @@ img {
   background: var(--700, #131215);
 }
 .testimonial2-card {
+  margin-top: 42px;
   position: relative;
   padding: 70px 40px 40px;
   border-radius: 5px;
