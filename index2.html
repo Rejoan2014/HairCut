@@ -596,8 +596,8 @@
             </div>
             <div class="row g-4">
                 <div class="col-12">
-                    <div class="swiper global-slider" id="serviceSlider1"
-                        data-slider-options='{"loop": true, "autoplay": false, "breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":2,"centeredSlides":true},"768":{"slidesPerView":2},"992":{"slidesPerView":3},"1200":{"slidesPerView":3}}}'>
+                    <div class="swiper global-slider" id="teamSlider2"
+                        data-slider-options='{"loop": true, "breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":2,"centeredSlides":true},"768":{"slidesPerView":2},"992":{"slidesPerView":3},"1200":{"slidesPerView":3}}}'>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="team2-card">
@@ -698,7 +698,7 @@
                                     </div>
                                 </div> 
                             </div>
-                            
+
                             <div class="swiper-slide">
                                 <div class="team2-card">
                                     <div class="team2-card-thumb">
@@ -1375,36 +1375,57 @@
 
     <!--===== Main.js =====-->
     <script src="js/main.js"></script>
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll('.swiper-slide').forEach(slide => {
+            const checkSwiperReady = setInterval(() => {
+            const swiperEl = document.querySelector('#teamSlider2');
+            const swiperInstance = swiperEl?.swiper;
+
+            if (swiperInstance) {
+            clearInterval(checkSwiperReady); // stop checking once ready
+
+            function bindToggleEvents() {
+                document.querySelectorAll('.swiper-slide').forEach(slide => {
                 const plusBtn = slide.querySelector('.team2-card-content__icon');
                 const minusBtn = slide.querySelector('.team2-card2-content__icon');
                 const cardDefault = slide.querySelector('.team2-card');
                 const cardExpanded = slide.querySelector('.team2-card2');
 
-                // Ensure default card is visible, expanded is hidden initially
-                if (cardExpanded) cardExpanded.style.display = "none";
+                if (slide.dataset.binded === 'true') return;
+                slide.dataset.binded = 'true';
 
-                // Show expanded, hide default on plus click
-                if (plusBtn) {
-                plusBtn.addEventListener('click', () => {
-                    if (cardDefault) cardDefault.style.display = "none";
-                    if (cardExpanded) cardExpanded.style.display = "block";
-                });
-                }
+                if (cardExpanded && cardDefault) {
+                    cardExpanded.style.display = "none";
 
-                // Show default, hide expanded on minus click
-                if (minusBtn) {
-                minusBtn.addEventListener('click', () => {
-                    if (cardExpanded) cardExpanded.style.display = "none";
-                    if (cardDefault) cardDefault.style.display = "block";
-                });
+                    if (plusBtn) {
+                    plusBtn.addEventListener('click', () => {
+                        cardDefault.style.display = "none";
+                        cardExpanded.style.display = "block";
+                        swiperInstance.update(); // Update Swiper layout
+                    });
+                    }
+
+                    if (minusBtn) {
+                    minusBtn.addEventListener('click', () => {
+                        cardExpanded.style.display = "none";
+                        cardDefault.style.display = "block";
+                        swiperInstance.update();
+                    });
+                    }
                 }
+                });
+            }
+
+            bindToggleEvents();
+
+            swiperInstance.on('slideChangeTransitionEnd', () => {
+                bindToggleEvents();
             });
+            }
+        }, 100); 
         });
     </script>
-
 
 </body>
 
