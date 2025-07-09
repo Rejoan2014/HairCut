@@ -53,6 +53,27 @@
         line-height: normal;
       }
     }
+    &:hover {
+      background: var(--100, #FCF9EB);
+      @include transition;
+      .testimonial2 {
+        &-card {
+          &-content {
+            &__desc {
+              color: var(--900, #010003);
+            }
+            .fancy-box1__item {
+              h6 {
+                color: var(--900, #010003);
+              }
+              p {
+                color: var(--900, #010003);
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
   

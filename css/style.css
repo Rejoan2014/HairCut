@@ -8314,6 +8314,19 @@ img {
   font-weight: 900;
   line-height: normal;
 }
+.testimonial2-card:hover {
+  background: var(--100, #FCF9EB);
+  transition: all 0.4s ease-in-out;
+}
+.testimonial2-card:hover .testimonial2-card-content__desc {
+  color: var(--900, #010003);
+}
+.testimonial2-card:hover .testimonial2-card-content .fancy-box1__item h6 {
+  color: var(--900, #010003);
+}
+.testimonial2-card:hover .testimonial2-card-content .fancy-box1__item p {
+  color: var(--900, #010003);
+}
 
 .testimonial3 {
   background: var(--900, #010003);
