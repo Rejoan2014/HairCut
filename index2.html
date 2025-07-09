@@ -611,9 +611,7 @@
                                         </div>
                                         <div class="team2-card-content__icon"><i class="fa-solid fa-plus"></i></div>
                                     </div>
-                                </div> 
-                            </div>
-                            <div class="swiper-slide">
+                                </div>
                                 <div class="team2-card2">
                                     <div class="team2-card2-thumb">
                                         <img src="images/team/team-thumb2_3.png" alt="png">
@@ -650,6 +648,7 @@
                                     </div>
                                 </div> 
                             </div>
+
                             <div class="swiper-slide">
                                 <div class="team2-card">
                                     <div class="team2-card-thumb">
@@ -663,6 +662,91 @@
                                         <div class="team2-card-content__icon"><i class="fa-solid fa-plus"></i></div>
                                     </div>
                                 </div> 
+                                <div class="team2-card2">
+                                    <div class="team2-card2-thumb">
+                                        <img src="images/team/team-thumb2_3.png" alt="png">
+                                        <div class="team2-card2-thumb__desc">A hot towel shave is a traditional wet shave for face experience that combines luxury, relaxation, and precision grooming.</div>
+                                        <div class="global-social3 pt-20">
+                                            <div class="global-social3__item">
+                                                <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-brands fa-facebook-f"></i>
+                                                </a>
+                                            </div>
+                                            <div class="global-social3__item">
+                                                <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-brands fa-twitter"></i>
+                                                </a>
+                                            </div>
+                                            <div class="global-social3__item">
+                                                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </div>
+                                            <div class="global-social3__item">
+                                                <a href="https://vimeo.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fab fa-vimeo-v"></i>
+                                                </a>
+                                            </div>                                  
+                                        </div>
+                                    </div>
+                                    <div class="team2-card2-content">
+                                        <div class="team2-card2-content-item">
+                                            <h4 class="team2-card2-content-item__name">Brooklyn Simmons</h4>
+                                            <div class="team2-card2-content-item__label">Junior Barber</div>
+                                        </div>
+                                        <div class="team2-card2-content__icon"><i class="fa-solid fa-minus"></i></div>
+                                    </div>
+                                </div> 
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="team2-card">
+                                    <div class="team2-card-thumb">
+                                        <img src="images/team/team-thumb2_2.png" alt="png">
+                                    </div>
+                                    <div class="team2-card-content">
+                                        <div class="team2-card-content-item">
+                                            <h4 class="team2-card-content-item__name">Theresa Webb</h4>
+                                            <div class="team2-card-content-item__label">Manager</div>
+                                        </div>
+                                        <div class="team2-card-content__icon"><i class="fa-solid fa-plus"></i></div>
+                                    </div>
+                                </div> 
+                                <div class="team2-card2">
+                                    <div class="team2-card2-thumb">
+                                        <img src="images/team/team-thumb2_3.png" alt="png">
+                                        <div class="team2-card2-thumb__desc">A hot towel shave is a traditional wet shave for face experience that combines luxury, relaxation, and precision grooming.</div>
+                                        <div class="global-social3 pt-20">
+                                            <div class="global-social3__item">
+                                                <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-brands fa-facebook-f"></i>
+                                                </a>
+                                            </div>
+                                            <div class="global-social3__item">
+                                                <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-brands fa-twitter"></i>
+                                                </a>
+                                            </div>
+                                            <div class="global-social3__item">
+                                                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </div>
+                                            <div class="global-social3__item">
+                                                <a href="https://vimeo.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fab fa-vimeo-v"></i>
+                                                </a>
+                                            </div>                                  
+                                        </div>
+                                    </div>
+                                    <div class="team2-card2-content">
+                                        <div class="team2-card2-content-item">
+                                            <h4 class="team2-card2-content-item__name">Brooklyn Simmons</h4>
+                                            <div class="team2-card2-content-item__label">Junior Barber</div>
+                                        </div>
+                                        <div class="team2-card2-content__icon"><i class="fa-solid fa-minus"></i></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1291,6 +1375,37 @@
 
     <!--===== Main.js =====-->
     <script src="js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.swiper-slide').forEach(slide => {
+                const plusBtn = slide.querySelector('.team2-card-content__icon');
+                const minusBtn = slide.querySelector('.team2-card2-content__icon');
+                const cardDefault = slide.querySelector('.team2-card');
+                const cardExpanded = slide.querySelector('.team2-card2');
+
+                // Ensure default card is visible, expanded is hidden initially
+                if (cardExpanded) cardExpanded.style.display = "none";
+
+                // Show expanded, hide default on plus click
+                if (plusBtn) {
+                plusBtn.addEventListener('click', () => {
+                    if (cardDefault) cardDefault.style.display = "none";
+                    if (cardExpanded) cardExpanded.style.display = "block";
+                });
+                }
+
+                // Show default, hide expanded on minus click
+                if (minusBtn) {
+                minusBtn.addEventListener('click', () => {
+                    if (cardExpanded) cardExpanded.style.display = "none";
+                    if (cardDefault) cardDefault.style.display = "block";
+                });
+                }
+            });
+        });
+    </script>
+
+
 </body>
 
 </html>
