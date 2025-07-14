@@ -8,7 +8,7 @@
 
 .footer2 {
   position: relative;
-  background: var(--700, #131215);
+  background: var(--100, #FCF9EB);
   &-shape1 {
     position: absolute;
     top: 0;
@@ -28,181 +28,6 @@
       }
   }
 
-  &-cta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    @include breakpoint (max-md){
-      flex-direction: column;
-    }
-    &-item {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      background: $yellow;
-      padding: 35px 51px;
-      width: 440px;
-      height: 120px;
-
-      @include breakpoint (max-xl){
-        padding: 34px 13px;
-      }
-      @include breakpoint (max-lg){
-        flex-direction: column;
-        gap: 5px;
-      }
-      @include breakpoint (max-md){
-        flex-direction: row;
-        justify-content: start;
-        gap: 15px;
-        padding: 20px 22px;
-        height: 90px;
-      }
-      @include breakpoint (max-xs){
-        padding: 20px 64px;
-      }
-      &__icon {
-        flex: none;
-      }
-      &-info {
-        &__name {
-          color: $white;
-          font-family: $body-font;
-          font-size: 14px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px; /* 171.429% */
-        }
-        &__numb {
-          color: $white;
-          font-family: $body-font;
-          font-size: 24px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 26px; /* 108.333% */
-          @include breakpoint (max-xxl) {
-            font-size: 22px;
-          }
-          @include breakpoint (max-xl) {
-            font-size: 20px;
-          }
-          @include breakpoint (max-xs){
-            font-size: 18px;
-          }
-        }
-      }
-    }
-    &-item2 {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      background: $theme-color;
-      padding: 35px 28px;
-      width: 440px;
-      height: 120px;
-      @include breakpoint (max-xl){
-        padding: 35px 35px;
-      }
-      @include breakpoint (max-lg){
-        padding: 35px 5px;
-        flex-direction: column;
-        gap: 5px;
-      }
-      @include breakpoint (max-md){
-        flex-direction: row;
-        justify-content: start;
-        gap: 15px;
-        padding: 20px 22px;
-        height: 90px;
-      }
-      @include breakpoint (max-xs){
-        padding: 20px 64px;
-      }
-      &__icon {
-        flex: none;
-      }
-      &-info {
-        &__name {
-          color: $white;
-          font-family: $body-font;
-          font-size: 14px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px; /* 171.429% */
-        }
-        &__numb {
-          color: $white;
-          font-family: $body-font;
-          font-size: 24px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 26px; /* 108.333% */
-          @include breakpoint (max-xxl) {
-            font-size: 22px;
-          }
-          @include breakpoint (max-xl) {
-            font-size: 20px;
-          }
-          @include breakpoint (max-xs){
-            font-size: 18px;
-          }
-        }
-      }
-    }
-    &-item3 {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      background: $smoke;
-      padding: 35px 5px;
-      width: 440px;
-      height: 120px;
-      @include breakpoint (max-lg){
-        flex-direction: column;
-        gap: 5px;
-      }
-      @include breakpoint (max-md){
-        flex-direction: row;
-        justify-content: start;
-        gap: 15px;
-        padding: 20px 22px;
-        height: 90px;
-      }
-      @include breakpoint (max-xs){
-        padding: 20px 64px;
-      }
-      &__icon {
-        flex: none;
-      }
-      &-info {
-        &__name {
-          color: $title-color;
-          font-family: $body-font;
-          font-size: 14px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 24px; /* 171.429% */
-        }
-        &__numb {
-          color: $title-color;
-          font-family: $title-font;
-          font-size: 20px;
-          font-style: normal;
-          font-weight: 600;
-          line-height: 30px;
-          @include breakpoint (max-xxl) {
-            font-size: 22px;
-          }
-          @include breakpoint (max-xl) {
-            font-size: 20px;
-          }
-          @include breakpoint (max-xs){
-            font-size: 18px;
-          }
-        }
-      }
-    }
-  }
   &-wrapper {   
     position: relative;
     z-index: 9;
@@ -216,12 +41,13 @@
         padding-bottom: 24px;
       }
       &__desc {
-        color: var(--White, #FFF);
-        font-family: $body-font;
+        color: var(--900, #010003);
+        font-family: Urbanist;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 26px; 
+        line-height: 22px; 
+        opacity: 0.8;
         padding-bottom: 22px;
         @include breakpoint (xl){
           padding-right: 60px;
@@ -283,12 +109,12 @@
         padding-top: 7px;
       }
       &__title {
-        color: var(--White, #FFF);
+        color: var(--900, #010003);
         font-family: Marcellus;
-        font-size: 22px;
+        font-size: 28px;
         font-style: normal;
         font-weight: 400;
-        line-height: 30px; /* 136.364% */
+        line-height: 36px;
         padding-bottom: 27px;
       }
       &-list {
@@ -297,13 +123,12 @@
             padding-bottom: 20px;
           }
           a {
-            color: var(--White, #FFF);
+            color: var(--900, #010003);
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 26px; 
-            opacity: 0.9;
+            line-height: 22px; 
             &:hover {
               color: $theme-color;
             }
@@ -322,26 +147,26 @@
         padding-bottom: 25px;
       }
       &__title {
-        color: #FFF;
-        font-family: $title-font;
-        font-size: 20px;
+        color: var(--900, #010003);
+        font-family: Marcellus;
+        font-size: 28px;
         font-style: normal;
-        font-weight: 600;
-        line-height: 30px; /* 150% */
+        font-weight: 400;
+        line-height: 36px;
         padding-bottom: 27px;
       }
       &-list {
         &__item {    
           &:not(:last-child) {
-            padding-bottom: 10px;
+            padding-bottom: 20px;
           }
           a {
-            color: $white;
-            font-family: $title-font;
+            color: var(--900, #010003);
+            font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
-            font-weight: 600;
-            line-height: 26px;
+            font-weight: 400;
+            line-height: 22px; 
             &:hover {
               color: $theme-color;
             }
@@ -360,12 +185,12 @@
         padding-top: 7px;
       }
       &__title {
-        color: #FFF;
-        font-family: $title-font;
-        font-size: 20px;
+        color: var(--900, #010003);
+        font-family: Marcellus;
+        font-size: 28px;
         font-style: normal;
-        font-weight: 600;
-        line-height: 30px; /* 150% */
+        font-weight: 400;
+        line-height: 36px;
         padding-bottom: 27px;
       }
       &-list {
@@ -394,12 +219,12 @@
               display: flex;
               align-items: center;
               justify-content: center;
-              border-radius: 999px;
+              border-radius: 5px;
               border: 1px solid var(--P, #B8E451);
-              background: var(--P, #B8E451);
-              width: 65px;
-              height: 65px;
+              width: 55px;
+              height: 55px;
               flex-shrink: 0;
+              aspect-ratio: 1/1;
               i {
                 color: var(--900, #010003);
                 font-size: 25px;
@@ -408,14 +233,24 @@
                 line-height: normal;
               }
             }
-            .text span:first-child {
-              color: var(--White, #FFF);
-              font-family: Marcellus;
-              font-size: 22px;
-              font-style: normal;
-              font-weight: 400;
-              line-height: 30px; /* 136.364% */
-              padding-bottom: 5px;
+            .info {
+              &__title {
+                color: var(--900, #010003);
+                font-family: Marcellus;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px; 
+                padding-bottom: 7px;
+              }
+              &__desc {
+                color: var(--900, #010003);
+                font-family: Urbanist;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px; 
+              }
             }
           }
         }
