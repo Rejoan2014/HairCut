@@ -196,6 +196,17 @@
 	}
 	.header-wrap{
 		margin-top: 10px;
+    	position: relative;
+		&::before {
+			content: "";
+			position: absolute;
+			bottom: 15px;
+			left: 0;
+			width: 100%;
+			height: 1px; 
+			background: #CCC;
+			z-index: 1;
+		}
 		@include breakpoint(max-xl){
 			margin-top: 30px;
 			margin-bottom: 30px;
@@ -267,6 +278,9 @@
  		.header-wrap{
 			margin-top: 0px;
 			margin-bottom: 0px;
+			&::before {
+				display: none;
+			}
 			@include breakpoint(max-xl){
 				padding: 14px 0;
 			}

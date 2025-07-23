@@ -5735,6 +5735,17 @@ img {
 }
 .header-1 .header-wrap {
   margin-top: 10px;
+  position: relative;
+}
+.header-1 .header-wrap::before {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #CCC;
+  z-index: 1;
 }
 @media (max-width: 1199px) {
   .header-1 .header-wrap {
@@ -5797,6 +5808,9 @@ img {
 .sticky.header-1 .header-wrap {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.sticky.header-1 .header-wrap::before {
+  display: none;
 }
 @media (max-width: 1199px) {
   .sticky.header-1 .header-wrap {
