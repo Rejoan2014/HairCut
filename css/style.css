@@ -2461,6 +2461,12 @@ span {
   }
 }
 
+@media (max-width: 1599px) {
+  .counter-pb-0 {
+    padding-bottom: 0px;
+  }
+}
+
 .mxw-405 {
   max-width: 405px;
 }
@@ -7793,6 +7799,11 @@ img {
   display: flex;
   gap: 30px;
   margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .service4-details-card {
+    flex-direction: column;
+  }
 }
 .service4-details-card-item {
   border-radius: 5px;

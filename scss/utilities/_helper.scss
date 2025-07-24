@@ -131,6 +131,11 @@
     padding-bottom: 0px;
   }
 }
+.counter-pb-0 {
+  @include breakpoint (max-xxxl){
+    padding-bottom: 0px;
+  }
+}
 
 .mxw-405 {
   max-width: 405px;
