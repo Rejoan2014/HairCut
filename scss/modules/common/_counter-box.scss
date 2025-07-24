@@ -156,7 +156,8 @@
             }
             &:hover {
                 background: var(--P, #B8E451);
-                border: 1px dashed #B8E451;    
+                border: 1px dashed #B8E451;   
+                z-index: 0; 
                 @include transition;                        
                 .counter2 {
                     &-item {
