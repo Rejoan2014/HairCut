@@ -179,9 +179,62 @@
     <div class="offcanvas__overlay"></div>
 
 
+    <div class="header-top-section style1 fix">
+        <div class="container">
+            <div class="header-top-wrapper">
+                <div class="top-left">
+                    <ul class="contact-list">
+                        <li>
+                            <a href="mailto:ara.cruz@example.com">
+                                <img src="images/icon/envelop-top.svg" alt="Email">
+                                <p>sara.cruz@example.com</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/maps?q=1901+Thornridge+Cir,+Shiloh" target="_blank" rel="noopener noreferrer">
+                                <img src="images/icon/location-top.svg" alt="location">
+                                <p>1901 Thornridge Cir. Shiloh</p>
+                            </a>
+                        </li>
+                        <li>
+                            <div class=" d-flex align-items-center gap-2">
+                                <img src="images/icon/clock-top.svg" alt="clock">
+                                <p>Sunday - Friday: 9 am - 8 pm</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-right">
+                    <ul class="contact-list">
+                        <li>
+                            <a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer">
+                                <img src="images/icon/facebook-top.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <img src="images/icon/instagram-top.svg" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <img src="images/icon/twitter-top.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <img src="images/icon/linkeding-top.svg" alt="LinkedIn">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- header area start -->
     <header>
-        <div class="header-1" id="header-sticky">
+        <div class="header-1 header-top-fix" id="header-sticky">
             <div class="header-wrap">
                 <div class="logo">
                     <a class="primary-logo" href="index.html"><img src="images/logo/Logo-white.png" alt="logo"></a>
@@ -213,11 +266,6 @@
                                         <li><a href="service.html">Service</a></li>
                                         <li><a href="service-details.html">Service Details</a></li>
                                     </ul>
-                                </li>
-                                <li class="has-dropdown">
-                                    <a href="pricing.html">
-                                        Pricing
-                                    </a>
                                 </li>
                                 <li>
                                     <a href="blog.html">
@@ -252,20 +300,24 @@
                     </div>
                 </div>
                 <div class="header-right">
-                    <button class="search search-trigger searchBoxToggler d-none d-xxl-block">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-                                <path d="M18.869 19.662L12.926 13.178C14.265 11.777 15.001 9.945 15.001 8C15.001 5.997 14.221 4.113 12.804 2.697C11.387 1.281 9.50398 0.5 7.50098 0.5C5.49798 0.5 3.61398 1.28 2.19798 2.697C0.781977 4.114 0.000976562 5.997 0.000976562 8C0.000976562 10.003 0.780977 11.887 2.19798 13.303C3.61498 14.719 5.49798 15.5 7.50098 15.5C9.22698 15.5 10.863 14.921 12.189 13.855L18.132 20.338C18.231 20.446 18.365 20.5 18.501 20.5C18.622 20.5 18.743 20.457 18.839 20.369C19.043 20.182 19.056 19.866 18.87 19.663L18.869 19.662ZM0.999977 8C0.999977 4.416 3.91598 1.5 7.49998 1.5C11.084 1.5 14 4.416 14 8C14 11.584 11.084 14.5 7.49998 14.5C3.91598 14.5 0.999977 11.584 0.999977 8Z" fill="black"/>
-                            </svg>
-                    </button>
-                    <button class="offcanvas-bar text-white sidebar__toggle">
+                    <div class="header-link">
+                        <div class="header-link__icon">
+                            <img src="images/icon-test/message-header-icon.svg" alt="svg">
+                        </div>
+                        <div class="header-link-info">
+                            <div class="header-link-info__text">Need help?</div>
+                            <a href="tel:3075550133" class="header-link-info__numb">(307) 555-0133</a>
+                        </div>
+                    </div>
+                    <button class="offcanvas-bar text-white sidebar__toggle d-xl-none">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                                <path d="M21.875 6.25H3.125C2.78 6.25 2.5 5.97 2.5 5.625C2.5 5.28 2.78 5 3.125 5H21.875C22.22 5 22.5 5.28 22.5 5.625C22.5 5.97 22.22 6.25 21.875 6.25Z" fill="black"/>
-                                <path d="M16.875 15H3.125C2.78 15 2.5 14.72 2.5 14.375C2.5 14.03 2.78 13.75 3.125 13.75H16.875C17.22 13.75 17.5 14.03 17.5 14.375C17.5 14.72 17.22 15 16.875 15Z" fill="black"/>
-                                <path d="M21.875 23.75H3.125C2.78 23.75 2.5 23.47 2.5 23.125C2.5 22.78 2.78 22.5 3.125 22.5H21.875C22.22 22.5 22.5 22.78 22.5 23.125C22.5 23.47 22.22 23.75 21.875 23.75Z" fill="black"/>
+                                <path d="M21.875 6.25H3.125C2.78 6.25 2.5 5.97 2.5 5.625C2.5 5.28 2.78 5 3.125 5H21.875C22.22 5 22.5 5.28 22.5 5.625C22.5 5.97 22.22 6.25 21.875 6.25Z" fill="white"/>
+                                <path d="M16.875 15H3.125C2.78 15 2.5 14.72 2.5 14.375C2.5 14.03 2.78 13.75 3.125 13.75H16.875C17.22 13.75 17.5 14.03 17.5 14.375C17.5 14.72 17.22 15 16.875 15Z" fill="white"/>
+                                <path d="M21.875 23.75H3.125C2.78 23.75 2.5 23.47 2.5 23.125C2.5 22.78 2.78 22.5 3.125 22.5H21.875C22.22 22.5 22.5 22.78 22.5 23.125C22.5 23.47 22.22 23.75 21.875 23.75Z" fill="white"/>
                         </svg>
                     </button>
-                    <div class="pl-30 btn-wrapper return-left d-none d-xxl-block">
-                            <a class="theme-btn style1" href="contact.html">Book a Call<i class="fa-solid fa-angle-right"></i></a>
+                    <div class="pl-30 btn-wrapper d-none d-xl-block">
+                            <a class="theme-btn style5" href="contact.html">Book a chair<i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>

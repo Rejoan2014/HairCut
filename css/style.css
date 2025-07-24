@@ -5936,6 +5936,14 @@ img {
     margin-top: 5px;
   }
 }
+.header-1.header-top-fix {
+  top: auto;
+}
+@media (max-width: 1199px) {
+  .header-1.header-top-fix {
+    top: 0;
+  }
+}
 
 .header-2 {
   position: absolute;
