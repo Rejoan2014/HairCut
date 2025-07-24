@@ -2452,6 +2452,15 @@ span {
   }
 }
 
+.slider-pb-60 {
+  padding-bottom: 60px;
+}
+@media (max-width: 991px) {
+  .slider-pb-60 {
+    padding-bottom: 0px;
+  }
+}
+
 .mxw-405 {
   max-width: 405px;
 }
@@ -10467,11 +10476,29 @@ img {
 .team3 {
   background-color: var(--white);
 }
+.team3 .swiper-wrapper {
+  margin-top: 62px;
+}
+@media (max-width: 991px) {
+  .team3 .swiper-wrapper {
+    transform: none;
+  }
+}
+.team3 #teamSlider3 .swiper-slide-next {
+  transform: translateY(-60px);
+  transition: transform 0.3s ease;
+}
+@media (max-width: 991px) {
+  .team3 #teamSlider3 .swiper-slide-next {
+    transform: none;
+  }
+}
 .team3-card {
   position: relative;
   border-radius: 6.731px;
   border: 1.346px solid var(--P, #B8E451);
   background: linear-gradient(0deg, #131215 0%, rgba(111, 105, 123, 0) 100%);
+  margin-bottom: 30px;
 }
 .team3-card-thumb {
   position: relative;

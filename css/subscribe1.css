@@ -2423,6 +2423,15 @@ span {
   }
 }
 
+.slider-pb-60 {
+  padding-bottom: 60px;
+}
+@media (max-width: 991px) {
+  .slider-pb-60 {
+    padding-bottom: 0px;
+  }
+}
+
 .mxw-405 {
   max-width: 405px;
 }

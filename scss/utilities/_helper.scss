@@ -125,6 +125,12 @@
     padding-bottom: 40px;
   }
 }
+.slider-pb-60 {
+  padding-bottom: 60px;
+  @include breakpoint (max-lg){
+    padding-bottom: 0px;
+  }
+}
 
 .mxw-405 {
   max-width: 405px;

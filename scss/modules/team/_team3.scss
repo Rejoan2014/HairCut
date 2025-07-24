@@ -3,11 +3,25 @@
 
 .team3 {
     background-color: $white;
+    .swiper-wrapper {
+        margin-top: 62px;
+        @include breakpoint (max-lg){
+            transform: none;
+        }
+    }
+    #teamSlider3 .swiper-slide-next {
+        transform: translateY(-60px);
+        transition: transform 0.3s ease;
+        @include breakpoint (max-lg){
+            transform: none;
+        }
+    }
     &-card {
         position: relative;
         border-radius: 6.731px;
         border: 1.346px solid var(--P, #B8E451);
         background: linear-gradient(0deg, #131215 0%, rgba(111, 105, 123, 0.00) 100%);
+        margin-bottom: 30px;
 
         &-thumb {
             position: relative;
