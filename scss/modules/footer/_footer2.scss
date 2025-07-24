@@ -9,33 +9,38 @@
 .footer2 {
   position: relative;
   background: var(--100, #FCF9EB);
-  &-shape1 {
+  z-index: 3;
+  &__shape {
     position: absolute;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 5;
-    opacity: 0.1;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Marcellus;
+    font-size: 350px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 350px; /* 100% */
+    text-transform: uppercase;
+    opacity: 0.05;
+    background: linear-gradient(0deg, #010003 15.14%, rgba(35, 0, 105, 0.00) 84.43%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     @include breakpoint (max-xl2){
      display: none;
     }
   }
-  &-shape2 {
-      position: absolute;
-      right: 0;
-      z-index: 5;
-      opacity: 0.1;
-      @include breakpoint (max-xl2){
-      display: none;
-      }
-  }
-
   &-wrapper {   
     position: relative;
     z-index: 9;
     &-logoInfo {
       padding-bottom: 70px;
-      padding-top: 75px;
+      padding-top: 120px;
       @include breakpoint (max-lg){
         padding-bottom: 25px;
+        padding-top: 75px;
       }
       &__logo {
         padding-bottom: 24px;
@@ -57,12 +62,13 @@
 
     &-service {
       padding-bottom: 70px;
-      padding-top: 75px;
+      padding-top: 120px;
       @include breakpoint (max-lg){
         padding-bottom: 25px;
+        padding-top: 75px;
       }
       @include breakpoint (max-md){
-        padding-bottom: 5px;
+        padding-bottom: 20px;
         padding-top: 7px;
       }
       &__title {
@@ -100,9 +106,10 @@
 
     &-about {
       padding-bottom: 70px;
-      padding-top: 75px;
+      padding-top: 120px;
       @include breakpoint (max-lg){
-        padding-bottom: 25px;
+        padding-bottom: 20px;
+        padding-top: 75px;
       }
       @include breakpoint (max-md){
         padding-bottom: 5px;
@@ -142,9 +149,14 @@
 
     &-link {
       padding-bottom: 70px;
-      padding-top: 75px;
+      padding-top: 120px;
       @include breakpoint (max-lg){
         padding-bottom: 25px;
+        padding-top: 75px;
+      }
+      @include breakpoint (max-md){
+        padding-bottom: 20px;
+        padding-top: 7px;
       }
       &__title {
         color: var(--900, #010003);
@@ -173,15 +185,22 @@
           }
           img {
             padding-right: 10px;
+            @include breakpoint (max-xl){
+              padding-right: 6px;
+            }
           }
         }
       }
     }    
     &-contact {
       padding-bottom: 100px;
-      padding-top: 75px;
+      padding-top: 120px;
+      @include breakpoint (max-lg){
+        padding-bottom: 25px;
+        padding-top: 75px;
+      }
       @include breakpoint (max-md){
-        padding-bottom: 0px;
+        padding-bottom: 20px;
         padding-top: 7px;
       }
       &__title {

@@ -158,6 +158,18 @@
   }
 }
 
+.bg-white-color {
+  background: var(--White, #FFF);
+  &::before {
+    content: "";
+		position: absolute;
+		bottom: 0px;
+    background: var(--100, #FCF9EB);
+		width: 100%;
+		height: 120px;
+	}
+}
+
 // Calendar code start
 .calendar-wrapper {
   max-width: 560px;

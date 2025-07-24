@@ -2465,6 +2465,18 @@ span {
   }
 }
 
+.bg-white-color {
+  background: var(--White, #FFF);
+}
+.bg-white-color::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  background: var(--100, #FCF9EB);
+  width: 100%;
+  height: 120px;
+}
+
 .calendar-wrapper {
   max-width: 560px;
   width: 100%;
