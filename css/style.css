@@ -5764,7 +5764,7 @@ img {
   }
 }
 .header-wrap-2 .main-menu ul li:hover > a {
-  color: var(--theme-color);
+  color: #B8E451;
 }
 .header-wrap-2 .main-menu ul li.active, .header-wrap-2 .main-menu ul li.current-menu-ancestor {
   position: relative;
@@ -5796,7 +5796,7 @@ img {
   text-transform: capitalize;
   transition: all 0.4s ease-in-out;
   position: relative;
-  color: var(--white);
+  color: var(--black);
   font-family: "Urbanist", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -5945,7 +5945,7 @@ img {
   width: 100%;
   z-index: 999;
   padding: 0 100px;
-  background-color: var(--black);
+  background: var(--100, #FCF9EB);
 }
 @media (max-width: 1599px) {
   .header-2 {
@@ -6067,6 +6067,9 @@ img {
 }
 .sticky.header-1 .header-wrap .main-menu ul ul li > a {
   padding: 10px 20px;
+}
+.sticky.header-2 {
+  background: var(--100, #FCF9EB);
 }
 .sticky.header-2 .header-wrap-2 {
   margin-top: 0px;

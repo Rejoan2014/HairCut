@@ -198,7 +198,7 @@
 			}
 			&:hover{
 				> a{
-					color: var(--theme-color);
+					color: #B8E451;
 				}
 			}
 	  
@@ -249,7 +249,7 @@
 			  text-transform: capitalize;
 			  @include transition;
 			  position: relative;
-			  color: $white;
+			  color: $black;
 			  font-family: $body-font;
 			  font-size: 14px;
 			  font-weight: 400;
@@ -405,7 +405,7 @@
 	width: 100%;
 	z-index: 999;
 	padding: 0 100px;
-	background-color: $black;	
+	background: var(--100, #FCF9EB);
 	@include breakpoint (max-xxxl){
 		padding: 0 50px;
 	}
@@ -540,6 +540,7 @@
 	}
 
 	&.header-2 {
+		background: var(--100, #FCF9EB);
  		.header-wrap-2 {
 			margin-top: 0px;
 			margin-bottom: 0px;
