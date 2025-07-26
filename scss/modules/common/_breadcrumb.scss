@@ -29,7 +29,7 @@
     
         h1 {
             color: $theme-color;
-            font-family: Marcellus;
+            font-family: $title-font;
             font-size: 60px;
             font-style: normal;
             font-weight: 400;
@@ -42,7 +42,7 @@
         }
         p {
             color: $white;
-            font-family: Marcellus;
+            font-family: $title-font;
             font-size: 22px;
             font-style: normal;
             font-weight: 400;

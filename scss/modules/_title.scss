@@ -93,7 +93,7 @@
     }
     &__title3 {
         color: $white;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 40px;
         font-style: normal;
         font-weight: 400;
@@ -116,7 +116,7 @@
     }
     &__title4 {
         color: #FFF;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 100px;
         font-style: normal;
         font-weight: 400;
@@ -137,7 +137,7 @@
     }
     &__title5 {
         color: $black;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 40px;
         font-style: normal;
         font-weight: 400;

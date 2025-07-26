@@ -4,7 +4,7 @@
 .project4 {  
     &__title {
         color: $white;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 60px;
         font-style: normal;
         font-weight: 400;
@@ -26,7 +26,7 @@
             }
             &__text {
                 color: $black;
-                font-family: Marcellus;
+                font-family: $title-font;
                 font-size: 22px;
                 font-style: normal;
                 font-weight: 400;
@@ -53,7 +53,7 @@
     &-overview {
         &__title {
             color: $white;
-            font-family: Marcellus;
+            font-family: $title-font;
             font-size: 40px;
             font-style: normal;
             font-weight: 400;
@@ -66,7 +66,7 @@
             margin-bottom: 40px;
             &__item {
                 color: $white;
-                font-family: Marcellus;
+                font-family: $title-font;
                 font-size: 28px;
                 font-style: normal;
                 font-weight: 400;
@@ -78,7 +78,7 @@
         &-content {
             &__text {
                 color: $white;
-                font-family: Marcellus;
+                font-family: $title-font;
                 font-size: 22px;
                 font-style: normal;
                 font-weight: 400;
@@ -97,7 +97,7 @@
                 margin-top: 50px;
                 &__title {
                     color: $white;
-                    font-family: Marcellus;
+                    font-family: $title-font;
                     font-size: 28px;
                     font-style: normal;
                     font-weight: 400;

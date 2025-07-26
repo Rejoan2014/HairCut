@@ -46,7 +46,7 @@
             &__value {
                 color: $black;
                 text-align: center;
-                font-family: Marcellus;
+                font-family: $title-font;
                 font-size: 40px;
                 font-style: normal;
                 font-weight: 400;
@@ -129,7 +129,7 @@
 
             &__value {
                 color: $white;
-                font-family: Marcellus;
+                font-family: $title-font;
                 font-size: 60px;
                 font-style: normal;
                 font-weight: 400;
@@ -144,7 +144,7 @@
                 p {
                     color: $white;
                     color: $white;
-                    font-family: Marcellus;
+                    font-family: $title-font;
                     font-size: 22px;
                     font-style: normal;
                     font-weight: 400;

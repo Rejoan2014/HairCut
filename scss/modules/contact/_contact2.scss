@@ -21,7 +21,7 @@
             }
             h6 {
                 color: $black;
-                font-family: Marcellus;
+                font-family: $title-font;
                 font-size: 60px;
                 font-style: normal;
                 font-weight: 400;
@@ -96,7 +96,7 @@
             &-info {
                 &__text {
                     color: $white;
-                    font-family: Marcellus;
+                    font-family: $title-font;
                     font-size: 22px;
                     font-style: normal;
                     font-weight: 400;

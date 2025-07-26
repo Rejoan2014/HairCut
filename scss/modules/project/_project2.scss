@@ -14,7 +14,7 @@
             padding-bottom: 30px;
             &__title {
                 color: #FFF;
-                font-family: Marcellus;
+                font-family: $title-font;
                 font-size: 40px;
                 font-style: normal;
                 font-weight: 400;
@@ -94,7 +94,7 @@
                 max-width: 544px;
                 &__title {
                     color: $black;
-                    font-family: Marcellus;
+                    font-family: $title-font;
                     font-size: 22px;
                     font-style: normal;
                     font-weight: 400;

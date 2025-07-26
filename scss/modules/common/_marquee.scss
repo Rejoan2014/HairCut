@@ -33,7 +33,7 @@
 
 .text-slider {
 	color: $black;
-	font-family: Marcellus;
+	font-family: $title-font;
 	font-size: 50px;
 	font-style: normal;
 	font-weight: 400;
@@ -93,7 +93,7 @@
 	&.style-2 {
 		.text-slider {
 			color: $black;
-			font-family: Marcellus;
+			font-family: $title-font;
 			font-size: 50px;
 			font-style: normal;
 			font-weight: 400;

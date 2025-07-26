@@ -11,7 +11,7 @@
     &-content {
       &__name {
         color: $black;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 40px;
         font-style: normal;
         font-weight: 400;
@@ -42,7 +42,7 @@
         }
         &__title {
           color: $black;
-          font-family: Marcellus;
+          font-family: $title-font;
           font-size: 28px;
           font-style: normal;
           font-weight: 400;

@@ -16,7 +16,7 @@
       h6 {
         color: $white;
         font-feature-settings: 'liga' off, 'clig' off;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 22px;
         font-style: normal;
         font-weight: 400;
@@ -44,7 +44,7 @@
     &__item {
       h4 {
         color: $black;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 22px;
         font-style: normal;
         font-weight: 400;
@@ -71,7 +71,7 @@
     &__item {
       h4 {
         color: $white;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 28px;
         font-style: normal;
         font-weight: 400;
@@ -99,7 +99,7 @@
     &__item {
       h6 {
         color: $black;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 22px;
         font-style: normal;
         font-weight: 400;
@@ -126,7 +126,7 @@
     &__item {
       h4 {
         color: $white;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -135,7 +135,7 @@
 
       p {
         color: $white;
-        font-family: Marcellus;
+        font-family: $title-font;
         font-size: 13.2px;
         font-style: normal;
         font-weight: 400;

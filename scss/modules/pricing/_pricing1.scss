@@ -16,7 +16,7 @@
             background: $theme-color;
             padding: 13px 20px;
             color: $black;
-            font-family: Marcellus;
+            font-family: $title-font;
             font-size: 40px;
             font-style: normal;
             font-weight: 400;
@@ -36,7 +36,7 @@
                 align-items: center;
                 &__text {
                     color: $white;
-                    font-family: Marcellus;
+                    font-family: $title-font;
                     font-size: 22px;
                     font-style: normal;
                     font-weight: 400;
@@ -44,7 +44,7 @@
                 }
                 &__value {
                     color: #FFF;
-                    font-family: Marcellus;
+                    font-family: $title-font;
                     font-size: 22px;
                     font-style: normal;
                     font-weight: 400;
