@@ -4428,7 +4428,7 @@ img {
 .faq-group .accordion-item .accordion-header .accordion-button:after {
   font-weight: 500;
   transition: all 0.3s ease-in-out !important;
-  background-image: url(../images/icon-test/faq1.svg);
+  background-image: url(../images/icon/faq1.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30px 30px;
@@ -4438,7 +4438,7 @@ img {
   left: 18px;
 }
 .faq-group .accordion-item .accordion-header .accordion-button:not(.collapsed):after {
-  background-image: url(../images/icon-test/faq2.svg);
+  background-image: url(../images/icon/faq2.svg);
   transform: rotate(0deg);
 }
 .faq-group .accordion-item .accordion-collapse {
