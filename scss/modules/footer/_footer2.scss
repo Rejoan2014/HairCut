@@ -47,7 +47,7 @@
       }
       &__desc {
         color: $black;
-        font-family: Urbanist;
+        font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -87,7 +87,7 @@
           }
           a {
             color: $white;
-            font-family: Urbanist;
+            font-family: $body-font;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -131,7 +131,7 @@
           }
           a {
             color: $black;
-            font-family: Urbanist;
+            font-family: $body-font;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -174,7 +174,7 @@
           }
           a {
             color: $black;
-            font-family: Urbanist;
+            font-family: $body-font;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -222,7 +222,7 @@
             align-items: center !important;
             color: $white;
             font-feature-settings: 'liga' off, 'clig' off;
-            font-family: Urbanist;
+            font-family: $body-font;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -264,7 +264,7 @@
               }
               &__desc {
                 color: $black;
-                font-family: Urbanist;
+                font-family: $body-font;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 400;

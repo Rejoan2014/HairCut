@@ -48,7 +48,7 @@
             border: none;
 
             color: $white;
-            font-family: Urbanist;
+            font-family: $body-font;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -127,7 +127,7 @@
             align-items: center;
             justify-content: space-between;
             color: $black;
-            font-family: Urbanist;
+            font-family: $body-font;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -233,7 +233,7 @@
             display: flex;
             gap: 10px;
             color: $white;
-            font-family: Urbanist;
+            font-family: $body-font;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -262,7 +262,7 @@
             border-radius: 5px;
             background: $black2;
             color: $white;
-            font-family: Urbanist;
+            font-family: $body-font;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;

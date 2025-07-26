@@ -78,7 +78,7 @@
                 }
                 &__label {
                     color: $white;
-                    font-family: Urbanist;
+                    font-family: $body-font;
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 400;
@@ -198,7 +198,7 @@
             flex-wrap: wrap;
             &__text {
                 color: $white;
-                font-family: Urbanist;
+                font-family: $body-font;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
@@ -219,7 +219,7 @@
         }
         &__date {
             color: $white;
-            font-family: Urbanist;
+            font-family: $body-font;
             font-size: 16px;
             font-style: normal;
             font-weight: 500;

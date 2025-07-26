@@ -50,7 +50,7 @@
                 gap: 15px;
                 &__text {
                     color: $white;
-                    font-family: Urbanist;
+                    font-family: $body-font;
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 400;
@@ -70,7 +70,7 @@
                 background-color: $theme-color;
                 color: $black;
                 text-align: center;
-                font-family: Urbanist;
+                font-family: $body-font;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 500;

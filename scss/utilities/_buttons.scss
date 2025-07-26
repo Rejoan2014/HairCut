@@ -15,7 +15,7 @@
         background: $theme-color;
         color: $black;
         border: 1px solid $theme-color;        
-        font-family: Urbanist;
+        font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -83,7 +83,7 @@
         border: 1px solid $black;
         background: $white;
         color: $black;
-        font-family: Urbanist;
+        font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -152,7 +152,7 @@
         border-radius: 5px;
         border: 1px solid rgba(255, 255, 255, 0.20);
         color: $white;
-        font-family: Urbanist;
+        font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -222,7 +222,7 @@
         border-radius: 5px;
         border: 1px solid $theme-color;
         color: $white;
-        font-family: Urbanist;
+        font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -289,7 +289,7 @@
         background: $theme-color;
         color: $black;
         border: 1px solid $theme-color;        
-        font-family: Urbanist;
+        font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -462,7 +462,7 @@
         background: $black;
 
         color: $white;
-        font-family: Urbanist;
+        font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -492,7 +492,7 @@
         background: $theme-color;
 
         color: $black;
-        font-family: Urbanist;
+        font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;

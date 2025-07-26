@@ -32,7 +32,7 @@
     &-content {
       &__desc {
           color: $black;
-          font-family: Urbanist;
+          font-family: $body-font;
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
@@ -48,7 +48,7 @@
           padding-bottom: 12px;
           &__text {
             color: $black;
-            font-family: Urbanist;
+            font-family: $body-font;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;

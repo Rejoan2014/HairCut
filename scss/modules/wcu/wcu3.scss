@@ -20,7 +20,7 @@
       }
       &__label {
         color: $black;
-        font-family: Urbanist;
+        font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -29,7 +29,7 @@
       }
       &__desc {
         color: $black;
-        font-family: Urbanist;
+        font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
