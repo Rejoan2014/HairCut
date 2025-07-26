@@ -22,6 +22,7 @@
   --smoke: #FAF8F7;
   --smoke2: #ECF1F5;
   --smoke3: #F4F4F4;
+  --smoke4: #FCF9EB;
   --theme: #B8E451;
   --theme2: #FCF9F7;
   --theme3: #077CEA;
@@ -2461,7 +2462,7 @@ span {
 
 .bg-pricing2 {
   border-radius: 5px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   padding: 130px 90px;
 }
 @media (max-width: 1199px) {
@@ -2487,7 +2488,7 @@ span {
   content: "";
   position: absolute;
   bottom: 0px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   width: 100%;
   height: 120px;
 }
@@ -2507,7 +2508,7 @@ span {
 }
 
 .calendar-days {
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   color: var(--black);
 }
 
@@ -3036,7 +3037,7 @@ img {
   background: var(--700, #131215);
 }
 .global-social2__item a i {
-  color: var(--100, #FCF9EB);
+  color: var(--smoke4);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3062,7 +3063,7 @@ img {
   gap: 10px;
   border-radius: 5px;
   border: 1px solid var(--200, #CCC);
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
 }
 .global-social3__item a i {
   color: var(--800, #CCCCCD);

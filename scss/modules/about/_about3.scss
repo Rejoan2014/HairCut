@@ -23,7 +23,7 @@
             left: 45px;
             z-index: 1;
             border-radius: 5px;
-            background: var(--100, #FCF9EB);
+            background: $smoke4;
             width: 414px;
             height: 600px;
             flex-shrink: 0;
@@ -57,7 +57,7 @@
             bottom: 13%;
             right: 30px;
             border-radius: 5px;
-            background: var(--100, #FCF9EB);
+            background: $smoke4;
             padding: 17px 45px;
             @include breakpoint (max-lg){
                 display: none;

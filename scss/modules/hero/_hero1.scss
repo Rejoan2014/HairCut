@@ -7,7 +7,7 @@
     overflow: hidden;
     padding: 85px 0 70px;
     margin-top: 95px;
-    background: var(--100, #FCF9EB);
+    background: $smoke4;
     @include breakpoint (max-sm){
         padding: 70px 0 80px;
     }

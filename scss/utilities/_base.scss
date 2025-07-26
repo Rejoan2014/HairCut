@@ -474,7 +474,7 @@ img {
         background: var(--700, #131215);
 
         i {
-          color: var(--100, #FCF9EB);
+          color: $smoke4;
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
@@ -504,7 +504,7 @@ img {
         gap: 10px;
         border-radius: 5px;
         border: 1px solid var(--200, #CCC);
-        background: var(--100, #FCF9EB);
+        background: $smoke4;
 
         i {
           color: var(--800, #CCCCCD);

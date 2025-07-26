@@ -54,7 +54,7 @@
       }
     }
     &:hover {
-      background: var(--100, #FCF9EB);
+      background: $smoke4;
       @include transition;
       .testimonial2 {
         &-card {

@@ -14,7 +14,7 @@
         &-content {
             padding: 25px 30px 25px;
             border-radius: 0px 0px 5px 5px;
-            background: var(--100, #FCF9EB);
+            background: $smoke4;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -62,7 +62,7 @@
             border: 1px solid #FFA500;
             border-bottom: none;
             border-radius: 5px;
-            background: var(--100, #FCF9EB);
+            background: $smoke4;
             &__desc {
                 color: $black;
                 font-family: Urbanist;

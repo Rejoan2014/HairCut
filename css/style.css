@@ -51,6 +51,7 @@ Description: CleanPro - Creative & Digital Agency Html Template
   --smoke: #FAF8F7;
   --smoke2: #ECF1F5;
   --smoke3: #F4F4F4;
+  --smoke4: #FCF9EB;
   --theme: #B8E451;
   --theme2: #FCF9F7;
   --theme3: #077CEA;
@@ -2490,7 +2491,7 @@ span {
 
 .bg-pricing2 {
   border-radius: 5px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   padding: 130px 90px;
 }
 @media (max-width: 1199px) {
@@ -2516,7 +2517,7 @@ span {
   content: "";
   position: absolute;
   bottom: 0px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   width: 100%;
   height: 120px;
 }
@@ -2536,7 +2537,7 @@ span {
 }
 
 .calendar-days {
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   color: var(--black);
 }
 
@@ -3065,7 +3066,7 @@ img {
   background: var(--700, #131215);
 }
 .global-social2__item a i {
-  color: var(--100, #FCF9EB);
+  color: var(--smoke4);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3091,7 +3092,7 @@ img {
   gap: 10px;
   border-radius: 5px;
   border: 1px solid var(--200, #CCC);
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
 }
 .global-social3__item a i {
   color: var(--800, #CCCCCD);
@@ -3584,7 +3585,7 @@ img {
   position: relative;
   border-radius: 5px;
   border: 1px dashed var(--200, #CCC);
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   width: 320px;
   height: 159px;
 }
@@ -3600,7 +3601,7 @@ img {
   height: 80px;
   flex-shrink: 0;
   border: 1px dashed var(--200, #CCC);
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   border-radius: 50px;
 }
 .counter-item-box__icon img {
@@ -3786,7 +3787,7 @@ img {
   align-items: center;
   gap: 10px;
   border-radius: 5px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
 }
 .slider-btn .style2 i {
   color: var(--P, #B8E451);
@@ -5953,7 +5954,7 @@ img {
   width: 100%;
   z-index: 999;
   padding: 0 100px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
 }
 @media (max-width: 1599px) {
   .header-2 {
@@ -6077,7 +6078,7 @@ img {
   padding: 10px 20px;
 }
 .sticky.header-2 {
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
 }
 .sticky.header-2 .header-wrap-2 {
   margin-top: 0px;
@@ -6394,7 +6395,7 @@ img {
   overflow: hidden;
   padding: 85px 0 70px;
   margin-top: 95px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
 }
 @media (max-width: 575px) {
   .hero1 {
@@ -6916,7 +6917,7 @@ img {
 
 .about2 {
   position: relative;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
 }
 .about2-thumb {
   position: relative;
@@ -7017,7 +7018,7 @@ img {
   left: 45px;
   z-index: 1;
   border-radius: 5px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   width: 414px;
   height: 600px;
   flex-shrink: 0;
@@ -7056,7 +7057,7 @@ img {
   bottom: 13%;
   right: 30px;
   border-radius: 5px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   padding: 17px 45px;
 }
 @media (max-width: 991px) {
@@ -7886,7 +7887,7 @@ img {
   font-weight: 400;
 }
 .service2-card:hover {
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   border: 1px solid transparent;
   transition: all 0.4s ease-in-out;
 }
@@ -8089,7 +8090,7 @@ img {
   line-height: 30px;
 }
 .service4-gallery {
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   border-radius: 5px;
   padding: 50px;
 }
@@ -8733,7 +8734,7 @@ img {
   line-height: normal;
 }
 .testimonial2-card:hover {
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   transition: all 0.4s ease-in-out;
 }
 .testimonial2-card:hover .testimonial2-card-content__desc {
@@ -8834,7 +8835,7 @@ img {
 
 .testimonial4 {
   position: relative;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
 }
 .testimonial4__thumb {
   position: absolute;
@@ -10372,7 +10373,7 @@ img {
   padding: 50px;
   border-radius: 5px;
   border: 1px solid var(--insurance-200, #E3E3E3);
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
 }
 @media (max-width: 767px) {
   .wcu1-progress {
@@ -10636,7 +10637,7 @@ img {
 .team2-card-content {
   padding: 25px 30px 25px;
   border-radius: 0px 0px 5px 5px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10680,7 +10681,7 @@ img {
   border: 1px solid #FFA500;
   border-bottom: none;
   border-radius: 5px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
 }
 .team2-card2-thumb__desc {
   color: var(--black);
@@ -11135,7 +11136,7 @@ img {
   position: relative;
   padding: 80px 80px;
   border-radius: 5px;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   display: flex;
   justify-content: space-between;
   gap: 80px;
@@ -11252,7 +11253,7 @@ img {
   display: inline-block;
   border-radius: 5px;
   border: 1px dashed var(--P, #B8E451);
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   width: 100%;
   height: 50px;
   padding: 12px 40px 12px 20px;
@@ -11271,7 +11272,7 @@ img {
 .resume1-info-form-wrap__input {
   border-radius: 5px;
   border: 1px dashed var(--P, #B8E451);
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   width: 100%;
   height: 50px;
   padding: 12px 40px 12px 20px;
@@ -11790,7 +11791,7 @@ img {
   display: inline-block;
   border-radius: 5px;
   border: 1px dashed var(--P, #B8E451);
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   width: 100%;
   height: 50px;
   padding: 12px 40px 12px 20px;
@@ -12510,7 +12511,7 @@ img {
 ----------------------------------------------*/
 .footer2 {
   position: relative;
-  background: var(--100, #FCF9EB);
+  background: var(--smoke4);
   z-index: 3;
 }
 .footer2__shape {

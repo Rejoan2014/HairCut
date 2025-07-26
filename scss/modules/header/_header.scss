@@ -411,7 +411,7 @@
 	width: 100%;
 	z-index: 999;
 	padding: 0 100px;
-	background: var(--100, #FCF9EB);
+	background: $smoke4;
 	@include breakpoint (max-xxxl){
 		padding: 0 50px;
 	}
@@ -546,7 +546,7 @@
 	}
 
 	&.header-2 {
-		background: var(--100, #FCF9EB);
+		background: $smoke4;
  		.header-wrap-2 {
 			margin-top: 0px;
 			margin-bottom: 0px;

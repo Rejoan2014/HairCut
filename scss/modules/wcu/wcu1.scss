@@ -7,7 +7,7 @@
     padding: 50px;
     border-radius: 5px;
     border: 1px solid var(--insurance-200, #E3E3E3);
-    background: var(--100, #FCF9EB);
+    background: $smoke4;
     @include breakpoint (max-md){
       padding: 20px;
     }

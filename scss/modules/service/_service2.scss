@@ -86,7 +86,7 @@
             }
         }
         &:hover {
-            background: var(--100, #FCF9EB);
+            background: $smoke4;
             border: 1px solid transparent;
             @include transition;
         }

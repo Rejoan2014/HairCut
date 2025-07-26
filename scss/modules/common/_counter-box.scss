@@ -19,7 +19,7 @@
             position: relative;
             border-radius: 5px;
             border: 1px dashed var(--200, #CCC);
-            background: var(--100, #FCF9EB);
+            background: $smoke4;
             width: 320px;
             height: 159px;
             &__icon {
@@ -34,7 +34,7 @@
                 height: 80px;
                 flex-shrink: 0;
                 border: 1px dashed var(--200, #CCC);
-                background: var(--100, #FCF9EB);
+                background: $smoke4;
                 border-radius: 50px;
                 img {
                     width: 40px;

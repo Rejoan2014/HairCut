@@ -82,7 +82,7 @@
         }
     }
     &-gallery{
-        background: var(--100, #FCF9EB);
+        background: $smoke4;
         border-radius: 5px;
         padding: 50px;
         @include breakpoint (max-lg) {
