@@ -2424,6 +2424,10 @@ span {
   }
 }
 
+.pb-96 {
+  padding-bottom: 96px;
+}
+
 .slider-pb-60 {
   padding-bottom: 60px;
 }

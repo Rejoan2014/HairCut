@@ -317,16 +317,17 @@
   }
 
   &-bottom {
-    background: $theme-color;
     position: relative;
     z-index: 9;
-
+    padding-top: 40px;
+    
     &-info {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
       padding: 20px;
+      border-top: 1px solid rgb(205, 203, 192);
       @include breakpoint (lg){
         flex-direction: row;
         gap: 10px;
@@ -336,12 +337,13 @@
       }
   
       p {
-        color: $white;
+        color: $black;
         font-family: $body-font;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 26px; /* 162.5% */
+        line-height: 22px; 
+        opacity: 0.8;
         @include breakpoint (max-xs){
           font-size: 14px;
         }
@@ -356,12 +358,13 @@
   
       &__links {
         a {
-          color: $white;
+          color: $black;
           font-family: $body-font;
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
-          line-height: 26px; /* 162.5% */
+          line-height: 22px; 
+          opacity: 0.8;
   
           &:not(:last-child) {
             padding-right: 20px;
