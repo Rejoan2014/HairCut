@@ -18,7 +18,7 @@
             padding: 53px 0 30px;
             position: relative;
             border-radius: 5px;
-            border: 1px dashed var(--200, #CCC);
+            border: 1px dashed $border-color;
             background: $smoke4;
             width: 320px;
             height: 159px;
@@ -33,7 +33,7 @@
                 width: 80px;
                 height: 80px;
                 flex-shrink: 0;
-                border: 1px dashed var(--200, #CCC);
+                border: 1px dashed $border-color;
                 background: $smoke4;
                 border-radius: 50px;
                 img {

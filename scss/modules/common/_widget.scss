@@ -121,7 +121,7 @@
 
           a {
             border-radius: 5px;
-            border: 1px solid var(--200, #CCC);
+            border: 1px solid $border-color;
             padding: 12px 15px;
             display: flex;
             align-items: center;

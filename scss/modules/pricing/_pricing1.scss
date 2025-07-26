@@ -65,7 +65,7 @@
                 align-items: center;
                 gap: 10px;
                 border-radius: 5px;
-                border: 1px solid var(--200, #CCC);
+                border: 1px solid $border-color;
                 color: $theme-color;
                 text-align: center;
                 font-family: Urbanist;
@@ -78,7 +78,7 @@
                 cursor: pointer;
                 &:hover {
                     color: $black;
-                    background: #B8E451;
+                    background: $theme-color;
                 }
             }
         }

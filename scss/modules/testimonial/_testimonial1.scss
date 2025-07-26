@@ -70,7 +70,7 @@
     &__quote {
       i {
         -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: var(--200, #CCC);
+        -webkit-text-stroke-color: $border-color;
         font-size: 64px;
         font-style: normal;
         font-weight: 900;

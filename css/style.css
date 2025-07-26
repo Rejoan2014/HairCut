@@ -45,7 +45,7 @@ Description: CleanPro - Creative & Digital Agency Html Template
   --dark: #0D0D0D;
   --yellow: #F2D701;
   --yellow2: #FFB400;
-  --border: #D8DDE1;
+  --border: #CCC;
   --gray: #696969;
   --gray2: #727272;
   --smoke: #FAF8F7;
@@ -3091,7 +3091,7 @@ img {
   align-items: center;
   gap: 10px;
   border-radius: 5px;
-  border: 1px solid var(--200, #CCC);
+  border: 1px solid var(--border);
   background: var(--smoke4);
 }
 .global-social3__item a i {
@@ -3584,7 +3584,7 @@ img {
   padding: 53px 0 30px;
   position: relative;
   border-radius: 5px;
-  border: 1px dashed var(--200, #CCC);
+  border: 1px dashed var(--border);
   background: var(--smoke4);
   width: 320px;
   height: 159px;
@@ -3600,7 +3600,7 @@ img {
   width: 80px;
   height: 80px;
   flex-shrink: 0;
-  border: 1px dashed var(--200, #CCC);
+  border: 1px dashed var(--border);
   background: var(--smoke4);
   border-radius: 50px;
 }
@@ -5278,7 +5278,7 @@ img {
 }
 .widget-card-categories ul li a {
   border-radius: 5px;
-  border: 1px solid var(--200, #CCC);
+  border: 1px solid var(--border);
   padding: 12px 15px;
   display: flex;
   align-items: center;
@@ -6836,7 +6836,7 @@ img {
   justify-content: center;
   gap: 20px;
   border-radius: 5px;
-  border: 1px solid var(--200, #CCC);
+  border: 1px solid var(--border);
   padding: 20px;
 }
 @media (max-width: 767px) {
@@ -7824,7 +7824,7 @@ img {
   align-items: center;
   justify-content: space-between;
   border-radius: 5px;
-  border: 1px solid var(--200, #CCC);
+  border: 1px solid var(--border);
   padding: 30px;
   flex-wrap: wrap;
   gap: 30px;
@@ -8676,7 +8676,7 @@ img {
 }
 .testimonial1-card__quote i {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--200, #CCC);
+  -webkit-text-stroke-color: var(--border);
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
@@ -8727,7 +8727,7 @@ img {
 }
 .testimonial2-card__quote i {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--200, #CCC);
+  -webkit-text-stroke-color: var(--border);
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
@@ -9013,7 +9013,7 @@ img {
 }
 .testimonial5-card__quote i {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--200, #CCC);
+  -webkit-text-stroke-color: var(--border);
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
@@ -9428,6 +9428,7 @@ img {
     line-height: 35px;
   }
 }
+
 .blog3-card {
   border-radius: 10px;
   border-radius: 0px 0px 5px 5px;
@@ -10051,7 +10052,7 @@ img {
   align-items: center;
   gap: 10px;
   border-radius: 5px;
-  border: 1px solid var(--200, #CCC);
+  border: 1px solid var(--border);
   color: var(--theme);
   text-align: center;
   font-family: Urbanist;
@@ -10065,7 +10066,7 @@ img {
 }
 .pricing1-card-list__btn:hover {
   color: var(--black);
-  background: #B8E451;
+  background: var(--theme);
 }
 
 .pricing2 {
@@ -10076,7 +10077,7 @@ img {
 }
 .pricing2-card-header {
   border-radius: 20px;
-  border: 1px dashed var(--200, #CCC);
+  border: 1px dashed var(--border);
   background: var(--white);
   padding: 20px 30px;
 }
@@ -10102,7 +10103,7 @@ img {
 .pricing2-card-list {
   padding: 30px;
   border-radius: 20px;
-  border: 1px solid var(--200, #CCC);
+  border: 1px solid var(--border);
   background: var(--white);
   box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.05);
 }
@@ -10348,7 +10349,7 @@ img {
   flex-shrink: 0;
   border-radius: 6.155px;
   background: var(--black);
-  border: 1px solid var(--200, #CCC);
+  border: 1px solid var(--border);
   color: var(--theme);
   text-align: center;
   font-family: Urbanist;
