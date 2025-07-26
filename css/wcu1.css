@@ -1812,7 +1812,7 @@ span {
   align-items: center;
   gap: 8px;
   border-radius: 5px;
-  background: var(--P, #B8E451);
+  background: var(--theme);
   color: var(--black);
   border: 1px solid var(--theme);
   font-family: Urbanist;
@@ -2077,7 +2077,7 @@ span {
   align-items: center;
   gap: 8px;
   border-radius: 5px;
-  background: var(--P, #B8E451);
+  background: var(--theme);
   color: var(--black);
   border: 1px solid var(--theme);
   font-family: Urbanist;
@@ -2270,7 +2270,7 @@ span {
   width: 100%;
   height: 54px;
   border-radius: 5px;
-  background: var(--P, #B8E451);
+  background: var(--theme);
   color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
@@ -2656,7 +2656,7 @@ img {
   gap: 10px;
   border-radius: 50px;
   background: var(--black);
-  border: 1px solid var(--P, #B8E451);
+  border: 1px solid var(--theme);
 }
 @media (max-width: 374px) {
   .preview-area .preview-item .icon {
@@ -3033,8 +3033,8 @@ img {
   align-items: center;
   gap: 10px;
   border-radius: 5px;
-  border: 1px solid var(--P, #B8E451);
-  background: var(--700, #131215);
+  border: 1px solid var(--theme);
+  background: var(--black2);
 }
 .global-social2__item a i {
   color: var(--smoke4);
@@ -3044,7 +3044,7 @@ img {
   line-height: normal;
 }
 .global-social2__item a:hover {
-  background: var(--P, #B8E451);
+  background: var(--theme);
 }
 .global-social2__item a:hover i {
   color: var(--black);
@@ -3073,7 +3073,7 @@ img {
   line-height: normal;
 }
 .global-social3__item a:hover {
-  background: var(--P, #B8E451);
+  background: var(--theme);
 }
 .global-social3__item a:hover i {
   color: var(--black);

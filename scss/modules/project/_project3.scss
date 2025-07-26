@@ -29,7 +29,7 @@
             bottom: 0px;
             padding: 5px 20px;
             border-radius: 0px 0px 5px 5px;
-            background: var(--P, #B8E451);
+            background: $theme-color;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -56,7 +56,7 @@
                 align-items: center;
                 flex-shrink: 0;
                 border-radius: 5px;
-                border: 1px solid var(--700, #131215);
+                border: 1px solid $black2;
                 i {
                     color: $black;
                     transform: rotate(-45deg);

@@ -7,7 +7,7 @@
     position: relative;
     padding: 80px 38px 40px;
     border-radius: 5px;
-    background: var(--700, #131215);
+    background: $black2;
     margin-top: 55px;
     @include breakpoint (max-xl){
       padding: 80px 20px 40px;

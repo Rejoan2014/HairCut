@@ -102,7 +102,7 @@
   &-contact {
     position: relative;
     border-radius: 5px 5px 0px 0px;
-    background: var(--P, #B8E451);
+    background: $theme-color;
     &__thumb {
       width: 100%;
       img {
@@ -112,7 +112,7 @@
     }
     &-content {
       border-radius: 0px 0px 5px 5px;
-      background: var(--P, #B8E451);
+      background: $theme-color;
       &__icon {
         position: absolute;
         left: 50%;

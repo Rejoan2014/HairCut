@@ -2,7 +2,7 @@
 @use '../utilities' as *;
 
 .offer1 {
-    background: var(--P, #B8E451);
+    background: $theme-color;
     &-thumb {
         text-align: center;
     }

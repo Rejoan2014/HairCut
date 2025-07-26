@@ -22,7 +22,7 @@
             padding: 20px;
         }
         &:hover {
-            border: 1px solid var(--P, #B8E451);
+            border: 1px solid $theme-color;
         }
         &__thumb {
             padding-bottom: 30px;
@@ -53,7 +53,7 @@
                 align-items: center;
                 flex-shrink: 0;
                 border-radius: 5px;
-                border: 1px solid var(--P, #B8E451);
+                border: 1px solid $theme-color;
                 background: $black;
                 i {
                     color: $theme-color;
@@ -67,7 +67,7 @@
                 &-card {
                     &-content {
                         &__link {
-                            background: var(--P, #B8E451);
+                            background: $theme-color;
                             i {
                                 color: $black;
                                 @include transition;

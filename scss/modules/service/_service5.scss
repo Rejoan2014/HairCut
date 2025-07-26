@@ -5,7 +5,7 @@
     &-card {
         position: relative;
         border-radius: 10px;
-        background: var(--700, #131215);
+        background: $black2;
         padding: 30px;
         &__icon {
             text-align: center;
@@ -38,7 +38,7 @@
             align-items: center;
             justify-content: center;
             border-radius: 5px;
-            background: var(--P, #B8E451);
+            background: $theme-color;
             width: 60px;
             height: 60px;
             color: $black;

@@ -28,7 +28,7 @@
         z-index: 6;
     
         h1 {
-            color: var(--P, #B8E451);
+            color: $theme-color;
             font-family: Marcellus;
             font-size: 60px;
             font-style: normal;

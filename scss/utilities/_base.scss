@@ -80,7 +80,7 @@ img {
           gap: 10px;
           border-radius: 50px;
           background: $black;
-          border: 1px solid var(--P, #B8E451);
+          border: 1px solid $theme-color;
           @include breakpoint (max-xxsmall) {
             width: 60px;
             height: 50px;
@@ -470,8 +470,8 @@ img {
         align-items: center;
         gap: 10px;
         border-radius: 5px;
-        border: 1px solid var(--P, #B8E451);
-        background: var(--700, #131215);
+        border: 1px solid $theme-color;
+        background: $black2;
 
         i {
           color: $smoke4;
@@ -482,7 +482,7 @@ img {
         }
 
         &:hover {
-          background: var(--P, #B8E451);
+          background: $theme-color;
 
           i {
             color: $black;
@@ -515,7 +515,7 @@ img {
         }
 
         &:hover {
-          background: var(--P, #B8E451);
+          background: $theme-color;
 
           i {
             color: $black;

@@ -3,7 +3,7 @@
 
 .blog1 {
     &-card {
-        background: var(--700, #131215);
+        background: $black2;
         &__thumb {
             position: relative;
             border-radius: 0px 5px 5px 5px;
@@ -14,7 +14,7 @@
             &-date {
                 padding: 4px 13px;
                 border-radius: 5px 0px 0px 5px;
-                background: var(--P, #B8E451);
+                background: $theme-color;
                 position: absolute;
                 bottom: -20px;
                 h3 {
@@ -57,7 +57,7 @@
                 }
                 i {
                     padding-right: 8px;
-                    color: var(--P, #B8E451);
+                    color: $theme-color;
                     font-size: 12px;
                     font-style: normal;
                     font-weight: 400;

@@ -2,7 +2,7 @@
 @use '../../utilities' as *;
 
 .testimonial1 {
-  background: var(--700, #131215);
+  background: $black2;
   @include breakpoint (max-xxl){
     padding-bottom: 80px !important;
   }

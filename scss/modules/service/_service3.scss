@@ -17,8 +17,8 @@
             z-index: 9; 
             padding: 54px;
             border-radius: 5px;
-            border: 1px solid var(--P, #B8E451);
-            background: var(--P, #B8E451);
+            border: 1px solid $theme-color;
+            background: $theme-color;
         }       
 
     }

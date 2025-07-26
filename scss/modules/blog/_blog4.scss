@@ -208,7 +208,7 @@
                             align-items: center;
                             gap: 10px;
                             border-radius: 5px;
-                            background: var(--700, #131215);
+                            background: $black2;
                             color: $white;
                             font-family: Urbanist;
                             font-size: 16px;
@@ -335,7 +335,7 @@
                             gap: 6px;
                             flex-shrink: 0;
                             border-radius: 5px;
-                            background: var(--P, #B8E451);
+                            background: $theme-color;
                             color: $black;
                             font-family: Urbanist;
                             font-size: 16px;

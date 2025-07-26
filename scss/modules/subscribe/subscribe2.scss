@@ -7,8 +7,8 @@
         gap: 80px;
         padding: 114px 135px;
         border-radius: 5px;
-        border: 1px solid var(--P, #B8E451);
-        background: var(--700, #131215);
+        border: 1px solid $theme-color;
+        background: $black2;
         @include breakpoint (max-xxxl) {
             padding: 90px 70px;
             gap: 30px;

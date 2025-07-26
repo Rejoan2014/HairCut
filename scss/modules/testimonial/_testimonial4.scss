@@ -14,7 +14,7 @@
   }
   &-card {
     border-radius: 5px;
-    background: var(--700, #131215);
+    background: $black2;
     position: relative;
     display: flex;
     align-items: center;
@@ -107,7 +107,7 @@
           &__quote {
             i {
               -webkit-text-stroke-width: 1px;
-              -webkit-text-stroke-color: var(--P, #B8E451);
+              -webkit-text-stroke-color: $theme-color;
               font-size: 48px;
               font-style: normal;
               font-weight: 900;
