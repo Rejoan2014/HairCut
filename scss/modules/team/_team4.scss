@@ -64,7 +64,7 @@
         &-content {
             padding: 20px 30px 20px;
             &__title {
-                color: var(--White, #FFF);
+                color: $white;
                 font-family: Marcellus;
                 font-size: 22px;
                 font-style: normal;
@@ -73,7 +73,7 @@
                 padding-bottom: 8px;
             }
             &__desc {
-                color: var(--White, #FFF);
+                color: $white;
                 font-family: Urbanist;
                 font-size: 16px;
                 font-style: normal;

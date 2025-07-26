@@ -9,8 +9,8 @@
     border: 1px solid rgba(255, 255, 255, 0.20);
     &--except {
       border-radius: 5px;
-      border: 1px solid var(--White, #FFF);
-      background: var(--White, #FFF);
+      border: 1px solid $white;
+      background: $white;
       &__title {
         h6 {
           color: var(--900, #010003) !important;
@@ -29,7 +29,7 @@
     &__title {
       padding-bottom: 11px;
       h6 {
-        color: var(--White, #FFF);
+        color: $white;
         font-family: Marcellus;
         font-size: 28px;
         font-style: normal;
@@ -47,7 +47,7 @@
             background: var(--700, #131215);
             border: none;
 
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
@@ -217,7 +217,7 @@
         &-content {
           h5 {
             padding-bottom: 12px;
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Marcellus;
             font-size: 22px;
             font-style: normal;
@@ -232,7 +232,7 @@
           p {
             display: flex;
             gap: 10px;
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Urbanist;
             font-size: 14px;
             font-style: normal;
@@ -261,7 +261,7 @@
             gap: 10px;
             border-radius: 5px;
             background: var(--700, #131215);
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;

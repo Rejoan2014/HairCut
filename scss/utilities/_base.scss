@@ -100,7 +100,7 @@ img {
             }
           }
           h5 {
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Marcellus;
             font-size: 22px;
             font-style: normal;
@@ -142,7 +142,7 @@ img {
         }
       }
       &__text {
-        color: var(--White, #FFF);
+        color: $white;
         font-family: Marcellus;
         font-size: 22px;
         font-style: normal;
@@ -152,7 +152,7 @@ img {
           font-size: 18px;
         }
         span {
-          color: var(--White, #FFF);
+          color: $white;
           font-family: Urbanist;
           font-size: 16px;
           font-style: normal;

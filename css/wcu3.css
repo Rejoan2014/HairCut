@@ -1945,7 +1945,7 @@ span {
   gap: 8px;
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -2013,7 +2013,7 @@ span {
   padding: 20px 20px;
   border-radius: 5px;
   border: 1px solid var(--theme);
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -2242,7 +2242,7 @@ span {
   height: 70px;
   border-radius: 5px;
   background: var(--900, #010003);
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -2481,7 +2481,7 @@ span {
 }
 
 .bg-white-color {
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 .bg-white-color::before {
   content: "";
@@ -2553,7 +2553,7 @@ span {
   gap: 15px;
 }
 .header-link-info__text {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Urbanist;
   font-size: 16px;
@@ -2562,7 +2562,7 @@ span {
   line-height: 22px;
 }
 .header-link-info__numb {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Marcellus;
   font-size: 20px;
@@ -2677,7 +2677,7 @@ img {
   }
 }
 .preview-area .preview-item .content h5 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -2720,7 +2720,7 @@ img {
   color: var(--theme);
 }
 .checklist-item__text {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -2733,7 +2733,7 @@ img {
   }
 }
 .checklist-item__text span {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3220,7 +3220,7 @@ img {
   padding: 15px 30px;
   width: 100%;
   outline: none;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3272,7 +3272,7 @@ img {
   padding: 15px 30px;
   width: 100%;
   outline: none;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3536,7 +3536,7 @@ img {
   gap: 30px;
   padding: 40px;
   border-radius: 5px;
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 .wcu3-box-content__name {
   color: var(--900, #010003);

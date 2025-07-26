@@ -170,7 +170,7 @@
 }
 
 .bg-white-color {
-  background: var(--White, #FFF);
+  background: $white;
   &::before {
     content: "";
 		position: absolute;
@@ -242,7 +242,7 @@
   gap: 15px;
   &-info {
     &__text {
-      color: var(--White, #FFF);
+      color: $white;
       font-feature-settings: 'liga' off, 'clig' off;
       font-family: Urbanist;
       font-size: 16px;
@@ -251,7 +251,7 @@
       line-height: 22px; 
     }
     &__numb {
-      color: var(--White, #FFF);
+      color: $white;
       font-feature-settings: 'liga' off, 'clig' off;
       font-family: Marcellus;
       font-size: 20px;

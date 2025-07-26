@@ -4,7 +4,7 @@
 .contact2 {
     .bg-white {
         border-radius: 5px;
-        background: var(--White, #FFF);
+        background: $white;
         padding: 60px;
         @include breakpoint (max-xl){
             padding: 30px;
@@ -95,7 +95,7 @@
             }
             &-info {
                 &__text {
-                    color: var(--White, #FFF);
+                    color: $white;
                     font-family: Marcellus;
                     font-size: 22px;
                     font-style: normal;
@@ -104,7 +104,7 @@
                     padding-bottom: 7px;
                 }
                 &__desc {
-                    color: var(--White, #FFF);
+                    color: $white;
                     font-family: Urbanist;
                     font-size: 16px;
                     font-style: normal;

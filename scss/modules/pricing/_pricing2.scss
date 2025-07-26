@@ -8,7 +8,7 @@
         &-header {
             border-radius: 20px;
             border: 1px dashed var(--200, #CCC);
-            background: var(--White, #FFF);
+            background: $white;
             padding: 20px 30px;
             &__title {
                 color: var(--900, #010003);
@@ -34,7 +34,7 @@
             padding: 30px;
             border-radius: 20px;
             border: 1px solid var(--200, #CCC);
-            background: var(--White, #FFF);
+            background: $white;
             box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.05);
             &__title {
                 color: var(--900, #010003);

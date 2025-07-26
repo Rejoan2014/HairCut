@@ -7,7 +7,7 @@
             padding-right: 20px;
         }
         &__title {
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Marcellus;
             font-size: 40px;
             font-style: normal;
@@ -16,7 +16,7 @@
             padding-bottom: 15px;
         }
         &__desc {
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
@@ -45,7 +45,7 @@
             }
             &-item {
                 border-radius: 5px;
-                border: 1px solid var(--White, #FFF);
+                border: 1px solid $white;
                 padding: 30px;
                 &-header {
                     display: flex;
@@ -70,7 +70,7 @@
                         }
                     }
                     &__text {
-                        color: var(--White, #FFF);
+                        color: $white;
                         font-family: Marcellus;
                         font-size: 22px;
                         font-style: normal;

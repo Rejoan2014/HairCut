@@ -18,7 +18,7 @@
                 gap: 18px;
                 padding-top: 30px;
                 padding-bottom: 11px;
-                color: var(--White, #FFF);
+                color: $white;
                 text-align: center;
                 font-family: Urbanist;
                 font-size: 16px;
@@ -36,7 +36,7 @@
                     display: flex;
                     align-items: center;
                     gap: 7px;
-                    color: var(--White, #FFF);
+                    color: $white;
                     font-family: Marcellus;
                     font-size: 22px;
                     font-style: normal;
@@ -67,7 +67,7 @@
             &__title{
                 padding-bottom: 15px;
                 h5 {
-                    color: var(--White, #FFF);
+                    color: $white;
                     font-family: Marcellus;
                     font-size: 28px;
                     font-style: normal;
@@ -81,7 +81,7 @@
             &__desc {
                 padding-right: 5px;    
                 p {
-                    color: var(--White, #FFF);
+                    color: $white;
                     font-family: Urbanist;
                     font-size: 16px;
                     font-style: normal;
@@ -128,7 +128,7 @@
                     }
                 }
                 &__title {
-                    color: var(--White, #FFF);
+                    color: $white;
                     font-family: Marcellus;
                     font-size: 28px;
                     font-style: normal;
@@ -137,7 +137,7 @@
                     padding-bottom: 30px;
                 }
                 &__desc {
-                    color: var(--White, #FFF);
+                    color: $white;
                     font-family: Urbanist;
                     font-size: 16px;
                     font-style: normal;
@@ -193,7 +193,7 @@
                     display: flex;
                     gap: 10px;
                     &__title {
-                        color: var(--White, #FFF);
+                        color: $white;
                         font-family: Marcellus;
                         font-size: 22px;
                         font-style: normal;
@@ -209,7 +209,7 @@
                             gap: 10px;
                             border-radius: 5px;
                             background: var(--700, #131215);
-                            color: var(--White, #FFF);
+                            color: $white;
                             font-family: Urbanist;
                             font-size: 16px;
                             font-style: normal;
@@ -228,7 +228,7 @@
                     gap: 10px;
                     &__title {
                         padding-right: 5px;
-                        color: var(--White, #FFF);
+                        color: $white;
                         font-family: Marcellus;
                         font-size: 22px;
                         font-style: normal;
@@ -242,7 +242,7 @@
             &__title {
                 padding-bottom: 30px;
                 h3 {
-                    color: var(--White, #FFF);
+                    color: $white;
                     font-family: Marcellus;
                     font-size: 40px;
                     font-style: normal;
@@ -293,7 +293,7 @@
                 &-content {
                     &__author {
                         h5 {
-                            color: var(--White, #FFF);
+                            color: $white;
                             font-family: Marcellus;
                             font-size: 22px;
                             font-style: normal;
@@ -304,7 +304,7 @@
                     &__date {
                         padding-bottom: 17px;
                         p {
-                            color: var(--White, #FFF);
+                            color: $white;
                             font-family: Urbanist;
                             font-size: 16px;
                             font-style: normal;
@@ -315,7 +315,7 @@
                     }
                     &__desc {
                         p {
-                            color: var(--White, #FFF);
+                            color: $white;
                             font-family: Urbanist;
                             font-size: 16px;
                             font-style: normal;
@@ -380,7 +380,7 @@
         &__title {
             padding-bottom: 14px;
             h6 {
-                color: var(--White, #FFF);
+                color: $white;
                 font-family: Marcellus;
                 font-size: 40px;
                 font-style: normal;
@@ -408,7 +408,7 @@
             }
         }
         .form-check-label {
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Marcellus;
             font-size: 22px;
             font-style: normal;

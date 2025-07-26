@@ -51,7 +51,7 @@
         padding: 20px 20px;
       }
         &__label {
-          color: var(--White, #FFF);
+          color: $white;
           font-family: Urbanist;
           font-size: 16px;
           font-style: normal;
@@ -64,7 +64,7 @@
           }
         }
         &__name {
-          color: var(--White, #FFF);
+          color: $white;
           font-family: Marcellus;
           font-size: 22px;
           font-style: normal;
@@ -76,7 +76,7 @@
           }
         }
         &__desc{
-          color: var(--White, #FFF);
+          color: $white;
           font-family: Urbanist;
           font-size: 16px;
           font-style: normal;

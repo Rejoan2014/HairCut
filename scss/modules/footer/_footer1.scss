@@ -216,7 +216,7 @@
         padding-bottom: 24px;
       }
       &__desc {
-        color: var(--White, #FFF);
+        color: $white;
         font-family: $body-font;
         font-size: 16px;
         font-style: normal;
@@ -240,7 +240,7 @@
         padding-top: 7px;
       }
       &__title {
-        color: var(--White, #FFF);
+        color: $white;
         font-family: Marcellus;
         font-size: 22px;
         font-style: normal;
@@ -254,7 +254,7 @@
             padding-bottom: 20px;
           }
           a {
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
@@ -285,7 +285,7 @@
         padding-top: 7px;
       }
       &__title {
-        color: var(--White, #FFF);
+        color: $white;
         font-family: Marcellus;
         font-size: 22px;
         font-style: normal;
@@ -299,7 +299,7 @@
             padding-bottom: 20px;
           }
           a {
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
@@ -377,7 +377,7 @@
           a {
             display: flex !important;
             align-items: center !important;
-            color: var(--White, #FFF);
+            color: $white;
             font-feature-settings: 'liga' off, 'clig' off;
             font-family: Urbanist;
             font-size: 16px;
@@ -410,7 +410,7 @@
               }
             }
             .text span:first-child {
-              color: var(--White, #FFF);
+              color: $white;
               font-family: Marcellus;
               font-size: 22px;
               font-style: normal;

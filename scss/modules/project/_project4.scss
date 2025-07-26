@@ -3,7 +3,7 @@
 
 .project4 {  
     &__title {
-        color: var(--White, #FFF);
+        color: $white;
         font-family: Marcellus;
         font-size: 60px;
         font-style: normal;
@@ -18,7 +18,7 @@
         gap: 40px;
         &-item {
             border-radius: 5px;
-            background: var(--White, #FFF);
+            background: $white;
             padding: 12px 15px 12px 25px;
             width: 320px;
             @include breakpoint (max-xxsmall){
@@ -52,7 +52,7 @@
     }
     &-overview {
         &__title {
-            color: var(--White, #FFF);
+            color: $white;
             font-family: Marcellus;
             font-size: 40px;
             font-style: normal;
@@ -65,7 +65,7 @@
             gap: 60px;
             margin-bottom: 40px;
             &__item {
-                color: var(--White, #FFF);
+                color: $white;
                 font-family: Marcellus;
                 font-size: 28px;
                 font-style: normal;
@@ -77,7 +77,7 @@
         }
         &-content {
             &__text {
-                color: var(--White, #FFF);
+                color: $white;
                 font-family: Marcellus;
                 font-size: 22px;
                 font-style: normal;
@@ -86,7 +86,7 @@
                 padding-bottom: 20px;
             }
             &__desc {
-                color: var(--White, #FFF);
+                color: $white;
                 font-family: Urbanist;
                 font-size: 16px;
                 font-style: normal;
@@ -96,7 +96,7 @@
             &-list {
                 margin-top: 50px;
                 &__title {
-                    color: var(--White, #FFF);
+                    color: $white;
                     font-family: Marcellus;
                     font-size: 28px;
                     font-style: normal;

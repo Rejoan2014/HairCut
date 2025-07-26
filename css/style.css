@@ -1974,7 +1974,7 @@ span {
   gap: 8px;
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -2042,7 +2042,7 @@ span {
   padding: 20px 20px;
   border-radius: 5px;
   border: 1px solid var(--theme);
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -2271,7 +2271,7 @@ span {
   height: 70px;
   border-radius: 5px;
   background: var(--900, #010003);
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -2510,7 +2510,7 @@ span {
 }
 
 .bg-white-color {
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 .bg-white-color::before {
   content: "";
@@ -2582,7 +2582,7 @@ span {
   gap: 15px;
 }
 .header-link-info__text {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Urbanist;
   font-size: 16px;
@@ -2591,7 +2591,7 @@ span {
   line-height: 22px;
 }
 .header-link-info__numb {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Marcellus;
   font-size: 20px;
@@ -2706,7 +2706,7 @@ img {
   }
 }
 .preview-area .preview-item .content h5 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -2749,7 +2749,7 @@ img {
   color: var(--theme);
 }
 .checklist-item__text {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -2762,7 +2762,7 @@ img {
   }
 }
 .checklist-item__text span {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3249,7 +3249,7 @@ img {
   padding: 15px 30px;
   width: 100%;
   outline: none;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3301,7 +3301,7 @@ img {
   padding: 15px 30px;
   width: 100%;
   outline: none;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3661,7 +3661,7 @@ img {
   justify-content: center;
   flex-direction: column;
   border-radius: 320px;
-  border: 1px dashed var(--White, #FFF);
+  border: 1px dashed var(--white);
   width: 320px;
   height: 320px;
 }
@@ -3689,7 +3689,7 @@ img {
   }
 }
 .counter2-item-box__value {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 60px;
   font-style: normal;
@@ -3705,7 +3705,7 @@ img {
 }
 .counter2-item-box__label p {
   color: var(--white);
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -3832,7 +3832,7 @@ img {
   gap: 20px;
 }
 .fancy-box1__item h6 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Marcellus;
   font-size: 22px;
@@ -3842,7 +3842,7 @@ img {
   padding-bottom: 3px;
 }
 .fancy-box1__item p {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Urbanist;
   font-size: 16px;
@@ -3880,7 +3880,7 @@ img {
   gap: 25px;
 }
 .fancy-box3__item h4 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -3889,7 +3889,7 @@ img {
   padding-bottom: 10px;
 }
 .fancy-box3__item p {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3928,7 +3928,7 @@ img {
   gap: 15px;
 }
 .fancy-box5__item h4 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 24px;
   font-style: normal;
@@ -3936,7 +3936,7 @@ img {
   line-height: 30px; /* 125% */
 }
 .fancy-box5__item p {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 13.2px;
   font-style: normal;
@@ -4392,7 +4392,7 @@ img {
   border-radius: 5px;
   background: var(--700, #131215);
   box-shadow: 0px 4.4px 20px -1px rgba(19, 16, 34, 0.05);
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -5016,7 +5016,7 @@ img {
   height: 56px;
   justify-content: center;
   align-items: center;
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-family: Urbanist;
   font-size: 16px;
@@ -5104,7 +5104,7 @@ img {
   }
 }
 .breadcrumb-heading p {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -5183,8 +5183,8 @@ img {
 }
 .widget-card--except {
   border-radius: 5px;
-  border: 1px solid var(--White, #FFF);
-  background: var(--White, #FFF);
+  border: 1px solid var(--white);
+  background: var(--white);
 }
 .widget-card--except__title h6 {
   color: var(--900, #010003) !important;
@@ -5201,7 +5201,7 @@ img {
   padding-bottom: 11px;
 }
 .widget-card__title h6 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -5217,7 +5217,7 @@ img {
   border-radius: 5px;
   background: var(--700, #131215);
   border: none;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -5360,7 +5360,7 @@ img {
 }
 .widget-card-post-items-content h5 {
   padding-bottom: 12px;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -5373,7 +5373,7 @@ img {
 .widget-card-post-items-content p {
   display: flex;
   gap: 10px;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 14px;
   font-style: normal;
@@ -5397,7 +5397,7 @@ img {
   gap: 10px;
   border-radius: 5px;
   background: var(--700, #131215);
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -5476,7 +5476,7 @@ img {
 }
 .widget2-card__title {
   padding-bottom: 20px;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -5526,7 +5526,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -6672,7 +6672,7 @@ img {
 }
 .hero2-content__title {
   padding-bottom: 20px;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Marcellus;
   font-size: 80px;
@@ -6713,7 +6713,7 @@ img {
 }
 .hero2-content__desc {
   max-width: 610px;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -6749,7 +6749,7 @@ img {
 .hero2-content-ratting__desc {
   padding-top: 5px;
   max-width: 251px;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -6760,7 +6760,7 @@ img {
 /* 4. About */
 .about1 {
   position: relative;
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 .about1__shape1 {
   position: absolute;
@@ -6793,7 +6793,7 @@ img {
   right: 0;
   border-radius: 5px;
   border-left: 2px dashed var(--P, #B8E451);
-  background: var(--White, #FFF);
+  background: var(--white);
   box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
   padding: 25px 30px;
 }
@@ -6938,7 +6938,7 @@ img {
   bottom: 8%;
   left: -43%;
   border-radius: 5px;
-  background: var(--White, #FFF);
+  background: var(--white);
   padding: 17px 45px;
 }
 .about2-thumb-badge__icon {
@@ -7086,7 +7086,7 @@ img {
   padding-bottom: 25px;
 }
 .about3-content__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -7588,7 +7588,7 @@ img {
   }
 }
 .section-top__title3 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -7689,7 +7689,7 @@ img {
 /* 7. Service */
 .service1 {
   position: relative;
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 .service1 .section-top__desc {
   padding-left: 185px;
@@ -7800,7 +7800,7 @@ img {
 
 .service2 {
   position: relative;
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 .service2__shape {
   position: absolute;
@@ -7893,7 +7893,7 @@ img {
 
 .service3 {
   position: relative;
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 .service3-thumb {
   position: relative;
@@ -8009,7 +8009,7 @@ img {
   }
 }
 .service4-details__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -8018,7 +8018,7 @@ img {
   padding-bottom: 15px;
 }
 .service4-details__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -8054,7 +8054,7 @@ img {
 }
 .service4-details-card-item {
   border-radius: 5px;
-  border: 1px solid var(--White, #FFF);
+  border: 1px solid var(--white);
   padding: 30px;
 }
 .service4-details-card-item-header {
@@ -8081,7 +8081,7 @@ img {
   aspect-ratio: 1/1;
 }
 .service4-details-card-item-header__text {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -8168,7 +8168,7 @@ img {
   padding-bottom: 30px;
 }
 .service5-card__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-family: Marcellus;
   font-size: 22px;
@@ -8178,7 +8178,7 @@ img {
   padding-bottom: 20px;
 }
 .service5-card__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-family: Urbanist;
   font-size: 16px;
@@ -8242,7 +8242,7 @@ img {
   align-items: center;
 }
 .project1-card-content__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -8497,7 +8497,7 @@ img {
 }
 
 .project4__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 60px;
   font-style: normal;
@@ -8513,7 +8513,7 @@ img {
 }
 .project4-groupBtn-item {
   border-radius: 5px;
-  background: var(--White, #FFF);
+  background: var(--white);
   padding: 12px 15px 12px 25px;
   width: 320px;
 }
@@ -8547,7 +8547,7 @@ img {
   border-radius: 5px;
 }
 .project4-overview__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -8561,7 +8561,7 @@ img {
   margin-bottom: 40px;
 }
 .project4-overview-meta__item {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -8571,7 +8571,7 @@ img {
   cursor: pointer;
 }
 .project4-overview-content__text {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -8580,7 +8580,7 @@ img {
   padding-bottom: 20px;
 }
 .project4-overview-content__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -8591,7 +8591,7 @@ img {
   margin-top: 50px;
 }
 .project4-overview-content-list__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -8656,7 +8656,7 @@ img {
   color: var(--800, #CCCCCD);
 }
 .testimonial1-card-content__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -8716,7 +8716,7 @@ img {
   color: var(--800, #CCCCCD);
 }
 .testimonial2-card-content__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -8794,7 +8794,7 @@ img {
   padding-bottom: 10px;
 }
 .testimonial3-card-content__name {
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-family: Marcellus;
   font-size: 28px;
@@ -8809,7 +8809,7 @@ img {
   }
 }
 .testimonial3-card-content__label {
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-family: Urbanist;
   font-size: 16px;
@@ -8899,7 +8899,7 @@ img {
   }
 }
 .testimonial4-card-content__label {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -8914,7 +8914,7 @@ img {
   }
 }
 .testimonial4-card-content__name {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -8928,7 +8928,7 @@ img {
   }
 }
 .testimonial4-card-content__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -8972,7 +8972,7 @@ img {
   padding: 70px 40px 40px;
   border-radius: 5px;
   border: 2px solid rgba(204, 204, 204, 0.2);
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 @media (max-width: 1199px) {
   .testimonial5-card {
@@ -9071,7 +9071,7 @@ img {
   }
 }
 .contact1-content__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -9080,7 +9080,7 @@ img {
   padding-bottom: 25px;
 }
 .contact1-content__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9101,7 +9101,7 @@ img {
 
 .contact2 .bg-white {
   border-radius: 5px;
-  background: var(--White, #FFF);
+  background: var(--white);
   padding: 60px;
 }
 @media (max-width: 1199px) {
@@ -9214,7 +9214,7 @@ img {
   line-height: normal;
 }
 .contact2-content-item-info__text {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -9223,7 +9223,7 @@ img {
   padding-bottom: 7px;
 }
 .contact2-content-item-info__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9317,7 +9317,7 @@ img {
   }
 }
 .blog1-card-content__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -9344,7 +9344,7 @@ img {
 
 .blog2 {
   position: relative;
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 .blog2-card {
   display: flex;
@@ -9453,7 +9453,7 @@ img {
   gap: 18px;
   padding-top: 30px;
   padding-bottom: 11px;
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-family: Urbanist;
   font-size: 16px;
@@ -9510,7 +9510,7 @@ img {
   padding-bottom: 15px;
 }
 .blog3-card-content__title h5 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -9526,7 +9526,7 @@ img {
   padding-right: 5px;
 }
 .blog3-card-content__desc p {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9581,7 +9581,7 @@ img {
   gap: 18px;
   padding-top: 30px;
   padding-bottom: 11px;
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-family: Urbanist;
   font-size: 16px;
@@ -9602,7 +9602,7 @@ img {
   display: flex;
   align-items: center;
   gap: 7px;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -9633,7 +9633,7 @@ img {
   padding-bottom: 15px;
 }
 .blog4-card-content__title h5 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -9649,7 +9649,7 @@ img {
   padding-right: 5px;
 }
 .blog4-card-content__desc p {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9698,7 +9698,7 @@ img {
   border-radius: 10px;
 }
 .blog4-card-content-profile__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -9707,7 +9707,7 @@ img {
   padding-bottom: 30px;
 }
 .blog4-card-content-profile__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9766,7 +9766,7 @@ img {
   gap: 10px;
 }
 .blog4-card-content-tagShare-tags__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -9781,7 +9781,7 @@ img {
   gap: 10px;
   border-radius: 5px;
   background: var(--700, #131215);
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9799,7 +9799,7 @@ img {
 }
 .blog4-card-content-tagShare-shareicon__title {
   padding-right: 5px;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -9810,7 +9810,7 @@ img {
   padding-bottom: 30px;
 }
 .blog4-card-comment__title h3 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -9861,7 +9861,7 @@ img {
   max-width: fit-content;
 }
 .blog4-card-comment-profile-content__author h5 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -9872,7 +9872,7 @@ img {
   padding-bottom: 17px;
 }
 .blog4-card-comment-profile-content__date p {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9881,7 +9881,7 @@ img {
   opacity: 0.8;
 }
 .blog4-card-comment-profile-content__desc p {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9945,7 +9945,7 @@ img {
   padding-bottom: 14px;
 }
 .blog4-form__title h6 {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -9972,7 +9972,7 @@ img {
   line-height: 26px; /* 162.5% */
 }
 .blog4-form .form-check-label {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -10021,7 +10021,7 @@ img {
   align-items: center;
 }
 .pricing1-card-list-item__text {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -10076,7 +10076,7 @@ img {
 .pricing2-card-header {
   border-radius: 20px;
   border: 1px dashed var(--200, #CCC);
-  background: var(--White, #FFF);
+  background: var(--white);
   padding: 20px 30px;
 }
 .pricing2-card-header__title {
@@ -10102,7 +10102,7 @@ img {
   padding: 30px;
   border-radius: 20px;
   border: 1px solid var(--200, #CCC);
-  background: var(--White, #FFF);
+  background: var(--white);
   box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.05);
 }
 .pricing2-card-list__title {
@@ -10180,7 +10180,7 @@ img {
   border-bottom: 1px solid var(--white);
 }
 .pricing3-card-header__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 60px;
   font-style: normal;
@@ -10207,7 +10207,7 @@ img {
   }
 }
 .pricing3-card-header__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -10225,7 +10225,7 @@ img {
   gap: 15px;
 }
 .pricing3-card-list-item__text {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -10268,7 +10268,7 @@ img {
   width: 540px;
   position: relative;
   border-radius: 6.155px;
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 .pricing4-card__title {
   display: flex;
@@ -10462,7 +10462,7 @@ img {
   gap: 30px;
   padding: 40px;
   border-radius: 5px;
-  background: var(--White, #FFF);
+  background: var(--white);
 }
 .wcu3-box-content__name {
   color: var(--900, #010003);
@@ -10585,7 +10585,7 @@ img {
   text-align: center;
   padding: 40px 30px 21px;
   border-radius: 5px;
-  background: var(--White, #FFF);
+  background: var(--white);
   box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.05);
   max-width: 380px;
   margin: auto;
@@ -10820,7 +10820,7 @@ img {
   }
 }
 .team3-card-content__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-feature-settings: "liga" off, "clig" off;
   font-family: Marcellus;
@@ -10836,7 +10836,7 @@ img {
   }
 }
 .team3-card-content__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-feature-settings: "liga" off, "clig" off;
   font-family: Urbanist;
@@ -10923,7 +10923,7 @@ img {
   padding: 20px 30px 20px;
 }
 .team4-card-content__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -10932,7 +10932,7 @@ img {
   padding-bottom: 8px;
 }
 .team4-card-content__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -11093,7 +11093,7 @@ img {
   bottom: 22%;
   left: -11%;
   border-radius: 5px;
-  background: var(--White, #FFF);
+  background: var(--white);
   padding: 17px 25px;
 }
 @media (max-width: 1399px) {
@@ -11290,7 +11290,7 @@ img {
   border-radius: 5px;
   background: var(--900, #010003);
   padding: 17px 20px;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -11315,7 +11315,7 @@ img {
 
 /* 17. Appointment */
 .appointment1__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-family: Marcellus;
   font-size: 60px;
@@ -11396,7 +11396,7 @@ img {
   }
 }
 .appointment1-content-item-info__name {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -11410,7 +11410,7 @@ img {
   }
 }
 .appointment1-content-item-info__label {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -11446,7 +11446,7 @@ img {
   }
 }
 .appointment1-schedule-calendar__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -11489,7 +11489,7 @@ img {
   width: 234.572px;
   height: 100px;
   flex-shrink: 0;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -11547,7 +11547,7 @@ img {
   flex-wrap: wrap;
 }
 .appointment1-booking-btn__text {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -11555,7 +11555,7 @@ img {
   line-height: 22px;
 }
 .appointment1-booking-btn__text span {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -11569,7 +11569,7 @@ img {
   }
 }
 .appointment1-booking__date {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -11831,7 +11831,7 @@ img {
   border-radius: 5px;
   background: var(--900, #010003);
   padding: 17px 20px;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -11903,7 +11903,7 @@ img {
   }
 }
 .subscribe2-info-titleArea__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -12194,7 +12194,7 @@ img {
   padding-bottom: 24px;
 }
 .footer1-wrapper-logoInfo__desc {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -12223,7 +12223,7 @@ img {
   }
 }
 .footer1-wrapper-service__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -12235,7 +12235,7 @@ img {
   padding-bottom: 20px;
 }
 .footer1-wrapper-service-list__item a {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -12270,7 +12270,7 @@ img {
   }
 }
 .footer1-wrapper-about__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -12282,7 +12282,7 @@ img {
   padding-bottom: 20px;
 }
 .footer1-wrapper-about-list__item a {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -12356,7 +12356,7 @@ img {
 .footer1-wrapper-contact-list__item a {
   display: flex !important;
   align-items: center !important;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Urbanist;
   font-size: 16px;
@@ -12389,7 +12389,7 @@ img {
   line-height: normal;
 }
 .footer1-wrapper-contact-list__item a .text span:first-child {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -12586,7 +12586,7 @@ img {
   }
 }
 .footer2-wrapper-service__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -12598,7 +12598,7 @@ img {
   padding-bottom: 20px;
 }
 .footer2-wrapper-service-list__item a {
-  color: var(--White, #FFF);
+  color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -12732,7 +12732,7 @@ img {
 .footer2-wrapper-contact-list__item a {
   display: flex !important;
   align-items: center !important;
-  color: var(--White, #FFF);
+  color: var(--white);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Urbanist;
   font-size: 16px;
