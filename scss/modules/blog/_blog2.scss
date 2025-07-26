@@ -58,7 +58,7 @@
                 }
             }
             &__numb {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Marcellus;
                 font-size: 40px;
                 font-style: normal;
@@ -67,7 +67,7 @@
                 max-width: 100px;
             }
             &__title {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Marcellus;
                 font-size: 40px;
                 font-style: normal;

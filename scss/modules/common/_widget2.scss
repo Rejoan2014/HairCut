@@ -119,7 +119,7 @@
         transform: translate(-50%, -50%);
       }
       &__text {
-        color: var(--900, #010003);
+        color: $black;
         text-align: center;
         font-family: Urbanist;
         font-size: 16px;
@@ -129,7 +129,7 @@
         padding-top: 64px;
       }
       &__numb {
-        color: var(--900, #010003);
+        color: $black;
         text-align: center;
         font-family: Marcellus;
         font-size: 28px;

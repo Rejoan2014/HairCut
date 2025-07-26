@@ -69,7 +69,7 @@
         z-index: 4;
         font-feature-settings: 'liga' off, 'clig' off;
         -webkit-text-stroke-width: 1.37px;
-        -webkit-text-stroke-color: var(--900, #010003);
+        -webkit-text-stroke-color: $black;
         font-family: Marcellus;
         font-size: 137px;
         font-style: normal;
@@ -87,7 +87,7 @@
         position: relative;
         z-index: 9;
         &__subtitle {
-            color: var(--900, #010003);
+            color: $black;
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
@@ -104,7 +104,7 @@
         }
         &__title { 
             padding-bottom: 20px;
-            color: var(--900, #010003);
+            color: $black;
             font-feature-settings: 'liga' off, 'clig' off;
             font-family: Marcellus;
             font-size: 70px;
@@ -158,7 +158,7 @@
         } 
         &__desc {
             max-width: 610px;
-            color: var(--900, #010003);
+            color: $black;
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;

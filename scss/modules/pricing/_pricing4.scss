@@ -16,7 +16,7 @@
             border-radius: 5px 5px 0px 0px;
             background: var(--P, #B8E451);
             padding: 13px 20px;
-            color: var(--900, #010003);
+            color: $black;
             font-family: Marcellus;
             font-size: 40px;
             font-style: normal;
@@ -39,7 +39,7 @@
                 justify-content: space-between;
                 align-items: center;
                 &__text {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Marcellus;
                     font-size: 27.083px;
                     font-style: normal;
@@ -50,7 +50,7 @@
                     }
                 }
                 &__value {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Marcellus;
                     font-size: 27.083px;
                     font-style: normal;
@@ -76,7 +76,7 @@
                 gap: 12.31px;
                 flex-shrink: 0;
                 border-radius: 6.155px;
-                background: var(--900, #010003);
+                background: $black;
                 border: 1px solid var(--200, #CCC);
                 color: var(--P, #B8E451);
                 text-align: center;

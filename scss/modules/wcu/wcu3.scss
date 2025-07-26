@@ -10,7 +10,7 @@
     background: $white;
     &-content {
       &__name {
-        color: var(--900, #010003);
+        color: $black;
         font-family: Marcellus;
         font-size: 40px;
         font-style: normal;
@@ -19,7 +19,7 @@
         padding-bottom: 10px;
       }
       &__label {
-        color: var(--900, #010003);
+        color: $black;
         font-family: Urbanist;
         font-size: 16px;
         font-style: normal;
@@ -28,7 +28,7 @@
         padding-bottom: 30px;        
       }
       &__desc {
-        color: var(--900, #010003);
+        color: $black;
         font-family: Urbanist;
         font-size: 16px;
         font-style: normal;
@@ -41,7 +41,7 @@
           padding-top: 30px;
         }
         &__title {
-          color: var(--900, #010003);
+          color: $black;
           font-family: Marcellus;
           font-size: 28px;
           font-style: normal;

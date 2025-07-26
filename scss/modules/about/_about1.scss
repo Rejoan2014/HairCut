@@ -43,7 +43,7 @@
 
             &__text {
                 h2 {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Marcellus;
                     font-size: 40px;
                     font-style: normal;
@@ -117,7 +117,7 @@
                 }
             }
             &__text {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Marcellus;
                 font-size: 20px;
                 font-style: normal;
@@ -135,7 +135,7 @@
         }
     }
     &-desc {
-        color: var(--900, #010003);
+        color: $black;
         font-family: Urbanist;
         font-size: 16px;
         font-style: normal;

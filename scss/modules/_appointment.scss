@@ -143,7 +143,7 @@
                 justify-content: center;
                 border-radius: 5px;
                 border: 1px solid rgb(52, 51, 53);
-                background: var(--900, #010003);
+                background: $black;
                 width: 234.572px;
                 height: 100px;
                 flex-shrink: 0;
@@ -173,7 +173,7 @@
                     font-size: 16px;
                 }
                 &:hover {
-                    color: var(--900, #010003);
+                    color: $black;
                     background: $theme-color;
                     cursor: pointer;
                     @include transition;

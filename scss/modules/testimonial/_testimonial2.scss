@@ -9,7 +9,7 @@
     padding: 70px 40px 40px;
     border-radius: 5px;
     border: 2px solid rgba(204, 204, 204, 0.20);
-    background: var(--900, #010003);
+    background: $black;
     @include breakpoint (max-sm){
         padding: 20px;
     }
@@ -60,14 +60,14 @@
         &-card {
           &-content {
             &__desc {
-              color: var(--900, #010003);
+              color: $black;
             }
             .fancy-box1__item {
               h6 {
-                color: var(--900, #010003);
+                color: $black;
               }
               p {
-                color: var(--900, #010003);
+                color: $black;
               }
             }
           }

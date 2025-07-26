@@ -11,7 +11,7 @@
     backdrop-filter: blur(50px);
     &__title {
         margin-bottom: 30px;
-        color: var(--900, #010003);
+        color: $black;
         font-family: Marcellus;
         text-align: center;
         font-size: 28px;
@@ -30,7 +30,7 @@
         height: 86px;
         flex-shrink: 0;
         i {
-            color: var(--900, #010003);
+            color: $black;
             font-size: 30px;
             font-style: normal;
             font-weight: 900;
@@ -38,7 +38,7 @@
         }
     }
     &__numb {
-        color: var(--900, #010003);
+        color: $black;
         text-align: center;
         font-family: Marcellus;
         font-size: 28px;

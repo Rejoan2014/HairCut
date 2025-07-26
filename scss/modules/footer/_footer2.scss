@@ -46,7 +46,7 @@
         padding-bottom: 24px;
       }
       &__desc {
-        color: var(--900, #010003);
+        color: $black;
         font-family: Urbanist;
         font-size: 16px;
         font-style: normal;
@@ -116,7 +116,7 @@
         padding-top: 7px;
       }
       &__title {
-        color: var(--900, #010003);
+        color: $black;
         font-family: Marcellus;
         font-size: 28px;
         font-style: normal;
@@ -130,7 +130,7 @@
             padding-bottom: 20px;
           }
           a {
-            color: var(--900, #010003);
+            color: $black;
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
@@ -159,7 +159,7 @@
         padding-top: 7px;
       }
       &__title {
-        color: var(--900, #010003);
+        color: $black;
         font-family: Marcellus;
         font-size: 28px;
         font-style: normal;
@@ -173,7 +173,7 @@
             padding-bottom: 20px;
           }
           a {
-            color: var(--900, #010003);
+            color: $black;
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;
@@ -204,7 +204,7 @@
         padding-top: 7px;
       }
       &__title {
-        color: var(--900, #010003);
+        color: $black;
         font-family: Marcellus;
         font-size: 28px;
         font-style: normal;
@@ -245,7 +245,7 @@
               flex-shrink: 0;
               aspect-ratio: 1/1;
               i {
-                color: var(--900, #010003);
+                color: $black;
                 font-size: 25px;
                 font-style: normal;
                 font-weight: 900;
@@ -254,7 +254,7 @@
             }
             .info {
               &__title {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Marcellus;
                 font-size: 22px;
                 font-style: normal;
@@ -263,7 +263,7 @@
                 padding-bottom: 7px;
               }
               &__desc {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Urbanist;
                 font-size: 16px;
                 font-style: normal;

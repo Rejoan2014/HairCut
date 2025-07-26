@@ -32,7 +32,7 @@
                 margin-left: -80px;
             }
             &__text {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Marcellus;
                 font-size: 28px;
                 font-style: normal;
@@ -49,7 +49,7 @@
             padding-left: 0;
         }
         &__title {
-            color: var(--900, #010003);
+            color: $black;
             font-family: Marcellus;
             font-size: 22px;
             font-style: normal;
@@ -58,7 +58,7 @@
             padding-bottom: 10px;
         }
         &__desc {
-            color: var(--900, #010003);
+            color: $black;
             font-family: Urbanist;
             font-size: 16px;
             font-style: normal;

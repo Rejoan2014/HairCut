@@ -136,7 +136,7 @@
         }
     }
     &__title5 {
-        color: var(--900, #010003);
+        color: $black;
         font-family: Marcellus;
         font-size: 40px;
         font-style: normal;
@@ -157,7 +157,7 @@
     }
 
     &__desc {
-        color: var(--900, #010003);
+        color: $black;
         font-family: Urbanist;
         font-size: 16px;
         font-style: normal;

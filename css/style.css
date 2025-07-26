@@ -630,7 +630,7 @@ h6 {
 }
 
 h1 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 60px;
   font-style: normal;
@@ -649,7 +649,7 @@ h1 {
 }
 
 h2 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -668,7 +668,7 @@ h2 {
 }
 
 h3 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -1841,7 +1841,7 @@ span {
   gap: 8px;
   border-radius: 5px;
   background: var(--P, #B8E451);
-  color: var(--900, #010003);
+  color: var(--black);
   border: 1px solid var(--theme);
   font-family: Urbanist;
   font-size: 16px;
@@ -1906,9 +1906,9 @@ span {
   align-items: center;
   gap: 8px;
   border-radius: 5px;
-  border: 1px solid var(--900, #010003);
+  border: 1px solid var(--black);
   background: var(--white);
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -2106,7 +2106,7 @@ span {
   gap: 8px;
   border-radius: 5px;
   background: var(--P, #B8E451);
-  color: var(--900, #010003);
+  color: var(--black);
   border: 1px solid var(--theme);
   font-family: Urbanist;
   font-size: 16px;
@@ -2270,7 +2270,7 @@ span {
   width: 100%;
   height: 70px;
   border-radius: 5px;
-  background: var(--900, #010003);
+  background: var(--black);
   color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
@@ -3075,7 +3075,7 @@ img {
   background: var(--P, #B8E451);
 }
 .global-social2__item a:hover i {
-  color: var(--900, #010003);
+  color: var(--black);
 }
 
 .global-social3 {
@@ -3104,7 +3104,7 @@ img {
   background: var(--P, #B8E451);
 }
 .global-social3__item a:hover i {
-  color: var(--900, #010003);
+  color: var(--black);
 }
 
 .global-social4 {
@@ -3175,13 +3175,13 @@ img {
 .form__group input,
 .form__group textarea {
   border-radius: 5px;
-  border: 1px solid var(--900, #010003);
+  border: 1px solid var(--black);
   background-color: transparent;
   padding: 17px 21px;
   width: 100%;
   height: 70px;
   outline: none;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3215,7 +3215,7 @@ img {
   width: 100%;
   height: 54px;
   outline: none;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3610,7 +3610,7 @@ img {
   aspect-ratio: 1/1;
 }
 .counter-item-box__value {
-  color: var(--900, #010003);
+  color: var(--black);
   text-align: center;
   font-family: Marcellus;
   font-size: 40px;
@@ -3629,7 +3629,7 @@ img {
   padding-bottom: 7px;
 }
 .counter-item-box__label p {
-  color: var(--900, #010003);
+  color: var(--black);
   text-align: center;
   font-family: Urbanist;
   font-size: 16px;
@@ -3857,7 +3857,7 @@ img {
   gap: 15px;
 }
 .fancy-box2__item h4 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -3865,7 +3865,7 @@ img {
   line-height: 30px;
 }
 .fancy-box2__item p {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3904,7 +3904,7 @@ img {
   gap: 20px;
 }
 .fancy-box4__item h6 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -3913,7 +3913,7 @@ img {
   padding-bottom: 3px;
 }
 .fancy-box4__item p {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3969,7 +3969,7 @@ img {
   text-transform: uppercase;
 }
 .progress-wrap .progress-meta .title2 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -4085,7 +4085,7 @@ img {
   padding-bottom: 9px;
 }
 .progress-wrap2 .progress-meta .title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -4093,7 +4093,7 @@ img {
   line-height: 30px; /* 136.364% */
 }
 .progress-wrap2 .progress-meta .title2 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -4101,7 +4101,7 @@ img {
   line-height: 30px; /* 136.364% */
 }
 .progress-wrap2 .progress-meta .percentage {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -4110,7 +4110,7 @@ img {
   text-transform: capitalize;
 }
 .progress-wrap2 .progress-meta .percentage2 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Outfit;
   font-size: 18px;
   font-style: normal;
@@ -4215,7 +4215,7 @@ img {
 }
 
 .text-slider {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 50px;
   font-style: normal;
@@ -4269,7 +4269,7 @@ img {
   opacity: 1;
 }
 .marquee-item.style-2 .text-slider {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 50px;
   font-style: normal;
@@ -5187,7 +5187,7 @@ img {
   background: var(--white);
 }
 .widget-card--except__title h6 {
-  color: var(--900, #010003) !important;
+  color: var(--black) !important;
 }
 .widget-card:not(:last-child) {
   margin-bottom: 60px;
@@ -5234,7 +5234,7 @@ img {
   background: var(--P, #B8E451);
   font-size: 16px;
   text-align: center;
-  color: var(--900, #010003);
+  color: var(--black);
   font-size: 16px;
   font-style: normal;
   font-weight: 900;
@@ -5282,7 +5282,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -5570,7 +5570,7 @@ img {
   transform: translate(-50%, -50%);
 }
 .widget2-contact-content__text {
-  color: var(--900, #010003);
+  color: var(--black);
   text-align: center;
   font-family: Urbanist;
   font-size: 16px;
@@ -5580,7 +5580,7 @@ img {
   padding-top: 64px;
 }
 .widget2-contact-content__numb {
-  color: var(--900, #010003);
+  color: var(--black);
   text-align: center;
   font-family: Marcellus;
   font-size: 28px;
@@ -6153,7 +6153,7 @@ img {
   gap: 6px;
 }
 .header-top-section.style1 .header-top-wrapper .contact-list li a p {
-  color: var(--900, #010003);
+  color: var(--black);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Urbanist;
   font-size: 16px;
@@ -6471,7 +6471,7 @@ img {
   z-index: 4;
   font-feature-settings: "liga" off, "clig" off;
   -webkit-text-stroke-width: 1.37px;
-  -webkit-text-stroke-color: var(--900, #010003);
+  -webkit-text-stroke-color: var(--black);
   font-family: Marcellus;
   font-size: 137px;
   font-style: normal;
@@ -6494,7 +6494,7 @@ img {
   z-index: 9;
 }
 .hero1-content__subtitle {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -6512,7 +6512,7 @@ img {
 }
 .hero1-content__title {
   padding-bottom: 20px;
-  color: var(--900, #010003);
+  color: var(--black);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Marcellus;
   font-size: 70px;
@@ -6584,7 +6584,7 @@ img {
 }
 .hero1-content__desc {
   max-width: 610px;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -6803,7 +6803,7 @@ img {
   }
 }
 .about1-thumb-badge__text h2 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -6887,7 +6887,7 @@ img {
   }
 }
 .about1-feature-item__text {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 20px;
   font-style: normal;
@@ -6905,7 +6905,7 @@ img {
   }
 }
 .about1-desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -6945,7 +6945,7 @@ img {
   margin-left: -80px;
 }
 .about2-thumb-badge__text {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -6963,7 +6963,7 @@ img {
   }
 }
 .about2-content__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -6972,7 +6972,7 @@ img {
   padding-bottom: 10px;
 }
 .about2-content__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -7068,7 +7068,7 @@ img {
   margin-left: -80px;
 }
 .about3-thumb-badge__text {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -7644,7 +7644,7 @@ img {
   }
 }
 .section-top__title5 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -7670,7 +7670,7 @@ img {
   }
 }
 .section-top__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -7751,7 +7751,7 @@ img {
   }
 }
 .service1-content__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -7783,7 +7783,7 @@ img {
   }
 }
 .service1-content__link {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -7844,7 +7844,7 @@ img {
   aspect-ratio: 1/1;
 }
 .service2-card-item__numb {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -7853,7 +7853,7 @@ img {
   max-width: 100px;
 }
 .service2-card-item__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -7862,7 +7862,7 @@ img {
   max-width: 260px;
 }
 .service2-card-item__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -7872,7 +7872,7 @@ img {
   padding-bottom: 20px;
 }
 .service2-card-item__link {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -7957,7 +7957,7 @@ img {
   }
 }
 .service3-content__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -7993,7 +7993,7 @@ img {
   }
 }
 .service3-content__link {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -8197,7 +8197,7 @@ img {
   background: var(--P, #B8E451);
   width: 60px;
   height: 60px;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -8260,7 +8260,7 @@ img {
   flex-shrink: 0;
   border-radius: 5px;
   border: 1px solid var(--P, #B8E451);
-  background: var(--900, #010003);
+  background: var(--black);
 }
 .project1-card-content__link i {
   color: var(--theme);
@@ -8326,7 +8326,7 @@ img {
   flex-shrink: 0;
   border-radius: 5px;
   border: 1px solid var(--P, #B8E451);
-  background: var(--900, #010003);
+  background: var(--black);
 }
 .project2-card-content__link i {
   color: var(--theme);
@@ -8376,7 +8376,7 @@ img {
   max-width: 544px;
 }
 .project2-card-thumb-info__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -8385,7 +8385,7 @@ img {
   padding-bottom: 10px;
 }
 .project2-card-thumb-info__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -8468,7 +8468,7 @@ img {
   align-items: center;
 }
 .project3__thumb-content__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -8523,7 +8523,7 @@ img {
   }
 }
 .project4-groupBtn-item__text {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -8532,7 +8532,7 @@ img {
 }
 .project4-groupBtn-item__text span {
   padding-left: 15px;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -8617,7 +8617,7 @@ img {
   gap: 25px;
   padding: 50px 50px 50px 109px;
   border-radius: 5px;
-  background: var(--900, #010003);
+  background: var(--black);
   margin-left: 95px;
   margin-bottom: 40px;
 }
@@ -8691,7 +8691,7 @@ img {
   padding: 70px 40px 40px;
   border-radius: 5px;
   border: 2px solid rgba(204, 204, 204, 0.2);
-  background: var(--900, #010003);
+  background: var(--black);
 }
 @media (max-width: 575px) {
   .testimonial2-card {
@@ -8737,17 +8737,17 @@ img {
   transition: all 0.4s ease-in-out;
 }
 .testimonial2-card:hover .testimonial2-card-content__desc {
-  color: var(--900, #010003);
+  color: var(--black);
 }
 .testimonial2-card:hover .testimonial2-card-content .fancy-box1__item h6 {
-  color: var(--900, #010003);
+  color: var(--black);
 }
 .testimonial2-card:hover .testimonial2-card-content .fancy-box1__item p {
-  color: var(--900, #010003);
+  color: var(--black);
 }
 
 .testimonial3 {
-  background: var(--900, #010003);
+  background: var(--black);
 }
 .testimonial3-card {
   position: relative;
@@ -8997,7 +8997,7 @@ img {
   color: var(--800, #CCCCCD);
 }
 .testimonial5-card-content__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9030,7 +9030,7 @@ img {
 }
 .contact1-box__title {
   margin-bottom: 30px;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   text-align: center;
   font-size: 28px;
@@ -9050,14 +9050,14 @@ img {
   flex-shrink: 0;
 }
 .contact1-box__icon i {
-  color: var(--900, #010003);
+  color: var(--black);
   font-size: 30px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
 }
 .contact1-box__numb {
-  color: var(--900, #010003);
+  color: var(--black);
   text-align: center;
   font-family: Marcellus;
   font-size: 28px;
@@ -9123,7 +9123,7 @@ img {
   }
 }
 .contact2-card__title h6 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 60px;
   font-style: normal;
@@ -9207,7 +9207,7 @@ img {
   }
 }
 .contact2-content-item__icon i {
-  color: var(--900, #010003);
+  color: var(--black);
   font-size: 20px;
   font-style: normal;
   font-weight: 900;
@@ -9251,7 +9251,7 @@ img {
   bottom: -20px;
 }
 .blog1-card__thumb-date h3 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -9404,7 +9404,7 @@ img {
   aspect-ratio: 1/1;
 }
 .blog2-card-item__numb {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -9413,7 +9413,7 @@ img {
   max-width: 100px;
 }
 .blog2-card-item__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -9548,7 +9548,7 @@ img {
   padding-bottom: 21px;
 }
 .blog3-card__quote p {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9557,7 +9557,7 @@ img {
   padding-bottom: 15px;
 }
 .blog3-card__quote h4 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -9671,7 +9671,7 @@ img {
   padding-bottom: 21px;
 }
 .blog4-card-content__quote p {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9680,7 +9680,7 @@ img {
   padding-bottom: 15px;
 }
 .blog4-card-content__quote h4 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -9902,7 +9902,7 @@ img {
   flex-shrink: 0;
   border-radius: 5px;
   background: var(--P, #B8E451);
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -9988,7 +9988,7 @@ img {
 .pricing1-card {
   position: relative;
   border-radius: 5px;
-  background: var(--900, #010003);
+  background: var(--black);
 }
 .pricing1-card__title {
   display: flex;
@@ -9997,7 +9997,7 @@ img {
   border-radius: 5px 5px 0px 0px;
   background: var(--P, #B8E451);
   padding: 13px 20px;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -10080,7 +10080,7 @@ img {
   padding: 20px 30px;
 }
 .pricing2-card-header__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Marcellus;
   font-size: 22px;
@@ -10090,7 +10090,7 @@ img {
   margin-bottom: 10px;
 }
 .pricing2-card-header__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -10106,7 +10106,7 @@ img {
   box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.05);
 }
 .pricing2-card-list__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -10121,7 +10121,7 @@ img {
   gap: 15px;
 }
 .pricing2-card-list-item__text {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -10277,7 +10277,7 @@ img {
   border-radius: 5px 5px 0px 0px;
   background: var(--P, #B8E451);
   padding: 13px 20px;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -10306,7 +10306,7 @@ img {
   align-items: center;
 }
 .pricing4-card-list-item__text {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 27.083px;
   font-style: normal;
@@ -10319,7 +10319,7 @@ img {
   }
 }
 .pricing4-card-list-item__value {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 27.083px;
   font-style: normal;
@@ -10346,7 +10346,7 @@ img {
   gap: 12.31px;
   flex-shrink: 0;
   border-radius: 6.155px;
-  background: var(--900, #010003);
+  background: var(--black);
   border: 1px solid var(--200, #CCC);
   color: var(--P, #B8E451);
   text-align: center;
@@ -10380,7 +10380,7 @@ img {
   }
 }
 .wcu1-info__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -10389,7 +10389,7 @@ img {
   padding-bottom: 15;
 }
 .wcu1-info__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-feature-settings: "liga" off, "clig" off;
   font-family: Urbanist;
   font-size: 16px;
@@ -10431,7 +10431,7 @@ img {
   }
 }
 .wcu2-content__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -10449,7 +10449,7 @@ img {
   padding-bottom: 12px;
 }
 .wcu2-content-checklist-item__text {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -10465,7 +10465,7 @@ img {
   background: var(--white);
 }
 .wcu3-box-content__name {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -10474,7 +10474,7 @@ img {
   padding-bottom: 10px;
 }
 .wcu3-box-content__label {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -10483,7 +10483,7 @@ img {
   padding-bottom: 30px;
 }
 .wcu3-box-content__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -10499,7 +10499,7 @@ img {
   }
 }
 .wcu3-box-content-progress__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -10591,7 +10591,7 @@ img {
   margin: auto;
 }
 .team1-card-content__title {
-  color: var(--900, #010003);
+  color: var(--black);
   text-align: center;
   font-family: Marcellus;
   font-size: 28px;
@@ -10601,7 +10601,7 @@ img {
   padding-bottom: 8px;
 }
 .team1-card-content__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   text-align: center;
   font-family: Urbanist;
   font-size: 16px;
@@ -10642,7 +10642,7 @@ img {
   justify-content: space-between;
 }
 .team2-card-content-item__name {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -10651,7 +10651,7 @@ img {
   padding-bottom: 3px;
 }
 .team2-card-content-item__label {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -10683,7 +10683,7 @@ img {
   background: var(--100, #FCF9EB);
 }
 .team2-card2-thumb__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -10701,7 +10701,7 @@ img {
   justify-content: space-between;
 }
 .team2-card2-content-item__name {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -10710,7 +10710,7 @@ img {
   padding-bottom: 3px;
 }
 .team2-card2-content-item__label {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -10724,7 +10724,7 @@ img {
   align-items: center;
   flex-shrink: 0;
   border-radius: 5px;
-  background: var(--900, #010003);
+  background: var(--black);
   cursor: pointer;
 }
 .team2-card2-content__icon i {
@@ -11051,7 +11051,7 @@ img {
   }
 }
 .faq1-card__title h6 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 60px;
   font-style: normal;
@@ -11107,7 +11107,7 @@ img {
   }
 }
 .faq2-thumb-badge__numb {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -11115,7 +11115,7 @@ img {
   line-height: 50px; /* 125% */
 }
 .faq2-thumb-badge__text {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -11178,7 +11178,7 @@ img {
   }
 }
 .resume1-info__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 60px;
   font-style: normal;
@@ -11214,7 +11214,7 @@ img {
   width: 100%;
 }
 .resume1-info-form__label {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -11258,7 +11258,7 @@ img {
   padding: 12px 40px 12px 20px;
   outline: none;
   box-sizing: border-box;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -11277,7 +11277,7 @@ img {
   padding: 12px 40px 12px 20px;
   outline: none;
   box-sizing: border-box;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -11288,7 +11288,7 @@ img {
   position: absolute;
   right: 0;
   border-radius: 5px;
-  background: var(--900, #010003);
+  background: var(--black);
   padding: 17px 20px;
   color: var(--white);
   font-family: Urbanist;
@@ -11485,7 +11485,7 @@ img {
   justify-content: center;
   border-radius: 5px;
   border: 1px solid rgb(52, 51, 53);
-  background: var(--900, #010003);
+  background: var(--black);
   width: 234.572px;
   height: 100px;
   flex-shrink: 0;
@@ -11524,7 +11524,7 @@ img {
   }
 }
 .appointment1-schedule-button__item:hover {
-  color: var(--900, #010003);
+  color: var(--black);
   background: var(--theme);
   cursor: pointer;
   transition: all 0.4s ease-in-out;
@@ -11708,7 +11708,7 @@ img {
 .subscribe1-info__title {
   display: flex;
   align-items: center;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -11752,7 +11752,7 @@ img {
 }
 .subscribe1-info-form__label {
   max-width: 339px;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -11796,7 +11796,7 @@ img {
   padding: 12px 40px 12px 20px;
   outline: none;
   box-sizing: border-box;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -11815,7 +11815,7 @@ img {
   padding: 12px 40px 12px 20px;
   outline: none;
   box-sizing: border-box;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -11829,7 +11829,7 @@ img {
   position: absolute;
   right: 0;
   border-radius: 5px;
-  background: var(--900, #010003);
+  background: var(--black);
   padding: 17px 20px;
   color: var(--white);
   font-family: Urbanist;
@@ -12382,7 +12382,7 @@ img {
   flex-shrink: 0;
 }
 .footer1-wrapper-contact-list__item a .icon i {
-  color: var(--900, #010003);
+  color: var(--black);
   font-size: 25px;
   font-style: normal;
   font-weight: 900;
@@ -12555,7 +12555,7 @@ img {
   padding-bottom: 24px;
 }
 .footer2-wrapper-logoInfo__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -12629,7 +12629,7 @@ img {
   }
 }
 .footer2-wrapper-about__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -12641,7 +12641,7 @@ img {
   padding-bottom: 20px;
 }
 .footer2-wrapper-about-list__item a {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -12671,7 +12671,7 @@ img {
   }
 }
 .footer2-wrapper-link__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -12683,7 +12683,7 @@ img {
   padding-bottom: 20px;
 }
 .footer2-wrapper-link-list__item a {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -12718,7 +12718,7 @@ img {
   }
 }
 .footer2-wrapper-contact__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -12758,14 +12758,14 @@ img {
   aspect-ratio: 1/1;
 }
 .footer2-wrapper-contact-list__item a .icon i {
-  color: var(--900, #010003);
+  color: var(--black);
   font-size: 25px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
 }
 .footer2-wrapper-contact-list__item a .info__title {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 22px;
   font-style: normal;
@@ -12774,7 +12774,7 @@ img {
   padding-bottom: 7px;
 }
 .footer2-wrapper-contact-list__item a .info__desc {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;

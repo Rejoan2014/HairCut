@@ -7,7 +7,7 @@
     &-card {
         position: relative;
         border-radius: 5px;
-        background: var(--900, #010003);
+        background: $black;
         &__title {
             display: flex;
             align-items: center;
@@ -15,7 +15,7 @@
             border-radius: 5px 5px 0px 0px;
             background: var(--P, #B8E451);
             padding: 13px 20px;
-            color: var(--900, #010003);
+            color: $black;
             font-family: Marcellus;
             font-size: 40px;
             font-style: normal;

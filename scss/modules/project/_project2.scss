@@ -43,7 +43,7 @@
                 flex-shrink: 0;
                 border-radius: 5px;
                 border: 1px solid var(--P, #B8E451);
-                background: var(--900, #010003);
+                background: $black;
                 i {
                     color: $theme-color;
                     transform: rotate(-45deg);
@@ -93,7 +93,7 @@
                 padding: 35px;
                 max-width: 544px;
                 &__title {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Marcellus;
                     font-size: 22px;
                     font-style: normal;
@@ -102,7 +102,7 @@
                     padding-bottom: 10px;
                 }
                 &__desc {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Urbanist;
                     font-size: 16px;
                     font-style: normal;

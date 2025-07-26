@@ -25,7 +25,7 @@
                 padding: 12px 15px;
             }
             &__text {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Marcellus;
                 font-size: 22px;
                 font-style: normal;
@@ -33,7 +33,7 @@
                 line-height: 30px; /* 136.364% */
                 span {
                     padding-left: 15px;
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Urbanist;
                     font-size: 16px;
                     font-style: normal;

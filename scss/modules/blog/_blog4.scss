@@ -101,7 +101,7 @@
                     padding-bottom: 21px;
                 }
                 p {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Urbanist;
                     font-size: 16px;
                     font-style: normal;
@@ -110,7 +110,7 @@
                     padding-bottom: 15px;
                 }
                 h4 {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Marcellus;
                     font-size: 22px;
                     font-style: normal;
@@ -336,7 +336,7 @@
                             flex-shrink: 0;
                             border-radius: 5px;
                             background: var(--P, #B8E451);
-                            color: var(--900, #010003);
+                            color: $black;
                             font-family: Urbanist;
                             font-size: 16px;
                             font-style: normal;

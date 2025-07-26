@@ -601,7 +601,7 @@ h6 {
 }
 
 h1 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 60px;
   font-style: normal;
@@ -620,7 +620,7 @@ h1 {
 }
 
 h2 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -639,7 +639,7 @@ h2 {
 }
 
 h3 {
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 28px;
   font-style: normal;
@@ -1812,7 +1812,7 @@ span {
   gap: 8px;
   border-radius: 5px;
   background: var(--P, #B8E451);
-  color: var(--900, #010003);
+  color: var(--black);
   border: 1px solid var(--theme);
   font-family: Urbanist;
   font-size: 16px;
@@ -1877,9 +1877,9 @@ span {
   align-items: center;
   gap: 8px;
   border-radius: 5px;
-  border: 1px solid var(--900, #010003);
+  border: 1px solid var(--black);
   background: var(--white);
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -2077,7 +2077,7 @@ span {
   gap: 8px;
   border-radius: 5px;
   background: var(--P, #B8E451);
-  color: var(--900, #010003);
+  color: var(--black);
   border: 1px solid var(--theme);
   font-family: Urbanist;
   font-size: 16px;
@@ -2241,7 +2241,7 @@ span {
   width: 100%;
   height: 70px;
   border-radius: 5px;
-  background: var(--900, #010003);
+  background: var(--black);
   color: var(--white);
   font-family: Urbanist;
   font-size: 16px;
@@ -3046,7 +3046,7 @@ img {
   background: var(--P, #B8E451);
 }
 .global-social2__item a:hover i {
-  color: var(--900, #010003);
+  color: var(--black);
 }
 
 .global-social3 {
@@ -3075,7 +3075,7 @@ img {
   background: var(--P, #B8E451);
 }
 .global-social3__item a:hover i {
-  color: var(--900, #010003);
+  color: var(--black);
 }
 
 .global-social4 {
@@ -3146,13 +3146,13 @@ img {
 .form__group input,
 .form__group textarea {
   border-radius: 5px;
-  border: 1px solid var(--900, #010003);
+  border: 1px solid var(--black);
   background-color: transparent;
   padding: 17px 21px;
   width: 100%;
   height: 70px;
   outline: none;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3186,7 +3186,7 @@ img {
   width: 100%;
   height: 54px;
   outline: none;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3579,7 +3579,7 @@ img {
 .subscribe1-info__title {
   display: flex;
   align-items: center;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -3623,7 +3623,7 @@ img {
 }
 .subscribe1-info-form__label {
   max-width: 339px;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Marcellus;
   font-size: 40px;
   font-style: normal;
@@ -3667,7 +3667,7 @@ img {
   padding: 12px 40px 12px 20px;
   outline: none;
   box-sizing: border-box;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3686,7 +3686,7 @@ img {
   padding: 12px 40px 12px 20px;
   outline: none;
   box-sizing: border-box;
-  color: var(--900, #010003);
+  color: var(--black);
   font-family: Urbanist;
   font-size: 16px;
   font-style: normal;
@@ -3700,7 +3700,7 @@ img {
   position: absolute;
   right: 0;
   border-radius: 5px;
-  background: var(--900, #010003);
+  background: var(--black);
   padding: 17px 20px;
   color: var(--white);
   font-family: Urbanist;

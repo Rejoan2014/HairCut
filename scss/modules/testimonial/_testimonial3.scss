@@ -2,7 +2,7 @@
 @use '../../utilities' as *;
 
 .testimonial3 {
-  background: var(--900, #010003);
+  background: $black;
   &-card {
     position: relative;
     padding: 80px 38px 40px;

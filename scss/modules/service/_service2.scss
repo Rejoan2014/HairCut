@@ -42,7 +42,7 @@
                 }
             }
             &__numb {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Marcellus;
                 font-size: 40px;
                 font-style: normal;
@@ -51,7 +51,7 @@
                 max-width: 100px;
             }
             &__title {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Marcellus;
                 font-size: 40px;
                 font-style: normal;
@@ -60,7 +60,7 @@
                 max-width: 260px;
             }
             &__desc {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Urbanist;
                 font-size: 16px;
                 font-style: normal;
@@ -70,7 +70,7 @@
                 padding-bottom: 20px;
             }
             &__link {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Urbanist;
                 font-size: 16px;
                 font-style: normal;

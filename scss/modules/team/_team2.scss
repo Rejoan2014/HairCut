@@ -21,7 +21,7 @@
 
             &-item {
                 &__name {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Marcellus;
                     font-size: 22px;
                     font-style: normal;
@@ -31,7 +31,7 @@
 
                 }
                 &__label {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Urbanist;
                     font-size: 16px;
                     font-style: normal;
@@ -64,7 +64,7 @@
             border-radius: 5px;
             background: var(--100, #FCF9EB);
             &__desc {
-                color: var(--900, #010003);
+                color: $black;
                 font-family: Urbanist;
                 font-size: 16px;
                 font-style: normal;
@@ -84,7 +84,7 @@
 
             &-item {
                 &__name {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Marcellus;
                     font-size: 22px;
                     font-style: normal;
@@ -94,7 +94,7 @@
 
                 }
                 &__label {
-                    color: var(--900, #010003);
+                    color: $black;
                     font-family: Urbanist;
                     font-size: 16px;
                     font-style: normal;
@@ -109,7 +109,7 @@
                 align-items: center;
                 flex-shrink: 0;
                 border-radius: 5px;
-                background: var(--900, #010003);
+                background: $black;
                 cursor: pointer;
                 i {
                     color: $white;

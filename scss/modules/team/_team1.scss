@@ -74,7 +74,7 @@
             max-width: 380px;
             margin: auto;
             &__title {
-                color: var(--900, #010003);
+                color: $black;
                 text-align: center;
                 font-family: Marcellus;
                 font-size: 28px;
@@ -84,7 +84,7 @@
                 padding-bottom: 8px;
             }
             &__desc {
-                color: var(--900, #010003);
+                color: $black;
                 text-align: center;
                 font-family: Urbanist;
                 font-size: 16px;
